@@ -4,6 +4,7 @@
   "description": "Browser based MIDI file visualization and analysis tools",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,10 @@
   },
   "homepage": "https://github.com/jeremyfromearth/meter#readme",
   "devDependencies": {
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "redux": "^3.6.0"
   }
 }

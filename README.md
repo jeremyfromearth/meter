@@ -1,2 +1,2 @@
 # meter
-MIDI file visualization tool
+Browser based MIDI file visualization and analysis tools

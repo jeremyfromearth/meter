@@ -27,6 +27,9 @@ var config = {
             loader: 'babel-loader',
             include: Paths.App,
             exclude: /(node_modules)/,
+        }, { 
+            test: /\.css$/, 
+            loader: 'style-loader!css-loader' 
         }]
     }, 
     

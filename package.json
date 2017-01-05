@@ -37,7 +37,9 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "css-loader": "^0.26.1",
     "phosphor-menus": "^1.0.0-rc.1",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "style-loader": "^0.13.1"
   }
 }

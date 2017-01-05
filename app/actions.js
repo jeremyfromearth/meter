@@ -8,3 +8,7 @@ function open_file(path) {
         }
     }
 }
+
+export {
+    open_file
+}

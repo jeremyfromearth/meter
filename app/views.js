@@ -1,10 +1,11 @@
-import {Widget} from 'phosphor-widget'
-import {Menu, MenuItem, MenuBar} from 'phosphor-menus'
+import {Widget} from 'phosphor/lib/ui/widget'
+import {Menu} from 'phosphor/lib/ui/menu'
+import {MenuBar} from 'phosphor/lib/ui/menubar'
+import {Keymap} from 'phosphor/lib/ui/keymap'
+import {CommandRegistry} from 'phosphor/lib/ui/commandregistry'
 
-class MenuBarView {
-    constructor() {
-        console.log('MenuBarView()');
-    }
+function build_view() {
+
 }
 
-export {MenuBarView}
+export {build_view}

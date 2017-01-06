@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "css-loader": "^0.26.1",
+    "phosphor": "^0.7.0",
     "phosphor-menus": "^1.0.0-rc.1",
     "redux": "^3.6.0",
     "style-loader": "^0.13.1"

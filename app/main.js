@@ -16,6 +16,6 @@ const store = createStore(
     redux_observer)
 );
 
-new MenuBarView();
+
 
 store.dispatch(Actions.open_file('[path to file]'));

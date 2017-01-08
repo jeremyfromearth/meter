@@ -1,14 +1,16 @@
 // vendor
 import {createStore, combineReducers, applyMiddleware} from 'redux'
 import logger from 'redux-logger'
+
 require('phosphor/styles/base.css')
-require('./index.css');
+require('../styles/index.css');
+require('../styles/font-awesome.min.css');
 
 // application
-import {redux_observer} from './core/redux-observer'
+import {redux_observer} from './redux-observer'
 import * as Actions from './actions'
 import {app_state} from './reducers'
-import {build_view} from './views'
+import {build_view} from './view'
 
 const store = createStore(
     combineReducers({

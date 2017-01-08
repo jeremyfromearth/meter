@@ -40,6 +40,7 @@ function build_view() {
     const keymap = new Keymap({commands});
     commands.addCommand('file:open', {
         label: 'Open', 
+        icon: 'fa fa-file',
         mnemonic: -1,
         execute: () => {
             console.log('Open');
@@ -48,6 +49,7 @@ function build_view() {
 
     commands.addCommand('file:save', {
         label: 'Save', 
+        icon: 'fa fa-save',
         mnemonic: -1,
         execute: () => {
             console.log('Save');
@@ -56,6 +58,7 @@ function build_view() {
 
     commands.addCommand('file:close', {
         label: 'Close', 
+        icon: 'fa fa-file',
         mnemonic: -1,
         execute: () => {
             console.log('Close');

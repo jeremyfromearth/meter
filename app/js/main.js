@@ -1,16 +1,17 @@
-// vendor
-import {createStore, combineReducers, applyMiddleware} from 'redux'
-import logger from 'redux-logger'
-
+// css
 require('phosphor/styles/base.css')
 require('../styles/index.css');
 require('../styles/font-awesome.min.css');
 
+// vendor
+import {createStore, combineReducers, applyMiddleware} from 'redux'
+import logger from 'redux-logger'
+
 // application
-import {redux_observer} from './redux-observer'
-import * as Actions from './actions'
-import {app_state} from './reducers'
-import {build_view} from './view'
+import * as BootstrapActions from './actions/bootstrap-actions'
+import {View} from './view/view'
+import {app_state} from './reducers/app-state'
+import {redux_observer} from './core/redux-observer'
 
 const store = createStore(
     combineReducers({
@@ -20,7 +21,6 @@ const store = createStore(
     redux_observer)
 );
 
-build_view();
-
-
-store.dispatch(Actions.open_file('[path to file]'));
+new View(store.dispatch);
+store.dispatch(BootstrapActions.bootstrap());
+store.dispatch(BootstrapActions.bootstrap_complete());

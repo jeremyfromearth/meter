@@ -28,47 +28,100 @@ import {Subject} from 'rxjs/Subject'
 import deepEql from 'deep-eql'
 import Rx from 'rxjs'
 
-console.log(deepEql);
-
-/*
 class State {
-    constructor(state) {
-        this.state = state;
+    constructor(state = {}) {
         this.action = new Subject();
-        this.observable = this.action.startsWith(state).scan(this.store);
-        this._update = this.dispatcher((new_sate) => ({
-            type: 'update_state',
-            data: new_state
-        }));
-    }
+        this.store = this.action.startWith(state).scan((state, action) => {
+            return this.reducer(state, action);
+        });
 
-    reducer(state, action) {
-        return action.new_state;
-        // Override with subclass 
-    }
-
-    store(state, action) {
-        return this.reducer(state, action);
-    }
-
-    dispatcher(func) {
-        return (...args) => {
-            this.action.next(func(...args));
+        this.get_property = (obj, prop) => {
+            var iter = 0;
+            var obj = object;
+            var parts = path.split('.');
+            var part = null; 
+            while(parts.length && obj != null) {
+                part = parts.shift();
+                obj = obj[part];
+                iter++;
+            }
+            return obj
         }
     }
 
-    update(new_state) {
-        this._update(new_state);
+    // Override with subclass
+    reducer(state, action) {
+        return state;
+    }
+
+    dispatch(action) {
+        this.action.next(action); 
+    }
+
+    subscribe(func, mode, property_chain) {
+        switch(mode) {
+            case 'object':
+                return this.store.distinctUntilChanged((a, b) => {
+                    return deepEql(a, b);
+                }).subscribe(func);
+            case 'property':
+                return this.store.distinctUntilChanged((a, b) => {
+                    return (get_property(property_chain, a) == get_property(property_chain, b));
+                })
+                .subscribe(func);
+            default: 
+                return this.store.subscribe(func);
+        }
     }
 }
-*/
+
+class LocationState extends State{
+    reducer(state, action) {
+        switch(action.type) {
+            case 'LOC_CHANGE':
+                return {
+                    ...state,
+                    location: action.data.location, 
+                    gps: {
+                        track: action.data.gps.track
+                    }
+                }
+            default:
+                return state;
+        }
+    }
+}
+
+const do_location_change = (loc, do_track) => {
+    return {
+        type: 'LOC_CHANGE',
+        data: {
+            location: loc,
+            gps: {
+                track: do_track
+            }
+        }
+    }
+}
+
+var loc_state = new LocationState();
+loc_state.subscribe((state) => {
+    console.log('loc state subscriber', state);
+}, 'property', 'gps.track');
+
+loc_state.dispatch(do_location_change('work', true));
+loc_state.dispatch(do_location_change('work', false));
+loc_state.dispatch(do_location_change('work', true));
+loc_state.dispatch(do_location_change('work', false));
+loc_state.dispatch(do_location_change('work', true));
+loc_state.dispatch(do_location_change('work', true));
 
 const action = new Subject();
-const state = {location: 'home'};
+const state = {};
 const reducer = (state, action) => {
     switch(action.type) {
         case 'LOC_CHANGE':
-            return action.data;
+            return {location: action.data.location, gps: {track: action.data.gps.track}}
         default:
             return state;
     }
@@ -83,30 +136,60 @@ const dispatcher = (func) => (...args) => {
     action.next(func(...args));
 }
 
-const change_location = dispatcher((new_location) => ({
+const change_location = dispatcher((new_location, do_track) => ({
     type: 'LOC_CHANGE',
     data : {
-        location: new_location
+        location: new_location, 
+        gps : {
+            track: do_track
+        }
     }
 }));
 
-const subscription_1 = rx_store.distinctUntilChanged((a, b) => {
-    return deepEql(a, b);
-}).subscribe((state) => {
-    console.log('sub 1', state);     
+const subscription_1 = rx_store.distinct().subscribe((state) => {
+    //console.log('sub 1', state);     
 });
 
 const subscription_2 = 
-    rx_store.distinctUntilKeyChanged('location').subscribe((state) => {
-        console.log('sub 2', state);     
+    rx_store.distinctUntilKeyChanged('gps').subscribe((state) => {
+        //console.log('sub 2', state);     
 });
 
-change_location('gym');
-change_location('work');
-subscription_1.unsubscribe();
-change_location('park');
+// Utility for accessing the value of a nested property of an object using a string path to the property
+// var x = {a: {b: {c: 42}}}
+// console.log(get_property('a.b.c.', x)) // outputs 42
+// console.log(get_property('a.b.c.', x)) // outputs 42
+function get_property(path, object) {
+    var iter = 0;
+    var obj = object;
+    var parts = path.split('.');
+    var part = null; 
+    while(parts.length && obj != null) {
+        part = parts.shift();
+        obj = obj[part];
+        iter++;
+    }
+    return obj
+}
+
+var path = 'gps.track';
+const subscription_3 = 
+    rx_store.distinctUntilChanged((a, b) => {
+        return (get_property(path, a) == get_property(path, b));
+    })
+    .subscribe((state) => {
+        //console.log('sub 3', state);
+    });
+
+/*
+change_location('gym', false);
+change_location('work', false);
+change_location('park', true);
+change_location('home', false);
+change_location('home', false);
+change_location('home', false);
 change_location('home');
 change_location('home');
 change_location('home');
-change_location('home');
+*/
 

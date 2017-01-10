@@ -89,6 +89,7 @@ class State {
 
 class LocationState extends State{
     reducer(state, action) {
+        console.log(action);
         switch(action.type) {
             case 'LOC_CHANGE':
                 return {
@@ -125,16 +126,21 @@ const load = () => {
         type: 'LOAD',
         data : Observable.ajax('./data/helter-skelter.json')
             .map(xhr => { 
-                console.log(xhr.response);
-                return load_complete();
+                return load_complete(xhr.response);
             })
+            .catch(error => [{
+                type: 'LOAD_ERROR',
+                data: {error}
+            }])
     }
 }
 
-const load_complete = () => {
+const load_complete = (data) => {
     return {
         type: 'LOAD_COMPLETE', 
-        data: {}
+        data: {
+            song_data: data 
+        }
     }
 }
 

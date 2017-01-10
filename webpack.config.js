@@ -1,6 +1,8 @@
 var path = require('path');
 var webpack = require('webpack');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 var Paths = {
     Build: path.resolve(__dirname, 'build'),
@@ -50,6 +52,10 @@ var config = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Meter'
+        }),
+        new CopyWebpackPlugin({
+            from: './data',
+            to: Paths.Build + './data'
         })
     ]
 }

@@ -21,6 +21,45 @@ const store = createStore(
     redux_observer)
 );
 
-new View(store.dispatch);
-store.dispatch(BootstrapActions.bootstrap());
-store.dispatch(BootstrapActions.bootstrap_complete());
+//new View(store.dispatch);
+//store.dispatch(BootstrapActions.bootstrap());
+
+import {Subject} from 'rxjs/Subject'
+const action = new Subject();
+const state = {location: 'home'};
+const reducer = (state, action) => {
+    switch(action.type) {
+        case 'LOC_CHANGE':
+            return action.data;
+        default:
+            return state;
+    }
+}
+
+const rx_store = action.startWith(state).scan((state, action) => {
+    // compare the current state with the new state
+    return reducer(state, action);
+});
+const dispatcher = (func) => (...args) => {
+    action.next(func(...args));
+}
+
+const change_location = dispatcher((new_location) => ({
+    type: 'LOC_CHANGE',
+    data : {
+        location: new_location 
+    }
+}));
+
+rx_store.subscribe((state) => {
+    console.log(state);     
+});
+
+change_location('gym');
+change_location('work');
+change_location('park');
+change_location('home');
+change_location('home');
+change_location('home');
+change_location('home');
+

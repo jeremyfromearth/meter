@@ -55,7 +55,16 @@ commands.addCommand('settings:midi-settings', {
     icon: 'fa fa-file-sound-o',
     mnemonic: -1,
     execute: () => {
-        console.log('Audio Engine');
+        console.log('MIDI');
+    }
+});
+
+commands.addCommand('settings:application', {
+    label: 'Application', 
+    icon: 'fa fa-gear',
+    mnemonic: -1,
+    execute: () => {
+        console.log('Application');
     }
 });
 
@@ -69,6 +78,7 @@ function create_main_menu() {
 
     let settings_menu = new Menu({commands, keymap});
     settings_menu.title.label = 'Settings';
+    settings_menu.addItem({command: 'settings:application'});
     settings_menu.addItem({command: 'settings:audio-engine'});
     settings_menu.addItem({command: 'settings:midi-settings'});
 

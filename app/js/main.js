@@ -24,18 +24,20 @@ const store = createStore(
 new View(store.dispatch);
 store.dispatch(BootstrapActions.bootstrap_complete());
 
-import {Subject} from 'rxjs/Subject'
 import deepEql from 'deep-eql'
-import Rx from 'rxjs'
+import {Subject, Observable} from 'rxjs'
 
 class State {
     constructor(state = {}) {
-        this.action = new Subject();
-        this.store = this.action.startWith(state).scan((state, action) => {
+        this.subject = new Subject();
+        this.store = this.subject.flatMap((action) => {
+            if(action instanceof Observable) return action;
+            return Observable.from([action]);
+        })
+        .startWith(state)
+        .scan((state, action) => {
             return this.reducer(state, action);
         });
-
-        
     }
 
     // Override with subclass
@@ -44,38 +46,44 @@ class State {
     }
 
     dispatch(action) {
-        this.action.next(action); 
+        this.subject.next(action); 
+        if(action.data instanceof Observable) {
+            this.subject.next(action.data);
+        }
+        return action;
     }
 
     subscribe(func, mode, property_chain) {
         switch(mode) {
+            // listen for any change
             case 'object':
                 return this.store.distinctUntilChanged((a, b) => {
                     return deepEql(a, b);
-                }).subscribe(func);
+                })
+                .subscribe(func);
+            // listen for a specific property change
             case 'property':
+                const get_property = (object, property_chain) => {
+                    var iter = 0;
+                    var part = null; 
+                    var obj = object;
+                    var parts = property_chain.split('.');
+                    while(parts.length && obj != null) {
+                        part = parts.shift();
+                        obj = obj[part];
+                        iter++;
+                    }
+                    return obj
+                };
                 return this.store.distinctUntilChanged((a, b) => {
-                    var prev = this.get_property(a, property_chain);
-                    var next = this.get_property(b, property_chain);
-                    return (prev == next);
+                    var prev = get_property(a, property_chain);
+                    var next = get_property(b, property_chain);
+                    return prev == next;
                 })
                 .subscribe(func);
             default: 
                 return this.store.subscribe(func);
         }
-    }
-
-    get_property(object, property_chain) {
-        var iter = 0;
-        var part = null; 
-        var obj = object;
-        var parts = property_chain.split('.');
-        while(parts.length && obj != null) {
-            part = parts.shift();
-            obj = obj[part];
-            iter++;
-        }
-        return obj
     }
 }
 
@@ -90,6 +98,10 @@ class LocationState extends State{
                         track: action.data.gps.track
                     }
                 }
+
+            case 'INIT_COMPLETE':
+                console.log('INIT_COMPLETE');
+                return state;
             default:
                 return state;
         }
@@ -108,11 +120,30 @@ const do_location_change = (loc, do_track) => {
     }
 }
 
+const load = () => {
+    return {
+        type: 'LOAD',
+        data : Observable.ajax('./data/helter-skelter.json')
+            .map(xhr => { 
+                console.log(xhr.response);
+                return load_complete();
+            })
+    }
+}
+
+const load_complete = () => {
+    return {
+        type: 'LOAD_COMPLETE', 
+        data: {}
+    }
+}
+
 var loc_state = new LocationState();
 loc_state.subscribe((state) => {
-    console.log('loc state subscriber', state);
+    //console.log('loc subscribre', state);
 }, 'property', 'gps.track');
 
 loc_state.dispatch(do_location_change('work', true));
 loc_state.dispatch(do_location_change('work', false));
 loc_state.dispatch(do_location_change('work', true));
+loc_state.dispatch(load());

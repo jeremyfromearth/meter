@@ -1,8 +1,6 @@
 import Rx from 'rxjs'
 import 'rxjs/observable/dom/ajax'
 
-console.log(Rx.Observable.ajax);
-
 // Action Types
 const Bootstrap = 'bootstrap';
 const BootstrapComplete = 'bootstrap-complete';

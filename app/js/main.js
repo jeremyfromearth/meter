@@ -27,69 +27,64 @@ store.dispatch(BootstrapActions.bootstrap_complete());
 import deepEql from 'deep-eql'
 import {Subject, Observable} from 'rxjs'
 
-class State {
+class RxStore {
     constructor(state = {}) {
+        this.action = new Subject();
         this.subject = new Subject();
-        this.store = this.subject.flatMap((action) => {
-            if(action instanceof Observable) return action;
-            return Observable.from([action]);
-        })
-        .startWith(state)
-        .scan((state, action) => {
-            return this.reducer(state, action);
-        });
+        this.store = this.action
+            .flatMap((action) => {
+                if(action instanceof Observable) return action;
+                return Observable.from([action]);
+            })
+            .startWith(state)
+            .scan(this.reducer)
+            .distinctUntilChanged((a, b) => {
+                return deepEql(a, b);
+            })
+            
+        this.store.subscribe(this.subject);
     }
 
-    // Override with subclass
     reducer(state, action) {
         return state;
     }
 
     dispatch(action) {
-        this.subject.next(action); 
+        this.action.next(action); 
         if(action.data instanceof Observable) {
-            this.subject.next(action.data);
+            this.action.next(action.data);
         }
         return action;
     }
 
-    subscribe(func, mode, property_chain) {
-        switch(mode) {
-            // listen for any change
-            case 'object':
-                return this.store.distinctUntilChanged((a, b) => {
-                    return deepEql(a, b);
-                })
-                .subscribe(func);
-            // listen for a specific property change
-            case 'property':
-                const get_property = (object, property_chain) => {
-                    var iter = 0;
-                    var part = null; 
-                    var obj = object;
-                    var parts = property_chain.split('.');
-                    while(parts.length && obj != null) {
-                        part = parts.shift();
-                        obj = obj[part];
-                        iter++;
-                    }
-                    return obj
-                };
-                return this.store.distinctUntilChanged((a, b) => {
-                    var prev = get_property(a, property_chain);
-                    var next = get_property(b, property_chain);
-                    return prev == next;
-                })
-                .subscribe(func);
-            default: 
-                return this.store.subscribe(func);
+    subscribe(func, property_chain) {
+        if(property_chain) {
+            const get_property = (object, property_chain) => {
+                var iter = 0;
+                var part = null; 
+                var obj = object;
+                var parts = property_chain.split('.');
+                while(parts.length && obj != null) {
+                    part = parts.shift();
+                    obj = obj[part];
+                    iter++;
+                }
+                return obj
+            };
+            return this.subject.distinctUntilChanged((a, b) => {
+                var prev = get_property(a, property_chain);
+                var next = get_property(b, property_chain);
+                return prev == next;
+            })
+            .subscribe(func);
+        } else {
+            return this.subject.subscribe(func);
         }
     }
 }
 
-class LocationState extends State{
+class LocationState extends RxStore{
     reducer(state, action) {
-        console.log(action);
         switch(action.type) {
             case 'LOC_CHANGE':
                 return {
@@ -100,9 +95,14 @@ class LocationState extends State{
                     }
                 }
 
-            case 'INIT_COMPLETE':
-                console.log('INIT_COMPLETE');
-                return state;
+            case 'LOAD_COMPLETE':
+                return {
+                    ...state,
+                    song_data: action.data.song_data
+                }
+            case 'LOAD_ERROR':
+                console.log('LOAD ERROR');
+                return state;    
             default:
                 return state;
         }
@@ -128,10 +128,12 @@ const load = () => {
             .map(xhr => { 
                 return load_complete(xhr.response);
             })
-            .catch(error => [{
-                type: 'LOAD_ERROR',
-                data: {error}
-            }])
+            .catch(error => {
+                return [{
+                    type: 'LOAD_ERROR',
+                    data: {error}
+                }]
+            })
     }
 }
 
@@ -145,11 +147,24 @@ const load_complete = (data) => {
 }
 
 var loc_state = new LocationState();
-loc_state.subscribe((state) => {
-    //console.log('loc subscribre', state);
-}, 'property', 'gps.track');
+var subscriber_1 = loc_state.subscribe((state) => {
+    console.log('sub: 1 -', state);
+}, 'gps.track');
 
-loc_state.dispatch(do_location_change('work', true));
+var subscriber_2 = loc_state.subscribe((state) => {
+    console.log('sub: 2 -', state);
+});
+
+var subscriber_3 = loc_state.subscribe((state) => {
+    console.log('sub: 3 -', state);
+});
+
+var subscriber_4 = loc_state.subscribe((state) => {
+    console.log('sub: 4 -', state);
+}, 'song_data');
+
+loc_state.dispatch(do_location_change('home', true));
 loc_state.dispatch(do_location_change('work', false));
-loc_state.dispatch(do_location_change('work', true));
+subscriber_1.unsubscribe();
+loc_state.dispatch(do_location_change('park', true));
 loc_state.dispatch(load());

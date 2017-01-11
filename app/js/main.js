@@ -31,7 +31,7 @@ class RxStore {
     constructor(state = {}) {
         this.action = new Subject();
         this.subject = new Subject();
-        this.store = this.action
+        const store = this.action
             .flatMap((action) => {
                 if(action instanceof Observable) return action;
                 return Observable.from([action]);
@@ -42,7 +42,7 @@ class RxStore {
                 return deepEql(a, b);
             })
             
-        this.store.subscribe(this.subject);
+        store.subscribe(this.subject);
     }
 
     reducer(state, action) {

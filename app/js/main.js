@@ -25,13 +25,13 @@ new View(store.dispatch);
 store.dispatch(BootstrapActions.bootstrap_complete());
 
 import deepEql from 'deep-eql'
-import {Subject, Observable} from 'rxjs'
+import {Observable, Subject, Scheduler} from 'rxjs'
 
 class RxStore {
     constructor(state = {}) {
-        this.action = new Subject();
         this.subject = new Subject();
-        const store = this.action
+        this.dispatcher = new Subject();
+        const store = this.dispatcher
             .flatMap((action) => {
                 if(action instanceof Observable) return action;
                 return Observable.from([action]);
@@ -40,7 +40,7 @@ class RxStore {
             .scan(this.reducer)
             .distinctUntilChanged((a, b) => {
                 return deepEql(a, b);
-            })
+            });
             
         store.subscribe(this.subject);
     }
@@ -50,9 +50,9 @@ class RxStore {
     }
 
     dispatch(action) {
-        this.action.next(action); 
+        this.dispatcher.next(action); 
         if(action.data instanceof Observable) {
-            this.action.next(action.data);
+            this.dispatcher.next(action.data);
         }
         return action;
     }
@@ -85,26 +85,31 @@ class RxStore {
 
 class LocationState extends RxStore{
     reducer(state, action) {
-        switch(action.type) {
-            case 'LOC_CHANGE':
-                return {
-                    ...state,
-                    location: action.data.location, 
-                    gps: {
-                        track: action.data.gps.track
+        if(state && action) {
+            switch(action.type) {
+                case 'LOC_CHANGE':
+                    return {
+                        ...state,
+                        location: action.data.location, 
+                        gps: {
+                            track: action.data.gps.track
+                        }
                     }
-                }
 
-            case 'LOAD_COMPLETE':
-                return {
-                    ...state,
-                    song_data: action.data.song_data
-                }
-            case 'LOAD_ERROR':
-                console.log('LOAD ERROR');
-                return state;    
-            default:
-                return state;
+                case 'LOAD_COMPLETE':
+                    return {
+                        ...state,
+                        song_data: action.data.song_data,
+                        user_data: action.data.user_data
+                    }
+                case 'LOAD_ERROR':
+                    console.log('LOAD ERROR');
+                    return state;    
+                default:
+                    return state;
+            }
+        } else {
+            return state;
         }
     }
 }
@@ -121,18 +126,36 @@ const do_location_change = (loc, do_track) => {
     }
 }
 
+const load_song_data = () => {
+    return Observable.ajax('./data/helter-skelter.json')
+        .map(xhr => {
+            return xhr.response    
+        });
+}
+
+const load_user_data = () => {
+    return Observable.from([{username: 'Jeremy'}, {username: 'Sonic'}]);
+}
+
+const load_session = () => {
+    return Observable.from([{session_id: 32, data: {setting: {}}}]).delay(2000);
+}
+
 const load = () => {
     return {
         type: 'LOAD',
-        data : Observable.ajax('./data/helter-skelter.json')
-            .map(xhr => { 
-                return load_complete(xhr.response);
-            })
-            .catch(error => {
-                return [{
-                    type: 'LOAD_ERROR',
-                    data: {error}
-                }]
+        data : Observable.zip(
+            load_song_data(),
+            load_user_data(),
+            load_session(),
+            (song_data, user_data, async) => {
+                return {
+                    type: 'LOAD_COMPLETE', 
+                    data: {
+                        song_data: song_data, 
+                        user_data: user_data
+                    }
+                }
             })
     }
 }
@@ -145,6 +168,7 @@ const load_complete = (data) => {
         }
     }
 }
+
 
 var loc_state = new LocationState();
 var subscriber_1 = loc_state.subscribe((state) => {

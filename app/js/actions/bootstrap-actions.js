@@ -6,17 +6,13 @@ const Bootstrap = 'bootstrap';
 const BootstrapComplete = 'bootstrap-complete';
 
 function bootstrap() {
-    // Could be a good place to fetch recent settings from local storage
-    var observable = Rx.Observable.ajax('./data/filesystem.json');
-    observable.subscribe(xhr => {
-        console.log(xhr);
-        return {
-            type: BootstrapComplete,
-            data : {
-
+    return Rx.Observable.ajax('./data/helter-skelter.json')
+        .map(xhr => {
+            return {
+                type: BootstrapComplete,
+                data: xhr.response
             }
-        }
-    });
+        });
 }
 
 function bootstrap_complete() {

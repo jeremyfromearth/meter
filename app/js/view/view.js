@@ -7,18 +7,13 @@ import {Widget, WidgetFlag} from 'phosphor/lib/ui/widget'
 import * as AppState from '../reducers/app-state'
 
 class View {
-    constructor(dispatch) {
-        dispatch(
-            add_observer(
-                'app_state.state', 
-                'view-observer',
-                this.on_application_init.bind(this)
-                )
-            );
+    constructor(store) {
+        this.store = store;
+        store.subscribe(this.on_application_init, 'app_state.state');
     }
 
-    on_application_init(path, prev, next) {
-        if(next == AppState.BootstrapComplete) {
+    on_application_init(state) {
+        if(state.app_state && state.app_state.state == AppState.BootstrapComplete) {
             let main_panel = new BoxPanel({direction: 'left-to-right'});
             main_panel.id = 'main';
 

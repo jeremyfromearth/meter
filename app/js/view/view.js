@@ -1,10 +1,11 @@
-import {add_observer} from '../core/redux-observer'
-import {create_main_menu} from './menu'
+// vendor
 import {BoxPanel} from 'phosphor/lib/ui/boxpanel'
 import {DockPanel} from 'phosphor/lib/ui/dockpanel'
 import {TabPanel, TabPlacement} from 'phosphor/lib/ui/tabpanel'
 import {Widget, WidgetFlag} from 'phosphor/lib/ui/widget'
-import * as AppState from '../reducers/app-state'
+
+// applicaiton
+import {create_main_menu} from './menu'
 
 class View {
     constructor(store) {
@@ -13,7 +14,7 @@ class View {
     }
 
     on_application_init(state) {
-        if(state.app_state && state.app_state.state == AppState.BootstrapComplete) {
+        if(state.app_state && state.app_state.state == 'bootstrap-complete') {
             let main_panel = new BoxPanel({direction: 'left-to-right'});
             main_panel.id = 'main';
 

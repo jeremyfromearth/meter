@@ -1,11 +1,5 @@
-
-
-// vendor
-import {Observable} from 'rxjs'
-
 // application
 import * as BootstrapActions from './actions/bootstrap-actions'
-import {app_state} from './reducers/app-state'
 import Store from './core/store'
 import {View} from './view/view'
 

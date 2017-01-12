@@ -1,12 +1,11 @@
-import Rx from 'rxjs'
-import 'rxjs/observable/dom/ajax'
+import {Observable} from 'rxjs'
 
 // Action Types
 const Bootstrap = 'bootstrap';
 const BootstrapComplete = 'bootstrap-complete';
 
 function bootstrap() {
-    return Rx.Observable.ajax('./data/helter-skelter.json')
+    return Observable.ajax('./data/helter-skelter.json')
         .map(xhr => {
             return {
                 type: BootstrapComplete,
@@ -15,20 +14,8 @@ function bootstrap() {
         });
 }
 
-function bootstrap_complete() {
-    return {
-        type: BootstrapComplete,
-        data: {
-
-        }
-    }
-}
-    
-function get_initial_data() {
-    
-}
-
 export {
-    bootstrap, Bootstrap, 
-    bootstrap_complete, BootstrapComplete
+    bootstrap, 
+    Bootstrap, 
+    BootstrapComplete
 }

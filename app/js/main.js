@@ -1,7 +1,7 @@
 // application
-import * as BootstrapActions from './actions/bootstrap-actions'
-import Store from './core/store'
-import {View} from './view/view'
+import * as Actions from './actions'
+import Store from './store'
+import {View} from './view'
 
 // css
 require('phosphor/styles/base.css')
@@ -12,7 +12,7 @@ require('../styles/font-awesome.min.css');
 const store = new Store() 
 new View(store);
 
-store.dispatch(BootstrapActions.bootstrap());
+store.dispatch(Actions.bootstrap());
 
 /*
 const do_location_change = (loc, do_track) => {

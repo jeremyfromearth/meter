@@ -10,7 +10,7 @@ import {create_main_menu} from './menu'
 class View {
     constructor(store) {
         this.store = store;
-        store.subscribe(this.on_application_init, 'app_state.state');
+        //store.subscribe(this.on_application_init, '');
     }
 
     on_application_init(state) {
@@ -54,7 +54,8 @@ class View {
             Widget.attach(create_main_menu(), document.body);
             Widget.attach(main_panel, document.body);
 
-            window.onresize = () => main_panel.update();
+            window.onresize = () => 
+                main_panel.update();
         }
     }
 }

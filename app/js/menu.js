@@ -5,6 +5,7 @@ import {MenuBar} from 'phosphor/lib/ui/menubar'
 
 const commands = new CommandRegistry();
 const keymap = new Keymap({commands});
+
 commands.addCommand('file:new', {
     label: 'New', 
     icon: 'fa fa-file',

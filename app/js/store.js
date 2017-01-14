@@ -6,12 +6,15 @@ class Store extends RxStore {
         if(state && action) {
             switch(action.type) {
                 case Actions.BootstrapComplete:
-                    return {
+                    var result = {
                         ...state,
-                        filesystem: {
-                            midi_library: action.data.filesystem.midi_library
+                        file_system: {
+                            midi_library: action.data.file_system.midi_library
                         }
                     }
+                    return result;
+                default:
+                    return state;
             }
         } else {
             return state;

@@ -12,7 +12,7 @@ function bootstrap() {
             return {
                 type: BootstrapComplete,
                 data: { 
-                    file_server: {
+                    file_system: {
                         midi_library: xhr.response
                     }
                 }
@@ -23,4 +23,5 @@ function bootstrap() {
 export {
     bootstrap, 
     Bootstrap, 
+    BootstrapComplete
 }

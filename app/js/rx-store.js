@@ -31,7 +31,7 @@ class RxStore {
         return action;
     }
 
-    subscribe(func, property) {
+    subscribe(property, callback) {
         if(property) {
             const get_property = (object, property) => {
                 var iter = 0;
@@ -50,9 +50,9 @@ class RxStore {
                 var next = get_property(b, property);
                 return prev == next;
             })
-            .subscribe(func);
+            .subscribe(callback);
         } else {
-            return this.subject.subscribe(func);
+            return this.subject.subscribe(callback);
         }
     }
 }

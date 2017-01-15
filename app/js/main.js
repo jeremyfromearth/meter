@@ -13,6 +13,11 @@ const store = new Store()
 new View(store);
 store.dispatch(Actions.bootstrap());
 
+var id = 0;
+setInterval(function() {
+    store.dispatch(Actions.log('Output message: ' + id++)); 
+}, 500);
+
 /*
 const do_location_change = (loc, do_track) => {
     return {

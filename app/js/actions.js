@@ -1,6 +1,7 @@
 import {Observable} from 'rxjs'
 
 // Action Types
+const Log = 'log';
 const Bootstrap = 'bootstrap';
 const BootstrapComplete = 'bootstrap-complete';
 
@@ -20,7 +21,16 @@ function bootstrap() {
         });
 }
 
+function log(message) {
+    return {
+        type: Log,
+        data: message
+    }
+}
+
 export {
+    log,
+    Log,
     bootstrap, 
     Bootstrap, 
     BootstrapComplete

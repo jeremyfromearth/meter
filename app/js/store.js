@@ -17,6 +17,12 @@ class Store extends RxStore {
                         }
                     }
                     return result;
+                case Actions.Log:
+                    var result = {
+                        ...state,
+                        output_panel: state.output_panel.concat([action.data])
+                    }
+                    return result;
                 default:
                     return state;
             }
@@ -30,6 +36,9 @@ const default_state = {
     file_system: {
 
     },
+    output_panel: [
+
+    ],
     tools : [{
             type: 'Clustering Models',
             modules: [{

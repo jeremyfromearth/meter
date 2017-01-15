@@ -7,7 +7,7 @@ import {Widget, WidgetFlag} from 'phosphor/lib/ui/widget'
 // applicaiton
 import {create_main_menu} from './menu'
 import {FileBrowser} from './file-browser'
-import {Terminal} from './terminal'
+import {OutputPanel} from './output-panel'
 import {ToolBrowser} from './tool-browser'
 
 class View {
@@ -20,7 +20,7 @@ class View {
         // Left panel
         let source_box_panel = new BoxPanel({direction: 'top-to-bottom'});
         let source_panel = new TabPanel();
-        let terminal = new Terminal(store);
+        let output = new OutputPanel(store);
 
         let session_widget = new Widget();
         session_widget.title.label = 'Project';
@@ -36,7 +36,7 @@ class View {
 
         // Add widgets
         source_box_panel.addWidget(source_panel);
-        source_box_panel.addWidget(terminal);
+        source_box_panel.addWidget(output);
         source_panel.addWidget(session_widget);
         source_panel.addWidget(file_widget);
         source_panel.addWidget(tools_widget);
@@ -45,7 +45,7 @@ class View {
         main_panel.addWidget(tool_box_panel);
 
         BoxPanel.setStretch(source_panel, 4);
-        BoxPanel.setStretch(terminal, 1);
+        BoxPanel.setStretch(output, 1);
         BoxPanel.setStretch(source_box_panel, 3);
         BoxPanel.setStretch(tool_box_panel, 10);
 

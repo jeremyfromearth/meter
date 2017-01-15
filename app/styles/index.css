@@ -40,7 +40,7 @@ body {
 
 .toolbox-category-container {
     margin: 0 0 0.7em 0;
-    padding: 0 0 0.3em 0;
+    padding: 0.8em;
     border-bottom: solid 1px #CCCCCC;    
 }
 
@@ -49,12 +49,12 @@ body {
 }
 
 /*-----------------------------------------------------------------------------
-| Terminal
+| OuputPanel
 |----------------------------------------------------------------------------*/
 
-.terminal {
-    background: #000;
-    color: white;
+.output-panel {
+    background: #333;
+    color: #DDD;
     font-family: monospace;
     padding: 0.5em;
 }

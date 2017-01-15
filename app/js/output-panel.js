@@ -9,11 +9,11 @@ class OutputPanel extends Widget {
 
         this.auto_scroll = true;
         this.addClass('content');
-        this.node.innerHTML = `<div id='terminal' class='terminal'>\> Welcome to Meter</div>`;
+        this.node.innerHTML = `<div id='output-panel' class='output-panel'>\> Welcome to Meter</div>`;
     }
 
     onAfterAttach(message) {
-        d3.select('#terminal')
+        d3.select('#output-panel')
             .on('mouseenter', ()=> {
                 this.auto_scroll = false; 
             })

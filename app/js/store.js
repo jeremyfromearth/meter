@@ -16,7 +16,6 @@ class Store extends RxStore {
                             midi_library: action.data.file_system.midi_library
                         }
                     }
-                    console.log(result);
                     return result;
                 default:
                     return state;
@@ -28,6 +27,9 @@ class Store extends RxStore {
 }
 
 const default_state = {
+    file_system: {
+
+    },
     tools : [{
             type: 'Clustering Models',
             modules: [{

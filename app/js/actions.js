@@ -2,7 +2,6 @@ import {Observable} from 'rxjs'
 
 // Action Types
 const Log = 'log';
-const Bootstrap = 'bootstrap';
 const BootstrapComplete = 'bootstrap-complete';
 
 // Load all data needed at application init
@@ -32,6 +31,5 @@ export {
     log,
     Log,
     bootstrap, 
-    Bootstrap, 
     BootstrapComplete
 }

@@ -14,7 +14,8 @@ class Store extends RxStore {
                         ...state,
                         file_system: {
                             midi_library: action.data.file_system.midi_library
-                        }
+                        }, 
+                        output_panel : state.output_panel.concat(['Bootstrap complete!'])
                     }
                     return result;
                 case Actions.Log:
@@ -40,7 +41,18 @@ const default_state = {
 
     ],
     tools : [{
-            type: 'Clustering Models',
+            category: 'Analysis', 
+            icon: 'fa-line-chart',
+            modules: [{
+                name: 'Metrics Over Time',
+                options: [{
+                    name: 'Metric Name', 
+                    options: ['Energy', 'Amplitude', 'Complexity']
+                }]
+            }]
+        }, {
+            category: 'Models',
+            icon: 'fa-sitemap',
             modules: [{
                 name: 'K-Means',
                 options: {}
@@ -48,22 +60,9 @@ const default_state = {
                 name: 'K Nearest Neighbors',
                 options: {}
             }]
-        }, {
-            type: 'Analysis', 
-            modules: [{
-                name: 'Metric / Time',
-                options: [{
-                    name: 'Metric Name', 
-                    options: ['Energy', 'Amplitude', 'Complexity']
-                }]
-            }]
-        }, {
-            type: 'Visualizations', 
-            modules: [{
-                name: 'Clustering'
-            }]
-        }, {
-            type: 'MIDI', 
+        },{
+            category: 'MIDI', 
+            icon: 'fa-music',
             modules: [{
                 name: 'Simple MIDI Player',
                 options: {
@@ -75,7 +74,13 @@ const default_state = {
                     
                 }
             }]
-        }, 
+        },{
+            category: 'Visualizations', 
+            icon: 'fa-bar-chart-o',
+            modules: [{
+                name: 'Clustering',
+            }]
+        },  
     ]
 };
 

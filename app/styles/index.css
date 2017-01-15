@@ -6,6 +6,34 @@
 | The full license is in the file LICENSE, distributed with this software.
 |----------------------------------------------------------------------------*/
 
+body {
+    font: 12px sans-serif;
+}
+
+/*-----------------------------------------------------------------------------
+| MIDI File Browser
+|----------------------------------------------------------------------------*/
+
+.midi-library-list-item-label {
+    display: inline;
+    padding: 0 0 0 .7em;
+    font-family: sans-serif;
+}
+
+.midi-library-list-item {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.3em;
+}
+
+.midi-library-list-item:hover {
+    background: #CCCCCC;
+}
+
+.midi-library-list {
+    width: inherit;
+    padding: 0.25em;
+}
 
 /*-----------------------------------------------------------------------------
 | CommandPalette

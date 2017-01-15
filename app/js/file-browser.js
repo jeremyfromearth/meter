@@ -4,24 +4,26 @@ import {Widget, WidgetFlag} from 'phosphor/lib/ui/widget'
 class FileBrowser extends Widget {
     constructor(store) {
         super();
+        this.store = store;   
+        this.store.subscribe('blach', this.update_list.bind(this));
 
         this.addClass('content');
         this.title.label = 'Files';
-
-        this.store = store;   
-        this.store.subscribe('blach', this.update_library.bind(this));
+        this.node.innerHTML = `<div id='midi-library-list'/>`
     }
 
-    update_library(data) {
-        if(this.midi_lib_list) this.midi_lib_list.remove();
-        this.midi_lib_list = d3.select(this.node).append('ul');
-        this.midi_lib_list.selectAll('li')
-            .data(data.file_system.midi_library) 
-            .enter()
-            .append('li')
-            .text(function(d) {
-                return d.filename;
-            });
+    update_list(data) {
+        var list = document.getElementById('midi-library-list');
+        list.className = 'midi-library-list';
+
+        for(var i = 0; i < data.file_system.midi_library.length; i++) {
+            var item = document.createElement('div');
+            item.className = 'midi-library-list-item';
+            item.innerHTML = 
+                `<span class='fa fa-file-sound-o'/> 
+                    <div class='midi-library-list-item-label'>${data.file_system.midi_library[i].filename}</div>`
+            list.appendChild(item);
+        }
     }
 }
 

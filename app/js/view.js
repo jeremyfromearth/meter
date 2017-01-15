@@ -44,8 +44,8 @@ class View {
         main_panel.addWidget(source_box_panel);
         main_panel.addWidget(tool_box_panel);
 
-        BoxPanel.setStretch(source_box_panel, 1);
-        BoxPanel.setStretch(tool_box_panel, 4);
+        BoxPanel.setStretch(source_box_panel, 3);
+        BoxPanel.setStretch(tool_box_panel, 10);
 
         Widget.attach(create_main_menu(), document.body);
         Widget.attach(main_panel, document.body);

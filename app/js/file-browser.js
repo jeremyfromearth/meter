@@ -1,11 +1,11 @@
 import * as d3 from 'd3'
-import {Widget, WidgetFlag} from 'phosphor/lib/ui/widget'
+import {Widget} from 'phosphor/lib/ui/widget'
 
 class FileBrowser extends Widget {
     constructor(store) {
         super();
         this.store = store;   
-        this.store.subscribe('blach', this.update_list.bind(this));
+        this.store.subscribe('file_system.midi_library', this.update_list.bind(this));
 
         this.addClass('content');
         this.title.label = 'Files';
@@ -21,7 +21,9 @@ class FileBrowser extends Widget {
             item.className = 'midi-library-list-item';
             item.innerHTML = 
                 `<span class='fa fa-file-sound-o'/> 
-                    <div class='midi-library-list-item-label'>${data.file_system.midi_library[i].filename}</div>`
+                    <div class='midi-library-list-item-label'>
+                        ${data.file_system.midi_library[i].filename}
+                    </div>`
             list.appendChild(item);
         }
     }

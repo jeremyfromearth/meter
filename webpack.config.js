@@ -2,6 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 var Paths = {
     Build: path.resolve(__dirname, 'build'),
@@ -59,7 +60,8 @@ var config = {
         new CopyWebpackPlugin([{
             from: './data',
             to: Paths.Build + './data'
-        }])
+        }]),
+        new CleanWebpackPlugin(Paths.Build),
     ]
 }
 

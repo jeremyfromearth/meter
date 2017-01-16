@@ -13,6 +13,7 @@ const store = new Store()
 new View(store);
 store.dispatch(Actions.bootstrap());
 
+
 /*
 const do_location_change = (loc, do_track) => {
     return {

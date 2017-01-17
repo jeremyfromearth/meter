@@ -31,6 +31,12 @@ class RxStore {
         return action;
     }
 
+    get_state(callback) {
+        var subscription = this.subject.subscribe(callback);
+        this.subject.next();
+        subscription.unsubscribe();
+    }
+
     subscribe(property, callback) {
         if(property) {
             const get_property = (object, property) => {

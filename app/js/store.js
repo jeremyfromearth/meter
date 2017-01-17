@@ -7,6 +7,7 @@ class Store extends RxStore {
     }
     
     reducer(state, action) {
+        super.reducer(state);
         if(state && action) {
             switch(action.type) {
                 case Actions.BootstrapComplete:
@@ -44,6 +45,7 @@ const default_state = {
             category: 'Analysis', 
             icon: 'fa-line-chart',
             modules: [{
+                id: 0,
                 name: 'Metrics Over Time',
                 options: [{
                     name: 'Metric Name', 
@@ -54,9 +56,11 @@ const default_state = {
             category: 'Models',
             icon: 'fa-sitemap',
             modules: [{
+                id: 1,
                 name: 'K-Means',
                 options: {}
             }, {
+                id: 2,
                 name: 'K Nearest Neighbors',
                 options: {}
             }]
@@ -64,11 +68,13 @@ const default_state = {
             category: 'MIDI', 
             icon: 'fa-music',
             modules: [{
+                id: 3,
                 name: 'Simple MIDI Player',
                 options: {
 
                 }
             }, {
+                id: 4,
                 name: 'MIDI Writer', 
                 options: {
                     
@@ -78,6 +84,7 @@ const default_state = {
             category: 'Visualizations', 
             icon: 'fa-bar-chart-o',
             modules: [{
+                id: 5,
                 name: 'Clustering',
             }]
         },  

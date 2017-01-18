@@ -2,7 +2,7 @@ import deepEql from 'deep-eql'
 import {Observable, Subject, Scheduler} from 'rxjs'
 
 class RxStore {
-    constructor(state = {}) {
+    constructor(initial_state = {}) {
         this.subject = new Subject();
         this.dispatcher = new Subject();
         const store = this.dispatcher
@@ -10,7 +10,7 @@ class RxStore {
                 if(action instanceof Observable) return action;
                 return Observable.from([action]);
             })
-            .startWith(state)
+            .startWith(initial_state)
             .scan(this.reducer)
             .distinctUntilChanged((a, b) => {
                 return deepEql(a, b);
@@ -30,13 +30,7 @@ class RxStore {
         }
         return action;
     }
-
-    get_state(callback) {
-        var subscription = this.subject.subscribe(callback);
-        this.subject.next();
-        subscription.unsubscribe();
-    }
-
+    
     subscribe(property, callback) {
         if(property) {
             const get_property = (object, property) => {

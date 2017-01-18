@@ -22,6 +22,7 @@ body {
 .toolbox-module {
     display: inline;
     margin: 0 0 0 0.25em;
+    pointer-events: none;
 }
 
 .toolbox-module-container {
@@ -36,6 +37,7 @@ body {
     font-size: 1.2em;
     font-weight: 600;
     margin: 0 0 0.2em 0;
+    pointer-events: none;
 }
 
 .toolbox-category-container {

@@ -9,6 +9,7 @@ import {create_main_menu} from './menu'
 import {FileBrowser} from './file-browser'
 import {OutputPanel} from './output-panel'
 import {ToolBrowser} from './tool-browser'
+import {Workspace} from './workspace'
 
 class View {
     constructor(store) {
@@ -31,7 +32,7 @@ class View {
 
         // Visualization & Tools area
         let tool_box_panel = new BoxPanel({direction: 'left-to-right'});
-        let tool_panel = new DockPanel();
+        let tool_panel = new Workspace();
         tool_panel.addClass('content');
 
         // Add widgets

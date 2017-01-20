@@ -7,14 +7,19 @@ class Workspace extends DockPanel {
     }
     
     handleEvent(event) {
-        super.handleEvent(event);
         switch(event.type) {
             case 'p-drop':
-                console.log(event);
-                //this.addWidget(new Widget());
+                if(event.supportedActions == 'copy-link') {
+                    this.addWidget(new Widget());
+                } else {
+                    super.handleEvent(event);
+                }
                 break;
+
             default:
+                super.handleEvent(event);
                 break;
+            
         }
     } 
 }

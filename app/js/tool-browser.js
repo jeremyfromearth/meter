@@ -56,8 +56,8 @@ class ToolBrowser extends Widget {
                     this.drag = new Drag({
                         mimeData: mime_data,
                         dragImage: event.target.cloneNode(true),
-                        proposedAction: 'move',
-                        supportedAction: 'move'
+                        proposedAction: 'copy',
+                        supportedActions: 'copy-link'
                     })
                     this.drag.start(clientX, clientY).then(() => {
                         this.drag = null;

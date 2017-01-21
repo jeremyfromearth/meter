@@ -33,7 +33,6 @@ class View {
         // Visualization & Tools area
         let tool_box_panel = new BoxPanel({direction: 'left-to-right'});
         let tool_panel = new Workspace();
-        tool_panel.addClass('content');
 
         // Add widgets
         source_box_panel.addWidget(source_panel);

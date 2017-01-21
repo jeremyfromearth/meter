@@ -52,9 +52,7 @@ class ToolBrowser extends Widget {
         switch(event.type) {
             case 'mousedown':
                 if(event.target.dataset.module) {
-                    console.log(SVGWidget);
                     var module_id = event.target.dataset.module;
-                    let {clientX, clientY} = event;
                     var mime_data = new MimeData();
                     mime_data.setData(
                         'application/vnd.phosphor.widget-factory', 
@@ -63,6 +61,8 @@ class ToolBrowser extends Widget {
                         mimeData: mime_data,
                         dragImage: event.target.cloneNode(true),
                     })
+
+                    let {clientX, clientY} = event;
                     this.drag.start(clientX, clientY).then(() => {
                         this.drag = null;
                     });

@@ -4,7 +4,7 @@ class SVGWidget extends Widget {
     constructor(svg_id) {
         super();
         this.addClass('content');
-        this.node.innerHTML = `<svg id=${svg_id}></svg>`;
+        this.node.innerHTML = `<div><svg id=${svg_id}></svg></div>`;
         this.getSVG().style.width = '100%';
         this.getSVG().style.height = '100%';
     }

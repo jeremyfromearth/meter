@@ -16,10 +16,14 @@ class ToolBrowser extends Widget {
 
         this.store = store;
         this.store.subscribe('tools', this.on_tool_update.bind(this));
+
+        this.module_lookup = {};
     }
 
     on_tool_update(data) {
         var container = this.node.getElementsByTagName('div')[0];
+
+        this.module_lookup = {};
         for(var i = 0; i < data.tools.length; i++) {
             var category = data.tools[i];
             var modules = category.modules;
@@ -29,6 +33,7 @@ class ToolBrowser extends Widget {
 
             for(var j = 0; j < modules.length; j++) {
                 var module = modules[j];
+                this.module_lookup[module.id] = modules[j];
                 html += `<div data-module='${module.id}' id='${module.name}' class='toolbox-module-container'>
                             <i class='fa ${category.icon || 'fa-bar-chart-o'}' ></i>
                             <div class='toolbox-module'>${module.name}</div>
@@ -56,7 +61,12 @@ class ToolBrowser extends Widget {
                     var mime_data = new MimeData();
                     mime_data.setData(
                         'application/vnd.phosphor.widget-factory', 
-                        () => { return new SVGWidget('svg'); });
+                        () => { 
+                            var widget = new SVGWidget('svg');
+                            widget.title.label = this.module_lookup[module_id].name; 
+                            widget.title.closable = true;
+                            return widget; 
+                        });
                     this.drag = new Drag({
                         mimeData: mime_data,
                         dragImage: event.target.cloneNode(true),

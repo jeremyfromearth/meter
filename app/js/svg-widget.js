@@ -19,3 +19,5 @@ class SVGWidget extends Widget {
         svg.setAttribute('height', svg.clientHeight);
     }
 }
+
+export {SVGWidget}

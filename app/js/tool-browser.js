@@ -1,9 +1,12 @@
 import * as d3 from 'd3'
+import {DockPanel} from 'phosphor/lib/ui/dockpanel'
 import {Drag, IDragEvent} from 'phosphor/lib/dom/dragdrop'
 import {MimeData} from 'phosphor/lib/core/mimedata';
 import {Widget} from 'phosphor/lib/ui/widget'
+import {SVGWidget} from './svg-widget'
 
 class ToolBrowser extends Widget {
+
     constructor(store) {
         super();
         this.drag = null;
@@ -49,15 +52,16 @@ class ToolBrowser extends Widget {
         switch(event.type) {
             case 'mousedown':
                 if(event.target.dataset.module) {
+                    console.log(SVGWidget);
                     var module_id = event.target.dataset.module;
                     let {clientX, clientY} = event;
                     var mime_data = new MimeData();
-                    mime_data.setData('application/vnd.phosphor.widget-factory');
+                    mime_data.setData(
+                        'application/vnd.phosphor.widget-factory', 
+                        () => { return new SVGWidget('svg'); });
                     this.drag = new Drag({
                         mimeData: mime_data,
                         dragImage: event.target.cloneNode(true),
-                        proposedAction: 'copy',
-                        supportedActions: 'copy-link'
                     })
                     this.drag.start(clientX, clientY).then(() => {
                         this.drag = null;

@@ -1,7 +1,9 @@
 # meter
-A visualization and diagnostics dashboard intended to aid in the development of machine learning algorithms for music AI
+A visualization and analysis dashboard intended to aid in the development of machine learning algorithms for Music AI
 
-## Install 
+<img src='./docs/2017-01-20-progress.png'></img>
+
+## Install
 ```
 $ npm install
 ```

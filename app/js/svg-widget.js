@@ -5,8 +5,6 @@ class SVGWidget extends Widget {
         super();
         this.addClass('content');
         this.node.innerHTML = `<div><svg id=${svg_id}></svg></div>`;
-        this.getSVG().style.width = '100%';
-        this.getSVG().style.height = '100%';
     }
 
     getSVG() {
@@ -15,8 +13,8 @@ class SVGWidget extends Widget {
 
     onResize() {
         var svg = this.getSVG();
-        svg.setAttribute('width', svg.clientWidth);
-        svg.setAttribute('height', svg.clientHeight);
+        svg.setAttribute('width', svg.parentNode.clientWidth);
+        svg.setAttribute('height', svg.parentNode.clientHeight);
     }
 }
 

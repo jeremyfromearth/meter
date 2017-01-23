@@ -22,13 +22,13 @@ class MIDIEventTypes {
     }
 }
 
-class MIDIFile {
+class MIDIJson {
     constructor() {
         this.messages = [];
     }
 
     parse_as_uint_8(file) {
-         
+
     }
 }
 

@@ -22,18 +22,18 @@ class MidiEventTypes {
     }
 }
 
-class MidiEvent {
+class MidiMessage {
 
 }
 
-class MidiMetaEvent {
+class MidiMetaMessage {
 
 }
 
 class MidiFileReader {
-    constructor() {
-        this.data = null;
-        this.read_index = 0; 
+    constructor(data) {
+        this.data = data;
+        this.read_index = 0;
     }
 
     move_read_index_by(bytes) {
@@ -61,10 +61,28 @@ class MidiFileReader {
 	    return text;
 	 }
     }
+
+   read_int_vlv() {
+        var value = 0;
+        if(parseInt(this.data[this.read_index]) < 128) {
+            value = this.read_int(1);
+        }else{
+            var bytes = [];
+            while(parseInt(this.data[this.read_index]) >= 128){
+                bytes.push(this.read_int(1) - 128);
+            }
+            var last_byte  = this.read_int(1);
+            for(var dt = 1; dt <= bytes.length; dt++){
+                value = bytes[bytes.length - dt] * Math.pow(128, dt);
+            }
+            value += last_byte;
+        }
+        return value;
+    } 
 }
 
-class MidiObject {
-    constructor() {
+class MidiMessageData {
+    constructor(reader) {
         this.messages = [];
     }
 
@@ -73,4 +91,4 @@ class MidiObject {
     }
 }
 
-export {MIDIEventTypes}
+export {MidiEventTypes, MidiFileReader}

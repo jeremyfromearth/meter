@@ -33,8 +33,8 @@ class ToolBrowser extends Widget {
 
             for(var j = 0; j < modules.length; j++) {
                 var module = modules[j];
-                this.module_lookup[module.id] = modules[j];
-                html += `<div data-module='${module.id}' id='${module.name}' class='toolbox-module-container'>
+                this.module_lookup[i] = modules[j];
+                html += `<div data-module='${i}' id='${module.name}' class='toolbox-module-container'>
                             <i class='fa ${category.icon || 'fa-bar-chart-o'}' ></i>
                             <div class='toolbox-module'>${module.name}</div>
                             <br/>
@@ -58,11 +58,12 @@ class ToolBrowser extends Widget {
             case 'mousedown':
                 if(event.target.dataset.module) {
                     var module_id = event.target.dataset.module;
+                    var module = this.module_lookup[module_id];
                     var mime_data = new MimeData();
                     mime_data.setData(
                         'application/vnd.phosphor.widget-factory', 
-                        () => { 
-                            var widget = new SVGWidget('svg');
+                        module.widget ? module.widget : () => { 
+                            var widget = new Widget();
                             widget.title.label = this.module_lookup[module_id].name; 
                             widget.title.closable = true;
                             return widget; 

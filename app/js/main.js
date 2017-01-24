@@ -2,6 +2,7 @@
 import * as Actions from './actions'
 import Store from './store'
 import {View} from './view'
+import {MidiFileReader} from './midi'
 
 // css
 require('phosphor/styles/base.css')
@@ -13,6 +14,7 @@ const store = new Store()
 new View(store);
 store.dispatch(Actions.bootstrap());
 
+var file_reader = new MidiFileReader();
 
 /*
 const do_location_change = (loc, do_track) => {

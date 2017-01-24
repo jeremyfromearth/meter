@@ -41,6 +41,10 @@ class MidiFileReader {
         this.read_index = Math.max(0, Math.min(this.read_index + bytes, Infinity));
     }
 
+    move_read_index_to(position) {
+        this.read_index = Math.max(0, position);
+    }
+
     read_int(bytes) {
         var value = 0;
 	if(bytes > 1){
@@ -52,14 +56,6 @@ class MidiFileReader {
 	value += parseInt(this.data[this.read_index]);
 	this.read_index++;
 	return value;
-    }
-
-    read_string(bytes) { 
-	var str = '';
-	for(var char=1; char <= bytes; char++) { 
-            text +=  String.fromCharCode(this.read_int(1));
-	    return text;
-	 }
     }
 
    read_int_vlv() {
@@ -79,6 +75,14 @@ class MidiFileReader {
         }
         return value;
     } 
+
+    read_string(bytes) { 
+	var str = '';
+	for(var char=1; char <= bytes; char++) { 
+            text +=  String.fromCharCode(this.read_int(1));
+	    return text;
+	 }
+    }
 }
 
 class MidiMessageData {

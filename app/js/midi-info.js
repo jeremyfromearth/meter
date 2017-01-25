@@ -1,5 +1,5 @@
 import {Widget} from 'phosphor/lib/ui/widget'
-import {MidiFileReader, MidiObject} from './midi'
+import {MidiFileReader, MidiMessageData} from './midi'
 
 class MidiInfo extends Widget {
     constructor(midi_object) {
@@ -7,7 +7,21 @@ class MidiInfo extends Widget {
         this.addClass('content');
         if(midi_object) update(midi_object);
         this.title.label = 'Midi Info';
-        this.node.innerHTML = `<input type='file' id='file-reader'/>`
+        this.node.innerHTML = `<input type='file' id='file-reader'/>`;
+    }
+
+    onAfterAttach(msg) {
+        var input = this.node.getElementsByTagName('input')[0];
+        input.addEventListener('change', (event) => {
+            if(event.target.files.length == 0) return;
+            var reader = new FileReader();
+            reader.readAsArrayBuffer(event.target.files[0]);
+            reader.addEventListener('load', (event) => {
+                var data = new Uint8Array(event.target.result) 
+                var midi_reader = new MidiFileReader(data);
+                var midi_object = new MidiMessageData(midi_reader);
+            });
+        });
     }
 
     update(midi_object) {

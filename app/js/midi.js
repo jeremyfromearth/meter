@@ -1,4 +1,4 @@
-class MidiEventNames {
+class MidiEventTypes {
     static get NoteOff() { return 'note-off' };
     static get NoteOn() { return 'note-on' };
     static get PolyphonicAfterTouch() { return 'polyphonic-aftertouch'; }
@@ -63,7 +63,7 @@ class MidiFileReader {
             while(parseInt(this.data[this.read_index]) >= 128){
                 bytes.push(this.read_int(1) - 128);
             }
-            var last_byte  = this.read_int(1);
+            var last_byte = this.read_int(1);
             for(var dt = 1; dt <= bytes.length; dt++){
                 value = bytes[bytes.length - dt] * Math.pow(128, dt);
             }
@@ -152,16 +152,19 @@ class MidiMessageData {
                             message.data[3] = reader.read_int(1);
                             break;
                         case 0x7F:
-                            console.log('vl', length);
                             message.data = [];
                             for(var j = 0; j < length; j++) {
                                 message.data[j] = reader.read_int(1);
                             }
                             break;
                         default:
+                            message.data = [];
+                            for(var j = 0; j < length; j++) {
+                                message.data[j] = reader.read_int(1);
+                            }
                             console.warn('Unhandled type', message);
-                            message.data = reader.read_int(length);
                             if(isNaN(message.type)) return;
+                            break;
                     }
                 } else {
                     var message = new MidiMessage();
@@ -190,8 +193,8 @@ class MidiMessageData {
                             message.data = reader.read_int(1);
                             break;
                         default:
-                            console.log('Unhandled Midi event: ' + message.type);
-                            return;
+                            console.warn('Unhandled Midi event: ' + message.type);
+                            break;
                     }
 
                 }

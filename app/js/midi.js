@@ -1,4 +1,4 @@
-class MidiEventTypes {
+class MidiEventNames {
     static get NoteOff() { return 'note-off' };
     static get NoteOn() { return 'note-on' };
     static get PolyphonicAfterTouch() { return 'polyphonic-aftertouch'; }
@@ -22,13 +22,9 @@ class MidiEventTypes {
     }
 }
 
-class MidiMessage {
+class MidiMessage { }
 
-}
-
-class MidiMetaMessage {
-    
-}
+class MidiMetaMessage { }
 
 class MidiFileReader {
     constructor(data) {
@@ -155,10 +151,17 @@ class MidiMessageData {
                             message.data[2] = reader.read_int(1);
                             message.data[3] = reader.read_int(1);
                             break;
+                        case 0x7F:
+                            console.log('vl', length);
+                            message.data = [];
+                            for(var j = 0; j < length; j++) {
+                                message.data[j] = reader.read_int(1);
+                            }
+                            break;
                         default:
-                            console.warn('Unhandled type', message.type);
-                            reader.read_int(length);
+                            console.warn('Unhandled type', message);
                             message.data = reader.read_int(length);
+                            if(isNaN(message.type)) return;
                     }
                 } else {
                     var message = new MidiMessage();
@@ -186,6 +189,9 @@ class MidiMessageData {
                         case MidiEventTypes.AfterTouch:
                             message.data = reader.read_int(1);
                             break;
+                        default:
+                            console.log('Unhandled Midi event: ' + message.type);
+                            return;
                     }
 
                 }

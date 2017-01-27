@@ -1,4 +1,4 @@
-class MidiEventTypes {
+class MidiMessageTypes {
     static get NoteOff() { return 'note-off' };
     static get NoteOn() { return 'note-on' };
     static get PolyphonicAfterTouch() { return 'polyphonic-aftertouch'; }
@@ -10,14 +10,14 @@ class MidiEventTypes {
 
     static get HexToName() {
         return {
-            0x8 : MidiEventTypes.NoteOff,
-            0x9 : MidiEventTypes.NoteOn,
-            0xA : MidiEventTypes.PolyphonicAfterTouch,
-            0xB : MidiEventTypes.ControlModeChange,
-            0xC : MidiEventTypes.ProgramChange,
-            0xD : MidiEventTypes.AfterTouch, 
-            0xE : MidiEventTypes.PitchWheelRange,
-            0xF : MidiEventTypes.SystemExclusive
+            0x8 : MidiMessageTypes.NoteOff,
+            0x9 : MidiMessageTypes.NoteOn,
+            0xA : MidiMessageTypes.PolyphonicAfterTouch,
+            0xB : MidiMessageTypes.ControlModeChange,
+            0xC : MidiMessageTypes.ProgramChange,
+            0xD : MidiMessageTypes.AfterTouch, 
+            0xE : MidiMessageTypes.PitchWheelRange,
+            0xF : MidiMessageTypes.SystemExclusive
         };
     }
 }
@@ -33,8 +33,8 @@ class MidiFileReader {
     }
 
     move_read_index_by(bytes) {
-        // TODO: replace Infinity with length of file
-        this.read_index = Math.max(0, Math.min(this.read_index + bytes, Infinity));
+        if(!this.data) return;
+        this.read_index = Math.max(0, Math.min(this.read_index + bytes, this.data.length-1));
     }
 
     move_read_index_to(position) {
@@ -128,6 +128,7 @@ class MidiMessageData {
                     message.delta = delta;
                     message.type = reader.read_int(1);
                     var length = reader.read_int_vlv();
+                    console.log('0x' + message.type.toString(16));
                     switch(message.type) {
                         case 0x2F:
                             end_of_track = true;
@@ -172,24 +173,24 @@ class MidiMessageData {
                     status_byte = status_byte.toString(16).split('');
                     if(!status_byte[1]) status_byte.unshift('0');
                     var message_hex = parseInt(status_byte[0], 16);
-                    message.type = MidiEventTypes.HexToName[message_hex];
+                    message.type = MidiMessageTypes.HexToName[message_hex];
                     message.channel = parseInt(status_byte[1], 16);
                     switch(message.type) {
                         case 0xF:
                             var length = reader.read_int_vlv();
                             message.data = reader.read_int(length);
                             break;
-                        case MidiEventTypes.PolyphonicAfterTouch:
-                        case MidiEventTypes.ControlModeChange:
-                        case MidiEventTypes.PitchWheelRange:
-                        case MidiEventTypes.NoteOff:
-                        case MidiEventTypes.NoteOn:
+                        case MidiMessageTypes.PolyphonicAfterTouch:
+                        case MidiMessageTypes.ControlModeChange:
+                        case MidiMessageTypes.PitchWheelRange:
+                        case MidiMessageTypes.NoteOff:
+                        case MidiMessageTypes.NoteOn:
                             message.data = [];
                             message.data[0] = reader.read_int(1);
                             message.data[1] = reader.read_int(1);
                             break;
-                        case MidiEventTypes.ProgramChange:
-                        case MidiEventTypes.AfterTouch:
+                        case MidiMessageTypes.ProgramChange:
+                        case MidiMessageTypes.AfterTouch:
                             message.data = reader.read_int(1);
                             break;
                         default:
@@ -206,4 +207,4 @@ class MidiMessageData {
     }
 }
 
-export {MidiEventTypes, MidiFileReader, MidiMessageData}
+export {MidiMessageTypes, MidiFileReader, MidiMessageData}

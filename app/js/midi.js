@@ -130,6 +130,7 @@ class MidiMessageData {
                     track.push(message);     
                     message.delta = delta;
                     var hex_type = reader.read_int(1);
+                    console.log(hex_type);
                     message.type = MidiMessageTypes.Hex[hex_type] || hex_type;
                     var length = reader.read_int_vlv();
                     switch(message.type) {
@@ -150,9 +151,10 @@ class MidiMessageData {
                         case 0x54:
                         case MidiMessageTypes.TimeSignature:
                             message.numerator = reader.read_int(1);
-                            message.denominator = reader.read_int(1);
+                            message.denominator = Math.pow(2, reader.read_int(1));
                             message.clocks_per_click = reader.read_int(1);
                             message.notated_32nd_notes_per_beat = reader.read_int(1);
+                            console.log(message);
                             break;
                         case 0x7F:
                             message.data = [];

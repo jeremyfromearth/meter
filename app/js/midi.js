@@ -8,16 +8,19 @@ class MidiMessageTypes {
     static get PitchWheelRange() { return 'pitch-wheel-range'; }
     static get SystemExclusive() { return 'system-exclusive'; }
 
-    static get HexToName() {
+    static get TimeSignature() { return 'time-signature'; }
+
+    static get Hex() {
         return {
-            0x8 : MidiMessageTypes.NoteOff,
-            0x9 : MidiMessageTypes.NoteOn,
-            0xA : MidiMessageTypes.PolyphonicAfterTouch,
-            0xB : MidiMessageTypes.ControlModeChange,
-            0xC : MidiMessageTypes.ProgramChange,
-            0xD : MidiMessageTypes.AfterTouch, 
-            0xE : MidiMessageTypes.PitchWheelRange,
-            0xF : MidiMessageTypes.SystemExclusive
+            0x8: MidiMessageTypes.NoteOff,
+            0x9: MidiMessageTypes.NoteOn,
+            0xA: MidiMessageTypes.PolyphonicAfterTouch,
+            0xB: MidiMessageTypes.ControlModeChange,
+            0xC: MidiMessageTypes.ProgramChange,
+            0xD: MidiMessageTypes.AfterTouch, 
+            0xE: MidiMessageTypes.PitchWheelRange,
+            0xF: MidiMessageTypes.SystemExclusive,
+            0x58: MidiMessageTypes.TimeSignature
         };
     }
 }
@@ -126,9 +129,9 @@ class MidiMessageData {
                     var message = new MidiMetaMessage();
                     track.push(message);     
                     message.delta = delta;
-                    message.type = reader.read_int(1);
+                    var hex_type = reader.read_int(1);
+                    message.type = MidiMessageTypes.Hex[hex_type] || hex_type;
                     var length = reader.read_int_vlv();
-                    console.log('0x' + message.type.toString(16));
                     switch(message.type) {
                         case 0x2F:
                             end_of_track = true;
@@ -145,12 +148,11 @@ class MidiMessageData {
                             message.data = reader.read_int(length);
                             break;
                         case 0x54:
-                        case 0x58:
-                            message.data = [];
-                            message.data[0] = reader.read_int(1);
-                            message.data[1] = reader.read_int(1);
-                            message.data[2] = reader.read_int(1);
-                            message.data[3] = reader.read_int(1);
+                        case MidiMessageTypes.TimeSignature:
+                            message.numerator = reader.read_int(1);
+                            message.denominator = reader.read_int(1);
+                            message.clocks_per_click = reader.read_int(1);
+                            message.notated_32nd_notes_per_beat = reader.read_int(1);
                             break;
                         case 0x7F:
                             message.data = [];
@@ -173,7 +175,7 @@ class MidiMessageData {
                     status_byte = status_byte.toString(16).split('');
                     if(!status_byte[1]) status_byte.unshift('0');
                     var message_hex = parseInt(status_byte[0], 16);
-                    message.type = MidiMessageTypes.HexToName[message_hex];
+                    message.type = MidiMessageTypes.Hex[message_hex] || message_hex;
                     message.channel = parseInt(status_byte[1], 16);
                     switch(message.type) {
                         case 0xF:

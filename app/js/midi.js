@@ -1,33 +1,38 @@
 class MidiMessageTypes {
-    static get NoteOff() { return 'note-off' };
-    static get NoteOn() { return 'note-on' };
-    static get PolyphonicAfterTouch() { return 'polyphonic-aftertouch'; }
-    static get ControlModeChange() { return 'control-mode-change';}
-    static get ProgramChange() { return 'program-change'; }
-    static get AfterTouch() { return 'after-touch'; }
-    static get PitchWheelRange() { return 'pitch-wheel-range'; }
-    static get SystemExclusive() { return 'system-exclusive'; }
+    static get NoteOff() { return 0x8; };
+    static get NoteOn() { return 0x9; };
+    static get PolyphonicAfterTouch() { return 0xA; }
+    static get ControlModeChange() { return 0xB;}
+    static get ProgramChange() { return 0xC; }
+    static get AfterTouch() { return 0xD; }
+    static get PitchWheelRange() { return 0xE; }
+    static get SystemExclusive() { return 0xF; }
+    static get TimeSignature() { return 0x58; }
 
-    static get TimeSignature() { return 'time-signature'; }
-
-    static get Hex() {
+    static get HexToString() {
         return {
-            0x8: MidiMessageTypes.NoteOff,
-            0x9: MidiMessageTypes.NoteOn,
-            0xA: MidiMessageTypes.PolyphonicAfterTouch,
-            0xB: MidiMessageTypes.ControlModeChange,
-            0xC: MidiMessageTypes.ProgramChange,
-            0xD: MidiMessageTypes.AfterTouch, 
-            0xE: MidiMessageTypes.PitchWheelRange,
-            0xF: MidiMessageTypes.SystemExclusive,
-            0x58: MidiMessageTypes.TimeSignature
+            0x8: 'note-off',
+            0x9: 'note-on',
+            0xA: 'polyphonic-aftertouch',
+            0xB: 'control-mode-change',
+            0xC: 'program-change',
+            0xD: 'after-touch', 
+            0xE: 'pitch-wheel-range',
+            0xF: 'system-exclusive',
+            0x58: 'time-signature',
         };
     }
 }
 
-class MidiMessage { }
+class MidiMessage { 
+    
+}
 
-class MidiMetaMessage { }
+class MidiMetaMessage { 
+    constructor() {
+        console.log(MidiMessageTypes.NoteOff);
+    }
+}
 
 class MidiFileReader {
     constructor(data) {
@@ -129,9 +134,7 @@ class MidiMessageData {
                     var message = new MidiMetaMessage();
                     track.push(message);     
                     message.delta = delta;
-                    var hex_type = reader.read_int(1);
-                    console.log(hex_type);
-                    message.type = MidiMessageTypes.Hex[hex_type] || hex_type;
+                    message.type = reader.read_int(1);
                     var length = reader.read_int_vlv();
                     switch(message.type) {
                         case 0x2F:
@@ -149,12 +152,13 @@ class MidiMessageData {
                             message.data = reader.read_int(length);
                             break;
                         case 0x54:
+                            console.log('0x54');
+                            break;
                         case MidiMessageTypes.TimeSignature:
                             message.numerator = reader.read_int(1);
                             message.denominator = Math.pow(2, reader.read_int(1));
                             message.clocks_per_click = reader.read_int(1);
                             message.notated_32nd_notes_per_beat = reader.read_int(1);
-                            console.log(message);
                             break;
                         case 0x7F:
                             message.data = [];
@@ -176,8 +180,7 @@ class MidiMessageData {
                     track.push(message);
                     status_byte = status_byte.toString(16).split('');
                     if(!status_byte[1]) status_byte.unshift('0');
-                    var message_hex = parseInt(status_byte[0], 16);
-                    message.type = MidiMessageTypes.Hex[message_hex] || message_hex;
+                    message.type = parseInt(status_byte[0], 16);
                     message.channel = parseInt(status_byte[1], 16);
                     switch(message.type) {
                         case 0xF:
@@ -206,7 +209,6 @@ class MidiMessageData {
                 index++;
             }
         }
-
         console.log(this.messages);
     }
 }

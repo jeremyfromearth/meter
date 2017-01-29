@@ -297,20 +297,27 @@ class MidiMessageData {
 }
 
 class Midi {
-    static get InstrumentCategories() {
-        return {
-            'Pianos': [1, 8],
-            'Percussive': [9, 15], 
-            'Organs': [17, 21],
-            'Reeded': [21, 24],
-            'Guitar': [25, 32],
-            'Bass': [33, 40],
-            'Strings': [41, 47],
-            'Orchestral': [48, 56],
-            'Brass & Reeds': [57, 80],
-            'Synths': [81, 104],
-            'Misc': [105, 128]
-        }
+    // Each family contains 8 instruments
+    // 1-8 Pianos, 9-16 Chromatic Percussion, ...
+    static get InstrumentGroups() {
+        return [
+            'Pianos',
+            'Chromatic Percussive',
+            'Organ',
+            'Guitar',
+            'Bass',
+            'Strings',
+            'Ensemble',
+            'Brass',
+            'Reed',
+            'Pipe',
+            'Synth Lead',
+            'Synth Pad',
+            'Synth Effects',
+            'Ethnic',
+            'Percussive',
+            'Sound Effects'
+        ]
     }
 
     static get Instrument() {

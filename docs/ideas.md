@@ -17,7 +17,7 @@ Ideas for measurements on pieces of music. How can each measurement be made? Wha
         * Driving
         * Busy
 
-Quantative 
+* Quantative 
     * Power - How hard hitting is the piece of music. Variance in dynamic range?
     * Complexity - Variance between notes, time signatures, key signatures, tempo shifts.
     * Density - Example: Are there many short 32nd notes or long whole notes.
@@ -45,3 +45,8 @@ Returns files similar to the specified file(s). Allows specific axis to be used 
 
 ## Search
 A domain specific query language that enables making the above requests and more through an in browser text input. This tool could live in the tool panel and consist of something in between a command line interface and a file browser. 
+
+```
+$ search complexity(0.9) energy(peaceful, meandering) like(38182387, 2345890)
+```
+

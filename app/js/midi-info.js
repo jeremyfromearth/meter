@@ -32,6 +32,7 @@ class MidiInfo extends Widget {
                 <li>Total tracks: ${midi_object.messages.length}</li>
                 <li>Total messages: ${midi_object.message_count}</li>
                 <li>Song duration: ${midi_object.duration}</li>
+                <li>Tempo: ${Math.round((1000000 / midi_object.tempo) * 60)} BPM</li>
             </ul>`;
     }
 }

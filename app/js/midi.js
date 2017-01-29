@@ -151,6 +151,7 @@ class MidiFileReader {
 
 class MidiMessageData {
     constructor(reader) {
+        this.tempo = 120;
         this.duration = 0;
         this.messages = [];
         this.message_count = 0;
@@ -169,20 +170,22 @@ class MidiMessageData {
         } else {
             this.time_division  = (time_division_byte_1 * 256) + time_division_byte_2;
         }
-
+        var duration = 0;
         for(var i = 0; i < this.track_count; i++) {
             this.messages.push([]);
+            var track_duration = 0;
+            var status_byte = null;
+            var end_of_track = false;
+            var previous_status_byte = null;
             var track = this.messages[i];
             if(reader.read_int(4) !== 0x4D54726B) {
                 throw(Error('[MidiMessageData] - Track header is not valid'));    
             };
             reader.read_int(4);
-            var end_of_track = false;
-            var status_byte = null;
-            var previous_status_byte = null;
             while(!end_of_track) {
-                var delta = reader.read_int_vlv();
-                this.duration += delta;
+                var message = new MidiMessage();
+                message.delta = reader.read_int_vlv();
+                track_duration += message.delta;
                 status_byte = reader.read_int(1);
                 if(status_byte >= 128) {
                     previous_status_byte = status_byte;
@@ -192,8 +195,6 @@ class MidiMessageData {
                 }
 
                 if(status_byte === 0xFF) {
-                    var message = new MidiMessage();
-                    message.delta = delta;
                     message.meta = true;
                     message.type = reader.read_int(1);
                     var length = reader.read_int_vlv();
@@ -214,11 +215,13 @@ class MidiMessageData {
                             message.data = reader.read_int(1);
                             break;
                         case MidiMessage.EndOfTrack:
+                            this.duration = Math.max(this.duration, track_duration)
                             end_of_track = true;
                             break;
                         case MidiMessage.SetTempo:
-                        case MidiMessage.SequencerNumber:
+                        case MidiMessage.SequencerNumber:  
                             message.data = reader.read_int(length);
+                            if(i == 0) this.tempo = message.data;
                             break;
                         case MidiMessage.SmpteOffest:
                             message.framerate = MidiMessage.Framerates[reader.read_int(1) >> 6];
@@ -258,7 +261,6 @@ class MidiMessageData {
                     track.push(message);     
                     this.message_count++;
                 } else {
-                    var message = new MidiMessage();
                     status_byte = status_byte.toString(16).split('');
                     if(!status_byte[1]) status_byte.unshift('0');
                     message.type = parseInt(status_byte[0], 16);
@@ -444,4 +446,5 @@ class Midi {
         }
     }
 }
+
 export {MidiFileReader, MidiMessageData, MidiMessage}

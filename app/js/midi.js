@@ -295,6 +295,22 @@ class MidiMessageData {
 }
 
 class Midi {
+    static get InstrumentCategories() {
+        return {
+            'Pianos': [1, 8],
+            'Percussive': [9, 15], 
+            'Organs': [17, 21],
+            'Reeded': [21, 24],
+            'Guitar': [25, 32],
+            'Bass': [33, 40],
+            'Strings': [41, 47],
+            'Orchestral': [48, 56],
+            'Brass & Reeds': [57, 80],
+            'Synths': [81, 104],
+            'Misc': [105, 128]
+        }
+    }
+
     static get Instrument() {
         return {
               1: "Acoustic Grand Piano",

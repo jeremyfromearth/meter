@@ -7,7 +7,7 @@ class MidiInfo extends Widget {
         this.addClass('content');
         if(midi_object) update(midi_object);
         this.title.label = 'Midi Info';
-        this.node.innerHTML = `<input type='file' id='file-reader'/>`;
+        this.node.innerHTML = `<div><input type='file' id='file-reader'/><div></div></div>`;
     }
 
     onAfterAttach(msg) {
@@ -20,12 +20,19 @@ class MidiInfo extends Widget {
                 var data = new Uint8Array(event.target.result) 
                 var midi_reader = new MidiFileReader(data);
                 var midi_object = new MidiMessageData(midi_reader);
+                this.update(midi_object);
             });
         });
     }
 
     update(midi_object) {
-        
+        var div = this.node.getElementsByTagName('div')[1];
+        div.innerHTML =
+            `<ul>
+                <li>Total tracks: ${midi_object.messages.length}</li>
+                <li>Total messages: ${midi_object.message_count}</li>
+                <li>Song duration: ${midi_object.duration}</li>
+            </ul>`;
     }
 }
 

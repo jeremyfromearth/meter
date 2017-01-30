@@ -132,8 +132,8 @@ class MidiFileReader {
                 bytes.push(this.read_int(1) - 128);
             }
             var last_byte = this.read_int(1);
-            for(var dt = 1; dt <= bytes.length; dt++){
-                value = bytes[bytes.length - dt] * Math.pow(128, dt);
+            for(var byte = 1; byte <= bytes.length; byte++){
+                value = bytes[bytes.length - byte] * Math.pow(128, byte);
             }
             value += last_byte;
         }

@@ -61,7 +61,7 @@ var config = {
             from: './data',
             to: Paths.Build + './data'
         }]),
-        new CleanWebpackPlugin(Paths.Build),
+        new CleanWebpackPlugin([Paths.Build]),
     ]
 }
 

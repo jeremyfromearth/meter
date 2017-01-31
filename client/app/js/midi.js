@@ -126,7 +126,7 @@ class MidiFileReader {
         var value = 0;
         if(parseInt(this.data[this.read_index]) < 128) {
             value = this.read_int(1);
-        }else{
+        } else {
             var bytes = [];
             while(parseInt(this.data[this.read_index]) >= 128){
                 bytes.push(this.read_int(1) - 128);
@@ -193,7 +193,6 @@ class MidiMessageData {
                     status_byte = previous_status_byte;
                     reader.move_read_index_by(-1);
                 }
-
                 if(status_byte === 0xFF) {
                     message.meta = true;
                     message.type = reader.read_int(1);
@@ -502,7 +501,6 @@ class Midi {
             79: "Open Cuica",
             80: "Mute Triangle",
             81: "Open Triangle"
-           
         }
     }
 }

@@ -50,3 +50,11 @@ A domain specific query language that enables making the above requests and more
 $ search complexity(0.9) energy(peaceful, meandering) like(38182387, 2345890)
 ```
 
+
+## Instrument Builder
+An AI capabel of building new instruments. Given a set of qualitative descriptions or classifications (percussive, plucked, wind, etc...) and examples of each instrument as audio data and examples of each in the form of midi files (compositional data), the AI can synthesize new instruments.
+
+## Music as Information
+In what ways can music be represented? There are clear hierarchical stuctures in arrangement. Though sometimes that hierarchy will transform over the course of a composition. Are there existing structures for modeling these relationships and data?
+
+

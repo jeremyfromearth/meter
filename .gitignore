@@ -2,3 +2,4 @@ node_modules/
 build/
 utils/
 npm-debug.log
+__pycache__

@@ -7,7 +7,7 @@ var CleanWebpackPlugin = require('clean-webpack-plugin');
 var Paths = {
     Build: path.resolve(__dirname, 'build'),
     App: path.resolve(__dirname, 'app'),
-}
+};
 
 var config = {
     entry: {
@@ -24,7 +24,7 @@ var config = {
     },
 
     resolve: {
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.js']
     },
 
     module: {
@@ -62,7 +62,13 @@ var config = {
             to: Paths.Build + './data'
         }]),
         new CleanWebpackPlugin([Paths.Build]),
+        new webpack.optimize.UglifyJsPlugin({
+            sourceMap: true,
+            compress: {
+                warnings: false,
+            }
+        }),
     ]
-}
+};
 
 module.exports = config;

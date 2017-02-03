@@ -9,6 +9,8 @@ var Paths = {
     App: path.resolve(__dirname, 'app'),
 };
 
+console.log(Paths.Build);
+
 var config = {
     entry: {
         app: Paths.App + "/js/main.js"
@@ -59,7 +61,7 @@ var config = {
         }),
         new CopyWebpackPlugin([{
             from: './data',
-            to: Paths.Build + './data'
+            to: Paths.Build + '/data'
         }]),
         new CleanWebpackPlugin([Paths.Build]),
         new webpack.optimize.UglifyJsPlugin({

@@ -6,10 +6,9 @@ app.config.from_object('config')
 if app.config['DEBUG']:
     import os
     from werkzeug import SharedDataMiddleware
-    print('hello there')
     app.wsgi_app = SharedDataMiddleware(app.wsgi_app, {
         '/' : os.path.join(os.path.dirname(__file__), 'static')})
 
 @app.route('/')
 def index():
-    return app.send_static_file('./index.html')
+    return app.send_static_file('build/index.html')

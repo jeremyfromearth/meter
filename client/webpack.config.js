@@ -5,7 +5,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 var Paths = {
-    Build: path.resolve(__dirname, 'build'),
+    Build: path.resolve('../server/meter/static/build/'),
     App: path.resolve(__dirname, 'app'),
 };
 

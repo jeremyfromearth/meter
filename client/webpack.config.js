@@ -9,8 +9,6 @@ var Paths = {
     App: path.resolve(__dirname, 'app'),
 };
 
-console.log(Paths.Build);
-
 var config = {
     entry: {
         app: Paths.App + "/js/main.js"

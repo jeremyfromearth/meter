@@ -7,7 +7,7 @@
     "build:verbose": "webpack --display-error-details",
     "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch" : "webpack --watch"
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,8 @@
     "html-webpack-plugin": "^2.26.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^2.6.1"
   },
   "dependencies": {
     "css-loader": "^0.26.1",

@@ -24,7 +24,7 @@ var config = {
     },
 
     resolve: {
-        extensions: ['', '.js']
+        extensions: ['*', '.js']
     },
 
     module: {
@@ -38,7 +38,7 @@ var config = {
             loader: 'style-loader!css-loader' 
         }, { 
 	    test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, 
-            loader: 'url-loader?limit=10000&mimetype=application/font-woff' 
+            loader: 'url-loader?limit=10000&mimetype=application/font-woff'
         }, { 
             test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, 
             loader: 'url-loader?limit=10000&mimetype=application/font-woff' 
@@ -71,4 +71,6 @@ var config = {
     ]
 };
 
-module.exports = config;
+module.exports = function(env) {
+    return config;
+}

@@ -3,7 +3,6 @@ import {Observable} from 'rxjs'
 // Action Types
 const Log = 'log';
 const BootstrapComplete = 'bootstrap-complete';
-
 // Load all data needed at application init
 function bootstrap() {
     // TODO: Get user vars from local storage and load needed resources

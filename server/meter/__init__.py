@@ -2,6 +2,8 @@ from flask import Flask
 app = Flask(__name__)
 app.config.from_object('config')
 
+# TODO: figure out approach for serving static files in production
+# serve static files in debug mode using flask
 if app.config['DEBUG']:
     import os
     from werkzeug import SharedDataMiddleware
@@ -12,3 +14,14 @@ if app.config['DEBUG']:
 @app.route('/')
 def index():
     return app.send_static_file('build/index.html')
+
+@app.route('/file-search/')
+def file_listing(endpoint):
+    '''
+    Request data format:
+    #root
+    {"path": ""}
+    {"path": "classical/baroque/"
+    {"path": "pop/beatles/white-album/"}
+    '''
+    pass

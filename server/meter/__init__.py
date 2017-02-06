@@ -1,6 +1,8 @@
 from flask import Flask
+from flask_pymongo import PyMongo
 app = Flask(__name__)
 app.config.from_object('config')
+mongo = PyMongo(app)
 
 # TODO: figure out approach for serving static files in production
 # serve static files in debug mode using flask

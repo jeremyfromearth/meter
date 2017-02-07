@@ -1,4 +1,4 @@
-import * as d3 from 'd3'
+import {Observable} from 'rxjs'
 import {Widget} from 'phosphor/lib/ui/widget'
 
 class FileBrowser extends Widget {
@@ -9,7 +9,15 @@ class FileBrowser extends Widget {
 
         this.addClass('content');
         this.title.label = 'Files';
-        this.node.innerHTML = `<div id='midi-library-list'/>`
+        this.node.innerHTML = 
+            `<div>
+                <input id='search-input' type='text'></input>
+                <div id='midi-library-list'/>
+            </div>`
+    }
+
+    onAfterAttach(message) {
+        var search_input = document.getElementById('search-input');
     }
 
     update_list(data) {

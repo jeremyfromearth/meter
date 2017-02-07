@@ -16,7 +16,7 @@ var config = {
 
     output: {
         path: Paths.Build,
-        filename: '[name].js'
+        filename: '[name][chunkhash].js'
     },
 
     devServer: {

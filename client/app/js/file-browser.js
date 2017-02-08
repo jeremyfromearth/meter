@@ -1,6 +1,9 @@
 import {Observable} from 'rxjs'
 import {Widget} from 'phosphor/lib/ui/widget'
 
+//class FileBrowserSearch extends 
+//            <input id='search-input' class='file-browser-search-input' type='text'></input>
+
 class FileBrowser extends Widget {
     constructor(store) {
         super();
@@ -11,13 +14,27 @@ class FileBrowser extends Widget {
         this.title.label = 'Files';
         this.node.innerHTML = 
             `<div>
-                <input id='search-input' type='text'></input>
-                <div id='midi-library-list'/>
+                <div>
+                    <div id='midi-library-list'/>
+                </div>
             </div>`
     }
 
     onAfterAttach(message) {
+        /*
         var search_input = document.getElementById('search-input');
+        var keyup = Observable.fromEvent(search_input, 'keyup')
+            .debounceTime(250)
+            .map(function (e) {
+                return e.target.value;
+            })
+
+        keyup.subscribe((text)=> {
+            // TODO: Call action for search for files
+            console.log(text);
+            return {}
+        });
+        */
     }
 
     update_list(data) {

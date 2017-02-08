@@ -65,6 +65,10 @@ body {
 | MIDI File Browser
 |----------------------------------------------------------------------------*/
 
+.file-browser-search-input {
+
+}
+
 .midi-library-list-item-label {
     display: inline;
     padding: 0 0 0 .7em;

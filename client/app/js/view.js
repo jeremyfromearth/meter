@@ -23,6 +23,7 @@ class View {
         let source_panel = new TabPanel();
         let output = new OutputPanel(store);
 
+        // TODO: Create session widget class
         let session_widget = new Widget();
         session_widget.title.label = 'Project';
         session_widget.addClass('content');

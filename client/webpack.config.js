@@ -62,12 +62,14 @@ var config = {
             to: Paths.Build + '/data'
         }]),
         new CleanWebpackPlugin([Paths.Build]),
+        /*
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,
             compress: {
                 warnings: false,
             }
         }),
+        */
     ]
 };
 

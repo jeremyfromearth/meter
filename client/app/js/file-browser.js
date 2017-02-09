@@ -14,6 +14,9 @@ class FileBrowser extends Widget {
         this.title.label = 'Files';
         this.node.innerHTML = 
             `<div>
+                <div class='file-browser-search-input-container'>
+                    <input class='file-browser-search-input' id='search-input' type='text'></input>
+                </div>
                 <div>
                     <div id='midi-library-list'/>
                 </div>

@@ -1,9 +1,6 @@
 import {Observable} from 'rxjs'
 import {Widget} from 'phosphor/lib/ui/widget'
 
-//class FileBrowserSearch extends 
-//            <input id='search-input' class='file-browser-search-input' type='text'></input>
-
 class FileBrowser extends Widget {
     constructor(store) {
         super();
@@ -15,7 +12,7 @@ class FileBrowser extends Widget {
         this.node.innerHTML = 
             `<div>
                 <div class='file-browser-search-input-container'>
-                    <input class='file-browser-search-input' id='search-input' type='text'></input>
+                    <input id='search-input' type='text'></input>
                 </div>
                 <div>
                     <div id='midi-library-list'/>

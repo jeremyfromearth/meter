@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask_pymongo import PyMongo
 app = Flask(__name__)
 app.config.from_object('config')
@@ -17,13 +17,17 @@ if app.config['DEBUG']:
 def index():
     return app.send_static_file('build/index.html')
 
-@app.route('/file-search/')
-def file_listing(endpoint):
+@app.route('/search/')
+def file_listing():
+    search_filters = request.headers[search]
+
     '''
-    Request data format:
-    #root
-    {"path": ""}
-    {"path": "classical/baroque/"
-    {"path": "pop/beatles/white-album/"}
+    search:
+        artist: true
+        composers: true
+        albums: true
+        song_title: true
+        genres: []
+        date-range: (a, b)
     '''
     pass

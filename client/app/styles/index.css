@@ -13,7 +13,7 @@ body {
 
 input[type="text"] {
     border-color: #ccc;
-    border-radius: 0.3em;
+    border-radius: 0.25em;
     border-style: solid;
     border-width: 1px;
     box-shadow: none;
@@ -94,7 +94,7 @@ textarea:focus, input[type='text']:focus {outline:none;}
 
 .search-input-container {
     background-color: #eee;
-    border-radius: 3px;
+    border-radius: 0.25em;
     padding: 1em;
 }
 
@@ -116,8 +116,22 @@ textarea:focus, input[type='text']:focus {outline:none;}
     margin-top: 0.5em;
 }
 
+.search-results-container {
+    border-radius: 0.25em;
+    border-top: 0.1em #999 solid;
+    flex-grow: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 1.0em 1.0em 0 0;
+}
+
+.search-results-list {}
+
 .search-result-list-item {
-    padding: 0.3em;
+    margin: 0 0 0 1.0em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0.25em 1.0em 0.25em 0.0em;
     white-space: nowrap;
 }
 
@@ -129,16 +143,6 @@ textarea:focus, input[type='text']:focus {outline:none;}
     display: inline;
     font-family: sans-serif;
     padding: 0 0 0 .7em;
-}
-
-.search-results-container {
-    flex-grow: 1;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-.search-results-list {
-    padding: 0.25em;
 }
 
 /*-----------------------------------------------------------------------------
@@ -381,6 +385,6 @@ body {
 
 .content > div {
     border: 1px solid #505050;
-    border-radius: 0.3em;
+    border-radius: 0.25em;
     flex: 1 1 auto;
 }

@@ -87,7 +87,9 @@ textarea:focus, input[type='text']:focus {outline:none;}
 |----------------------------------------------------------------------------*/
 
 .search-container {
-    overflow-x: hidden;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .search-input-container {
@@ -127,6 +129,12 @@ textarea:focus, input[type='text']:focus {outline:none;}
     display: inline;
     font-family: sans-serif;
     padding: 0 0 0 .7em;
+}
+
+.search-results-container {
+    flex-grow: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .search-results-list {

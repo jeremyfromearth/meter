@@ -39,8 +39,8 @@ class FileBrowser extends Widget {
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <div id='midi-library-list'/>
+                <div id='search-results-container' class='search-results-container'>
+                    <div id='search-results-list' class='search-results-list'/>
                 </div>
             </div>`
     }
@@ -73,9 +73,7 @@ class FileBrowser extends Widget {
     }
 
     update_list(data) {
-        var list = document.getElementById('midi-library-list');
-        list.className = 'search-results-list';
-
+        var list = document.getElementById('search-results-list');
         for(var i = 0; i < data.file_system.midi_library.length; i++) {
             var item = document.createElement('div');
             item.className = 'search-result-list-item';

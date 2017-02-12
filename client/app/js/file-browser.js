@@ -7,20 +7,21 @@ class FileBrowser extends Widget {
         super();
         this.store = store;   
         this.store.subscribe('file_system.midi_library', this.update_list.bind(this));
-
         this.addClass('content');
         this.title.label = 'Files';
         this.filters_visible = false;
         this.node.innerHTML = 
-            `<div class='file-browser-container'>
-                <div class='file-browser-search-input-container'>
+            `<div class='search-container'>
+                <div class='search-input-container'>
                     <div>
-                        <div class='file-browser-search-filters-toggle'>Search</div>
+                        <div class='search-component-label'>Search</div>
                         <input id='search-input' type='text'></input>
                     </div>
-                    <div id='filter-selection'>
-                        <div id='search-filters-toggle' class='file-browser-search-filters-toggle'>Details</div>
-                        <ul id='filter-list'>
+                    <div id='search-filter-container' class='search-filter-container'>
+                        <span id='filter-toggle-arrow' class='fa fa-caret-right'>
+                            <div id='search-filters-toggle' class='search-component-label'>Details</div>
+                        </span>
+                        <ul id='filter-list' class='search-filters'>
                             <li><input type='checkbox' checked='true'/>Artist</li>
                             <li><input type='checkbox' checked='true'/>Album</li>
                             <li><input type='checkbox' checked='true'/>Composer</li>
@@ -48,15 +49,18 @@ class FileBrowser extends Widget {
         var details_toggle = document.getElementById('search-filters-toggle');
         details_toggle.addEventListener('click', () => {
             var filters_list = document.getElementById('filter-list'); 
-            console.log(filters_list);
+            var arrow = document.getElementById('filter-toggle-arrow');
             this.filters_visible = !this.filters_visible;
             d3.select(filters_list)
                 .style('display', this.filters_visible ? 'inherit' : 'none');
+            d3.select(arrow)
+                .classed('fa-caret-down fa-caret-right', false)
+                .classed(this.filters_visible ? 'fa-caret-down' : 'fa-caret-right', true);
         });
 
         var search_input = document.getElementById('search-input');
         var keyup = Observable.fromEvent(search_input, 'keyup')
-            .debounceTime(250)
+            .debounceTime(500)
             .map(function (e) {
                 return e.target.value;
             })
@@ -70,14 +74,14 @@ class FileBrowser extends Widget {
 
     update_list(data) {
         var list = document.getElementById('midi-library-list');
-        list.className = 'midi-library-list';
+        list.className = 'search-results-list';
 
         for(var i = 0; i < data.file_system.midi_library.length; i++) {
             var item = document.createElement('div');
-            item.className = 'midi-library-list-item';
+            item.className = 'search-result-list-item';
             item.innerHTML = 
                 `<span class='fa fa-file-sound-o'/> 
-                    <div class='midi-library-list-item-label'>
+                    <div class='search-item-label'>
                         ${data.file_system.midi_library[i].filename}
                     </div>`
             list.appendChild(item);

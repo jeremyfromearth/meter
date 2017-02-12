@@ -72,7 +72,7 @@ textarea:focus, input[type='text']:focus {outline:none;}
 }
 
 /*-----------------------------------------------------------------------------
-| OuputPanel
+| Ouput Panel
 |----------------------------------------------------------------------------*/
 
 .output-panel {
@@ -83,43 +83,53 @@ textarea:focus, input[type='text']:focus {outline:none;}
 }
 
 /*-----------------------------------------------------------------------------
-| MIDI File Browser
+| Data Panel
 |----------------------------------------------------------------------------*/
 
-.file-browser-container {
+.search-container {
     overflow-x: hidden;
 }
 
-.file-browser-search-input-container {
+.search-input-container {
     background-color: #eee;
     border-radius: 3px;
     padding: 1em;
 }
 
-.file-browser-search-filters-toggle {
+.search-component-label {
+    display: inline;
     font-size: 0.9em;
     font-weight: 600;
     padding: 0.5em 0 0.5em 0;
     user-select: none;
-
+    font-family: sans-serif;
 }
 
-.midi-library-list-item-label {
+.search-filter-container {
+    margin-top: 1em;
+}
+
+.search-filters {
+    display: none;
+    margin-top: 0.5em;
+}
+
+.search-result-list-item {
+    white-space: nowrap;
+    padding: 0.3em;
+}
+
+.search-result-list-item:hover {
+    background: #CCCCCC;
+}
+
+.search-item-label {
     display: inline;
     padding: 0 0 0 .7em;
     font-family: sans-serif;
 }
 
-.midi-library-list-item {
-    white-space: nowrap;
-    padding: 0.3em;
-}
-
-.midi-library-list-item:hover {
-    background: #CCCCCC;
-}
-
-.midi-library-list {
+.search-results-list {
     padding: 0.25em;
 }
 

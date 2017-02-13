@@ -26,6 +26,15 @@ class Store extends RxStore {
                         output_panel: state.output_panel.concat([action.data])
                     }
                     return result;
+                case Actions.SearchFiles:
+                    var result = {
+                        ...state,
+                        file_search: {
+                            ...state.file_search,
+                            state: action.data.search,
+                        },
+                    }
+                    return result;
                 default:
                     return state;
             }
@@ -60,6 +69,9 @@ const default_state = {
             bpm: {placeholder: 'ex. 120 or 90-130', label: 'BPM'},
             genres: {placeholder: 'ex. rock, pop, dance, hip-hop'},
             date_range: {placeholder: 'ex. 2000 or 1954-1970', label: 'Year(s)'},
+        }, 
+        results: {
+
         }
     },
     tools : [{

@@ -2,6 +2,7 @@ import * as d3 from 'd3'
 import UIBot from 'uibot'
 import {Observable} from 'rxjs'
 import {Widget} from 'phosphor/lib/ui/widget'
+import * as Actions from './actions'
 
 class FileSearch extends Widget {
     constructor(store) {
@@ -30,8 +31,8 @@ class FileSearch extends Widget {
                     <div id='search-results-list' class='search-results-list'/>
                 </div>
             </div>`;
-        //this.store.subscribe('file_system.midi_library', this.update_list.bind(this));
-        this.store.subscribe('file-search.config', this.update_search_config.bind(this));
+        this.store.subscribe('file_search.config', this.update_search_config.bind(this));
+        this.store.subscribe('file_search.results', this.update_search_results.bind(this));
     }
 
     onAfterAttach(message) {
@@ -57,9 +58,13 @@ class FileSearch extends Widget {
         keyup.subscribe((text)=> {
             // TODO: Call action for search for files
             this.search_state.search_terms = text;
-            this.update_search();
+            this.search();
             return {}
         });
+    }
+
+    search() {
+        this.store.dispatch(Actions.search_files(this.search_state));
     }
 
     update_list(data) {
@@ -82,11 +87,11 @@ class FileSearch extends Widget {
             this.search_state, 
             data.file_search.config, 
             document.getElementById('filters-container'), 
-            this.update_search.bind(this));
+            this.search.bind(this));
     }
 
-    update_search() {
-        console.log(this.search_state);
+    update_search_results(data) {
+         
     }
 }
 

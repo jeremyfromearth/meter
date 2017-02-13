@@ -1,9 +1,7 @@
 import {Observable} from 'rxjs'
 
-// Action Types
-const Log = 'log';
-const BootstrapComplete = 'bootstrap-complete';
 // Load all data needed at application init
+const BootstrapComplete = 'bootstrap-complete';
 function bootstrap() {
     // TODO: Get user vars from local storage and load needed resources
     return Observable.ajax('./data/filesystem.json')
@@ -19,6 +17,8 @@ function bootstrap() {
         });
 }
 
+// Log a message to the console
+const Log = 'log';
 function log(message) {
     return {
         type: Log,
@@ -26,9 +26,23 @@ function log(message) {
     }
 }
 
+// Search for files
+const SearchFiles = 'search-files';
+function search_files(search) {
+    // TODO: Get search results from server
+    return {
+        type: SearchFiles,
+        data: {
+            search: search
+        }
+    }
+}
+
 export {
     log,
     Log,
     bootstrap, 
-    BootstrapComplete
+    BootstrapComplete,
+    search_files,
+    SearchFiles
 }

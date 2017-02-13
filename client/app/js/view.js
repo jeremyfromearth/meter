@@ -6,7 +6,7 @@ import {Widget, WidgetFlag} from 'phosphor/lib/ui/widget'
 
 // applicaiton
 import {create_main_menu} from './menu'
-import {FileBrowser} from './file-browser'
+import {FileSearch} from './file-search'
 import {OutputPanel} from './output-panel'
 import {ToolBrowser} from './tool-browser'
 import {Workspace} from './workspace'
@@ -28,7 +28,7 @@ class View {
         session_widget.title.label = 'Project';
         session_widget.addClass('content');
 
-        let file_widget = new FileBrowser(store);
+        let file_widget = new FileSearch(store);
         let tools_widget = new ToolBrowser(store);
 
         // Visualization & Tools area

@@ -48,6 +48,7 @@
     "phosphor": "^0.7.0",
     "phosphor-menus": "^1.0.0-rc.1",
     "rxjs": "^5.0.3",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "uibot": "^1.1.0"
   }
 }

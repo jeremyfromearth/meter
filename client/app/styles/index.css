@@ -101,7 +101,7 @@ textarea:focus, input[type='text']:focus {outline:none;}
 .search-component-label {
     display: inline;
     font-family: sans-serif;
-    font-size: 0.9em;
+    font-size: 0.95em;
     font-weight: 600;
     padding: 0.5em 0 0.5em 0;
     user-select: none;
@@ -114,6 +114,20 @@ textarea:focus, input[type='text']:focus {outline:none;}
 .search-filters {
     display: none;
     margin-top: 0.5em;
+}
+
+.search-filters .uibot .boolean-container {
+    display: flex;
+}
+
+.search-filters .uibot .boolean-container .label{
+    padding-top: 0.25em;
+    font-size: 0.9em;
+}
+
+.search-filters .uibot .string-container .label{
+    padding-top: 0.5em;
+    font-size: 0.9em;
 }
 
 .search-results-container {

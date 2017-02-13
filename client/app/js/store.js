@@ -42,6 +42,26 @@ const default_state = {
     output_panel: [
 
     ],
+    file_search: {
+        state: {
+            artist: true,
+            album: true,
+            composer: true,
+            song_title: true,
+            genres: "",
+            date_range: "",
+            bpm: "",
+            file_types: []
+        },
+        config: {
+            defaults: ['artist', 'album', 'composer'],
+            song_title : {label: 'Song Title'},
+            file_types :  {options: ['MIDI', 'Audio']},
+            bpm: {placeholder: 'ex. 120 or 90-130', label: 'BPM'},
+            genres: {placeholder: 'ex. rock, pop, dance, hip-hop'},
+            date_range: {placeholder: 'ex. 2000 or 1954-1970', label: 'Year(s)'},
+        }
+    },
     tools : [{
             category: 'Analysis', 
             icon: 'fa-line-chart',

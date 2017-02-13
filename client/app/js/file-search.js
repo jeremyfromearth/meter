@@ -8,8 +8,6 @@ class FileSearch extends Widget {
         super();
         this.store = store;   
         this.search_state = {};
-        this.store.subscribe('file_system.midi_library', this.update_list.bind(this));
-        this.store.subscribe('file-search', this.update_file_search.bind(this));
         this.addClass('content');
         this.title.label = 'Files';
         this.filters_visible = false;
@@ -31,7 +29,9 @@ class FileSearch extends Widget {
                 <div id='search-results-container' class='search-results-container'>
                     <div id='search-results-list' class='search-results-list'/>
                 </div>
-            </div>`
+            </div>`;
+        //this.store.subscribe('file_system.midi_library', this.update_list.bind(this));
+        this.store.subscribe('file-search.config', this.update_search_config.bind(this));
     }
 
     onAfterAttach(message) {
@@ -56,7 +56,8 @@ class FileSearch extends Widget {
 
         keyup.subscribe((text)=> {
             // TODO: Call action for search for files
-            console.log(text);
+            this.search_state.search_terms = text;
+            this.update_search();
             return {}
         });
     }
@@ -75,12 +76,17 @@ class FileSearch extends Widget {
         }
     }
 
-    update_file_search(data) {
+    update_search_config(data) {
         this.search_state = {...data.file_search.state};
         this.filters_ui.build(
             this.search_state, 
             data.file_search.config, 
-            document.getElementById('filters-container'));
+            document.getElementById('filters-container'), 
+            this.update_search.bind(this));
+    }
+
+    update_search() {
+        console.log(this.search_state);
     }
 }
 

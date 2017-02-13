@@ -51,12 +51,12 @@ const default_state = {
             genres: "",
             date_range: "",
             bpm: "",
-            file_types: []
+            file_type: "MIDI"
         },
         config: {
             defaults: ['artist', 'album', 'composer'],
-            song_title : {label: 'Song Title'},
-            file_types :  {options: ['MIDI', 'Audio']},
+            song_title: {label: 'Song Title'},
+            file_type:  {options: ['MIDI', 'Audio'], label: 'File Type'},
             bpm: {placeholder: 'ex. 120 or 90-130', label: 'BPM'},
             genres: {placeholder: 'ex. rock, pop, dance, hip-hop'},
             date_range: {placeholder: 'ex. 2000 or 1954-1970', label: 'Year(s)'},

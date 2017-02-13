@@ -125,7 +125,7 @@ textarea:focus, input[type='text']:focus {outline:none;}
     font-size: 0.9em;
 }
 
-.search-filters .uibot .string-container .label{
+.search-filters .uibot .label{
     padding-top: 0.5em;
     font-size: 0.9em;
 }

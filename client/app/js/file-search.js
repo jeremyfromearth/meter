@@ -10,7 +10,7 @@ class FileSearch extends Widget {
         this.store = store;   
         this.search_state = {};
         this.addClass('content');
-        this.title.label = 'Files';
+        this.title.label = 'Search';
         this.filters_visible = false;
         this.filters_ui = UIBot();
         this.node.innerHTML = 
@@ -91,7 +91,7 @@ class FileSearch extends Widget {
     }
 
     update_search_results(data) {
-         
+             
     }
 }
 

@@ -18,13 +18,13 @@ class Store extends RxStore {
                             midi_library: action.data.file_system.midi_library
                         }, 
                         output_panel : state.output_panel.concat(['Bootstrap complete!'])
-                    }
+                    };
                     return result;
                 case Actions.Log:
                     var result = {
                         ...state,
                         output_panel: state.output_panel.concat([action.data])
-                    }
+                    };
                     return result;
                 case Actions.SearchFiles:
                     var result = {
@@ -33,7 +33,8 @@ class Store extends RxStore {
                             ...state.file_search,
                             state: action.data.search,
                         },
-                    }
+                    };
+                    console.log(result);
                     return result;
                 default:
                     return state;

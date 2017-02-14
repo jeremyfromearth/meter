@@ -11,6 +11,7 @@ for f in os.listdir('./'):
             bpms = {}
             bpm_duration = 0
             current_bpm = 120
+            programs = set()
             for msg in m:
                 duration += msg.time 
                 bpm_duration += msg.time
@@ -25,15 +26,17 @@ for f in os.listdir('./'):
                             current_bpm = round(tempo2bpm(msg.tempo))
                 else:
                     if msg.type == 'program_change':
-                        pass
+                        programs.add(msg.program)
+
             if current_bpm in bpms:
                 bpms[current_bpm] += bpm_duration
             else:
                 print('bpm_duration', bpm_duration)
                 bpms[current_bpm] = bpm_duration
 
-            print(duration)
-            print(max(bpms, key=bpms.get))
+            print('BPM', max(bpms, key=bpms.get))
+            print('Programs', programs)
+            print('Duration', m.length)
         except Exception as e:
             print('Could not open file', f)
             print(e)

@@ -15,10 +15,14 @@ def create_set_from_file(filename):
     with open(filename) as f:
         return set([line.rstrip().lower() for line in f])
 
+first_cap_re = re.compile('(.)([A-Z][a-z]+)')
+all_cap_re = re.compile('([a-z0-9])([A-Z])')
 def clean_text(t, trim=0):
-    result = t.lower()
+    result = t
     if trim > 0:
         result = result[:-trim]
+    result = first_cap_re.sub(r'\1 \2', result)
+    result = all_cap_re.sub(r'\1 \2', result).lower()
     result = re.sub('[-_.]', ' ', result)
     return re.findall(r"[\w']+", result)
 
@@ -54,6 +58,7 @@ for f in os.listdir(dirname):
                 programs = set()
                 filename = clean_text(f, 4)
                 words = [] + (filename)
+                lyrics = []
                 for msg in m:
                     duration += msg.time 
                     bpm_duration += msg.time
@@ -75,6 +80,9 @@ for f in os.listdir(dirname):
                     if msg.type == 'program_change':
                         programs.add(msg.program)
 
+                    if msg.type == 'lyrics':
+                        lyrics.append(msg.text)
+
                 if current_bpm in bpms:
                     bpms[current_bpm] += bpm_duration
                 else:
@@ -86,6 +94,7 @@ for f in os.listdir(dirname):
                 print('BPM:', max(bpms, key=bpms.get))
                 print('Programs:', programs)
                 print('Duration:', m.length)
+                print(' '.join(lyrics))
                 for i in range(1, 8):
                     ngrams = create_ngrams(words, i)
                     for gram in ngrams:

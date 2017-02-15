@@ -54,21 +54,26 @@ const default_state = {
     ],
     file_search: {
         state: {
-            artist: true,
-            album: true,
-            composer: true,
+            artists: "",
+            composers: "",
+            duration: 180.0,
             song_title: true,
+            artist: true,
+            genre: true,
             genres: "",
+            instruments: "",
             date_range: "",
-            bpm: "",
-            file_type: "MIDI"
+            bpm: ""
         },
         config: {
-            defaults: ['artist', 'album', 'composer'],
             song_title: {label: 'Song Title'},
-            file_type:  {options: ['MIDI', 'Audio'], label: 'File Type'},
+            defaults: ['artist', 'genre'],
+            duration: {label: 'Duration (seconds)', range: [5, 1000]},
             bpm: {placeholder: 'ex. 120 or 90-130', label: 'BPM'},
+            artists: {placeholder: 'ex. The Beatles, Alan Parsons Project'},
+            composers: {placeholder: 'ex. Hayned, Bach'},
             genres: {placeholder: 'ex. rock, pop, dance, hip-hop'},
+            instruments: {placeholder: 'ex. marimba, bass guitar'},
             date_range: {placeholder: 'ex. 2000 or 1954-1970', label: 'Year(s)'},
         }, 
         results: {

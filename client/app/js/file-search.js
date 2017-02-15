@@ -22,7 +22,7 @@ class FileSearch extends Widget {
                     </div>
                     <div id='search-filter-container' class='search-filter-container'>
                         <span id='filter-toggle-arrow' class='fa fa-caret-right'>
-                            <div id='search-filters-toggle' class='search-component-label'>Details</div>
+                            <div id='search-filters-toggle' class='search-component-label'>Advanced</div>
                         </span>
                         <div id='filters-container' class='search-filters'></div>
                     </div>

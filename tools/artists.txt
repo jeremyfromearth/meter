@@ -1,3 +1,5 @@
+"Spider" John Koerner
+"Weird Al" Yankovic
 'Til Tuesday
 +44
 .38 Special
@@ -55,6 +57,7 @@ ABBA
 ABC
 AC/DC
 AFI
+AJ Michalka
 APB
 ATC
 AWB
@@ -67,11 +70,13 @@ Aaron Hall
 Aaron Lewis
 Aaron Lines
 Aaron Neville
+Aaron Sprinkle
 Aaron Tippin
 Abra Moore
 Acceptance
 Ace
 Ace Cannon
+Ace Enders
 Ace Frehley
 Ace Of Base
 Adam Again
@@ -79,6 +84,10 @@ Adam Ant
 Adam Clayton & Larry Mullen
 Adam Gontier
 Adam Lambert
+Adam Leonard
+Adam Levine
+Adam Selzer
+Adam Shearer
 Adam Wade
 Adele
 Adina Howard
@@ -95,6 +104,7 @@ Against the Current
 Age of Chance
 Agnetha Faltskog
 Ahmad
+Aimee Mann
 Air
 Air Supply
 Air Traffic
@@ -104,22 +114,31 @@ Al B. Sure!
 Al Green
 Al Hirt
 Al Jarreau
+Al Lewis
 Al Martino
 Al Stewart
 Al Wilson
 Alabama
+Alan Doyle
 Alan Jackson
 Alan O'Day
 Alan Parsons Project
 Alana Davis
 Alanis Morissette
+Alanna Clarke
 Alannah Myles
 Albert Hammond
 Aldo Nova
+Alejandro Escovedo
+Alessia Cara
 Alex Clare
+Alex Day
+Alex Parks
 Alex Turner
 Alexander O'Neal
 Alexandra Stan
+Alexi Murdoch
+Alexz Johnson
 Ali Thomson
 Alias
 Alice Cooper
@@ -128,13 +147,19 @@ Alice in Chains
 Alicia Bridges
 Alicia Keys
 Alien Ant Farm
+Alison Krauss
 Alison Moyet
+Alison Sudol
+Alistair Griffin
 Alive and Kicking
 Alkaline Trio
 All Saints
 All Time Low
 All-4-One
 Allan Sherman
+Allison Crowe
+Allison Iraheta
+Allison Moorer
 Allure
 Alpha Rev
 Alphaville
@@ -144,9 +169,14 @@ Alternosfera
 Alvin Cash
 Alvvays
 Aly & AJ
+Aly Michalka
+Alyse Black
+Amanda Marshall
 Amanda Perez
 Amber
 Ambrosia
+Amelia Curran
+Amelle Berrabah
 America
 American Authors
 American Football
@@ -155,19 +185,30 @@ American Music Club
 American Standards
 Amerie
 Amii Stewart
+Amos Lee
 Amp
 Amplifier
 Amy Grant
 Amy Holland
 Amy Lee
+Amy Macdonald
+Amy Millan
+Amy Rigby
 Amy Winehouse
+Anais Mitchell
 Anarbor
+Anastacia
 Anavae
 Anberlin
+Andi Fraggs
 Andrea True Connection
+Andrew Bird
+Andrew Calhoun
+Andrew Cash
 Andrew Gold
 Andrew Jackson Jihad
 Andru Donalds
+Andy Brown
 Andy Creeggan
 Andy Gibb
 Andy Grammer
@@ -175,6 +216,7 @@ Andy Griggs
 Andy Kim
 Andy Taylor
 Andy Williams
+Angel Haze
 Angelica
 Angels & Airwaves
 Angie Martinez
@@ -184,17 +226,27 @@ Animal Collective
 Animotion
 Anita Baker
 Anita Bryant
+Anita Cochran
 Anita Ward
 Ann Peebles
+Ann Reed
 Ann Wilson and Robin Zander
 Ann-Margret
 Anna Nalick
 Anna Ternheim
+Anne Hills
 Anne Murray
 Annette
+Annie Clark
+Annie Gallup
 Annie Lennox
 Another Bad Creation
+Ant Henson
 Anthony Hamilton
+Anthony Kiedis
+Anthony Marinelli
+Anthony Newley
+Aoife O'Donovan
 Apollo 100
 Apparatjik
 April Wine
@@ -210,11 +262,15 @@ Arctic Monkeys
 Area 11
 Aretha Franklin
 Argent
+Ari Hest
+Ariana Gillis
+Ariana Grande
 Arkells
 Arlo Guthrie
 Armor for Sleep
 Army of Anyone
 Arrested Development
+Art Bergmann
 Art Garfunkel
 Art Of Noise
 Arthur Alexander
@@ -229,6 +285,7 @@ Ashford & Simpson
 Ashford and Simpson
 Ashlee Simpson
 Ashley Parker Angel
+Ashley Tisdale
 Asia
 Asian Kung-Fu Generation
 At the Drive-In
@@ -237,6 +294,7 @@ Atlanta Rhythm Section
 Atlantic Starr
 Atlas Genius
 Atom Smash
+Aubrey Ayala
 Audioslave
 Augie March
 Augustana
@@ -246,9 +304,11 @@ Autograph
 Autolux
 Avant
 Avenged Sevenfold
+Avi Jacob
 Avicii
 Avril Lavigne
 Awolnation
+Axl Rose
 Ayurveda
 Aztec Camera
 B*Witched
@@ -283,7 +343,9 @@ Bad Religion
 Bad Suns
 Badfinger
 Badly Drawn Boy
+Badly Drawn Boy (Damon Gough)
 Baha Men
+Bailey Tzuke
 Bailter Space
 Balance
 Balance and Composure
@@ -306,12 +368,14 @@ Barbra Streisand
 Barenaked Ladies
 Barrett Strong
 Barry And The Tamerlanes
+Barry Gibb
 Barry Manilow
 Barry Mann
 Barry McGuire
 Barry White
 Barry Young
 Basia
+Basia Bulat
 Bastille
 Bauhaus
 Bay City Rollers
@@ -321,6 +385,7 @@ Beangrowers
 Bear Hands
 Beastie Boys
 Beat Happening
+Bebe Rexha
 Beck
 Bedhead
 Bee Gees
@@ -333,26 +398,42 @@ Bellamy Brothers
 Belle and Sebastian
 Belly
 Ben E. King
+Ben Folds
 Ben Folds Five
 Ben Harper
+Ben Howard
 Ben Kweller
+Ben Moody
+Ben Sollee
 Benjamin Burnley
+Benjamin Gibbard
+Benji Madden
 Benny Mardones
 Bent Fabric and his Piano
 Berlin
+Bernie Leadon
+Bert Jansch
 Bert Kaempfert & His Orchestra
 Bert Kaempfert and His Orchestra
 Bertie Higgins
+Beth Hart
+Beth Nielsen Chapman
 Beth Orton
+Bethany Joy Lenz
 Bette Midler
 Better Than Ezra
+Betty Boo
 Betty Everett
 Betty Wright
 Bettye Swann
+Beverley Craven
+Beverley Knight
 Beverly Bremers
 Beware of Darkness
 Beyonce
 Beyoncé
+Beyoncé Knowles
+Bif Naked
 Biffy Clyro
 Big & Rich
 Big Audio Dynamite
@@ -375,9 +456,13 @@ Bill Callahan
 Bill Conti
 Bill Cosby
 Bill Deal & The Rhondels
+Bill Madden
 Bill Medley
+Bill Morrissey
+Bill Owen
 Bill Parsons
 Bill Pursell
+Bill Staines
 Bill Withers
 Billie Joe Armstrong
 Billie Myers
@@ -393,6 +478,7 @@ Billy Idol
 Billy J. Kramer with the Dakotas
 Billy Joe & The Checkmates
 Billy Joe Royal
+Billy Joe Shaver
 Billy Joel
 Billy Mackenzie
 Billy Ocean
@@ -417,6 +503,7 @@ Björk
 Black
 Black Box
 Black Box Recorder
+Black Francis
 Black Grape
 Black Kids
 Black Light Burns
@@ -429,7 +516,9 @@ Black Stone Cherry
 Blackfoot
 Blackstreet
 Blahzay Blahzay
+Blair Packham
 Blake Babies
+Blake Lewis
 Blake Shelton
 Blaque
 Bleachers
@@ -468,10 +557,13 @@ Bob Beckham
 Bob Carlisle
 Bob Crewe
 Bob Dylan
+Bob Franke
+Bob Howard
 Bob Kuban & The In-Men
 Bob Lind
 Bob Luman
 Bob Marley
+Bob Martin
 Bob Moore
 Bob Mould
 Bob Seger
@@ -480,6 +572,7 @@ Bob Seger System
 Bob Welch
 Bob hund
 Bobbi Martin
+Bobbie Cryner
 Bobbie Gentry
 Bobby 'Boris' Pickett
 Bobby (Boris) Pickett
@@ -510,14 +603,17 @@ Bobby Womack
 Bodeans
 Bodyjar
 Bombay Bicycle Club
+Bon Iver
 Bon Jovi
 Bone Crusher
 Bone Thugs N Harmony
 Bone Thugs-N-Harmony
 Boney M
+Bonnie McKee
 Bonnie Pointer
 Bonnie Raitt
 Bonnie Tyler
+Boo Hewerdine
 Booker T. & The M.G.'s
 Booker T. & The M.G.s
 Booker T. & The MG's
@@ -540,6 +636,9 @@ Boz Scaggs
 Bracket
 Brad Paisley
 Brand New
+Brandi Carlile
+Brandon Boyd
+Brandon Flowers
 Brandy
 Brandy & Monica
 Brantley Gilbert
@@ -554,24 +653,33 @@ Brenda Holloway
 Brenda K. Starr
 Brenda Lee
 Brenda Russell
+Brendan James
 Brenton Wood
 Brewer & Shipley
 Brian Hyland
 Brian Jonestown Massacre
+Brian May
 Brian McKnight
+Brian Wilson
 Brick
+Bridgit Mendler
 Bright Eyes
 Brighter Side Of Darkness
+Brigitte Zarie
 Bring Me The Horizon
 Britney Spears
+Britt Nicole
 Broder Daniel
 Broken Bells
 Broken Social Scene
 Brook Benton
+Brooke Annibale
 Brooke Hogan
 Brooke Valentine
+Brooke White
 Brooklyn Bridge
 Brooks & Dunn
+Brooks Williams
 Brother Beyond
 Brownstone
 Brownsville Station
@@ -579,17 +687,20 @@ Bruce Channel
 Bruce Cockburn
 Bruce Hornsby
 Bruce Springsteen
+Bruce Sudano
 Bruce Willis
 Bruno Mars
 Bryan Adams
 Bubba Sparxxx
 Buchanan Brothers
+Buck Owens
 Buckcherry
 Buckner & Garcia
 Bucky Covington
 Buddy Holly
 Buddy Jewell
 Buffalo Tom
+Buffy Sainte-Marie
 Built to Spill
 Bull And The Matadors
 Bulldog
@@ -603,6 +714,7 @@ Bush
 Busta Rhymes
 Busted
 Buster Brown
+Butch Walker
 Butthole Surfers
 Buzz Clifford
 Byron MacGregor
@@ -644,17 +756,25 @@ Carina Round
 Carl Carlton
 Carl Dobkins Jr.
 Carl Douglas
+Carl Jackson
 Carl Mann
 Carl Thomas
 Carla Thomas
+Carlos Pena, Jr.
 Carly Rae Jepsen
 Carly Simon
+Carmen Espinoza-Rodriquez
+Carmino Ravosa
 Carol Douglas
 Carole Bayer Sager
+Carole Fredericks
 Carole King
+Carole Pope
 Carolina Liar
 Carpenters
+Carrie Newcomer
 Carrie Underwood
+Carson Robison
 Carter USM
 Cascada
 Case
@@ -668,13 +788,17 @@ Cat Stevens
 Catatonia
 Cate Bros.
 Catfish and the Bottlemen
+Catherine MacLellan
+Catherine Porter
 Catherine Wheel
 Cathy Carr
 Cathy Dennis
 Cathy Jean
+Catie Curtis
 Cause & Effect
 Cave In
 Ce Ce Peniston
+CeCe Peniston
 Cee Lo Green
 Celebration
 Celi Bee and the Buzzy Bunch
@@ -691,25 +815,32 @@ Chaka Demus & Pliers
 Chaka Khan
 Chamillionaire
 Champaign
+Chan Marshall
 Changing Faces
 Chanson
+Chantal Kreviazuk
 Chantay Savage
 Chantay's
 Chante Moore
 Chapterhouse
 Charlene
 Charles & Eddie
+Charles E. King
+Charles Michael Kittridge
 Charles Wright and the Watts 103rd Street Band
 Charley Pride
 Charlie
 Charlie Daniels
 Charlie Daniels Band
 Charlie Dore
+Charlie Landsborough
+Charlie McDonnell
 Charlie Rich
 Charlie Ryan and the Timberline Riders
 Charlie Sexton
 Charlie Simpson
 Charlotte Gainsbourg
+Charlotte Gordon Cumming
 Chase
 Cheap Trick
 Cheech & Chong
@@ -723,6 +854,7 @@ Cherry Poppin Daddies
 Cherub
 Cheryl 'Pepsii' Riley
 Cheryl Lynn
+Cheryl Wheeler
 Chesney Hawkes
 Chester Bennington
 Chevelle
@@ -734,41 +866,55 @@ Chilliwack
 Chingy
 Chino Moreno
 Chiodos
+Chloe Temtchine
 Chris Barber's Jazz Band
 Chris Brown
 Chris Cagle
 Chris Cornell
 Chris Daughtry
 Chris DeBurgh
+Chris Hillman
 Chris Isaak
 Chris Kenner
 Chris Montez
+Chris Patrick
 Chris Rea
+Chris Smither
+Chris Thile
 Chris Thompson
+Chris Tomlin
 Chris Walker
+Chris Whitley
 Chris Young
+Chris de Burgh
 Christian Burns
 Christie
 Christina Aguilera
+Christina Grimmie
 Christina Milian
 Christina Perri
+Christine Fellows
+Christine Lavin
 Christine McVie
 Christion
 Christopher Cross
 Christopher Williams
 Chubby Checker
 Chuck Berry
+Chuck Brodsky
 Chuck Brown and the Soulsearchers
 Chuck Mangione
 Chuck Wicks
 Chumbawamba
 Chvrches
 Ciara
+Ciara Harris
 Cibo Matto
 Cinderella
 Circa Survive
 Circa Waves
 Circus Diablo
+Cisco Houston
 Citizen Cope
 Citizen King
 City Boy
@@ -806,11 +952,15 @@ Clyde McPhatter
 Cobra Starship
 Cock Robin
 Cocteau Twins
+Cody Wise
 Coheed and Cambria
 Colbie Caillat
 Colby O'Donis
 Cold War Kids
 Coldplay
+Colin Brooks
+Colin James
+Colin Stetson
 Collage
 Collective Soul
 Collin Raye
@@ -822,13 +972,19 @@ Common
 Company B
 Con Funk Shun
 Concrete Blonde
+Connie Converse
+Connie Dover
 Connie Francis
+Connie Kaldor
 Connie Stevens
+Conor Maynard
+Conor Oberst
 Consumer Rapport
 Controlled Bleeding
 Conway Twitty
 Coolio
 Copeland
+Corb Lund
 Corey Hart
 Corey Taylor
 Corina
@@ -840,10 +996,13 @@ Corona
 Corsairs
 Count Five
 Counting Crows
+Country Joe McDonald
 Courtney Love
+Courtney Taylor-Taylor
 Coven
 Cowboy Junkies
 Cracker
+Craig Cardiff
 Craig David
 Craig Mack
 Craig Morgan
@@ -854,12 +1013,14 @@ Cream
 Creed
 Creedence Clearwater Revival
 Crime Mob
+Cris Williamson
 Crispian St. Peters
 Crooked Fingers
 Crow
 Crowded House
 Crown The Empire
 Crucial Conflict
+Crystal Bowersox
 Crystal Gayle
 Crystal Waters
 Culture Beat
@@ -898,38 +1059,56 @@ DJ Sammy
 DJ Taz
 DMX
 DNA
+DW (Dave) Drouillard
 Da Brat
 Daddy Dewdrop
 Daddy Yankee
 Daisy Chainsaw
 Dale & Grace
+Dallas Green
+Damhnait Doyle
 Damita Jo
 Damn Yankees
+Damon Albarn
 Dan Baird
+Dan Bern
 Dan Fogelberg
 Dan Hartman
 Dan Hill
+Dan Nelson
 Dan Reed Network
+Dana Mase
+Dana Parish
 Daniel Amos
 Daniel Bedingfield
 Daniel Boone
+Daniel Bélanger
+Daniel Lavoie
 Daniel Powter
 Danity Kane
+Danny Elfman
 Danny O'Keefe
 Danny Williams
 Danny Wilson
 Dante and the Evergreens
+Dappy
+Dar Williams
+Darden Smith
 Darius Rucker
 Darlene Love
+Darrell Scott
 Darryl Worley
 Daryl Hall
 Daryl Hall & John Oates
 Das Damen
 Das EFX
 Dashboard Confessional
+Daughn Gibson
 Daughtry
 Dave "Baby" Cortez
+Dave Alvin
 Dave Brubeck Quartet
+Dave Carter
 Dave Clark Five
 Dave Dudley
 Dave Edmunds
@@ -937,33 +1116,56 @@ Dave Grohl
 Dave Hollister
 Dave Loggins
 Dave Mason
+Dave Matthews
 Dave Matthews Band
+Dave Swarbrick
+Dave Van Ronk
 David & David
 David A. Stewart
+David Ackles
 David Archuleta
 David Ball
 David Banner
+David Bazan
+David Blue
 David Bowie
+David Bromberg
+David Byrne
 David Cassidy
 David Cook
+David Crosby
 David Draiman
 David Dundas
 David Essex
 David Foster
 David Gates
 David Geddes
+David Gilmour
 David Gray
 David Guetta
 David Houston
+David Ippolito
+David Knopfler
 David Lasley
 David Lee Roth
+David Levin
+David M. Bailey
+David Mallett
 David Nail
 David Naughton
+David Olney
+David Paich
 David Rose and His Orchestra
+David Rovics
 David Ruffin
 David Seville
 David Seville and the Chipmunks
+David Sneddon
 David Soul
+David Steinhart
+David Tibet
+David Wiffen
+David Wilcox
 David and Ansil Collins
 Dawn
 Days of the New
@@ -979,6 +1181,7 @@ Dead Sara
 Dead by Sunrise
 Deadeye Dick
 Deaf Havana
+Dean Brody
 Dean Friedman
 Dean Martin
 Deane Hawley
@@ -986,13 +1189,16 @@ Deas Vail
 Death Cab for Cutie
 Death From Above 1979
 Debbie Gibson
+Debbie Harry
 Debbie Reynolds
 Debby Boone
 Debelah Morgan
 Deborah Allen
 Deborah Cox
+Dee Carstensen
 Dee Clark
 Dee Dee Sharp
+Dee Snider
 Deee-Lite
 Deep Blue Something
 Deep Purple
@@ -1014,6 +1220,7 @@ Demi Lovato
 Deniece Williams
 Denise LaSalle
 Denise Lopez
+Denison Witmer
 Dennis Coffey and the Detroit Guitar Band
 Dennis DeYoung
 Deodato
@@ -1029,6 +1236,7 @@ Desmond Dekker & the Aces
 Destiny's Child
 Detroit Emeralds
 Dev
+Devendra Banhart
 Device
 Devo
 Dexys Midnight Runners
@@ -1037,7 +1245,9 @@ Diamond Rio
 Diana King
 Diana Ross
 Diana Ross and the Supremes
+Diane Birch
 Diane Renay
+Diane Warren
 Dick & DeeDee
 Dick Flood
 Dick and DeeDee
@@ -1078,6 +1288,8 @@ Dixie Chicks
 Django Django
 Do Or Die
 Dobie Gray
+Doc Pomus
+Doc Watson
 Dodgy
 Dodie Stevens
 Dog's Eye View
@@ -1112,8 +1324,12 @@ Doris Troy
 Dorothy Moore
 Dorrough
 Dorsey Burnette
+Dory Previn
 Dottie West
 Double
+Doug Kershaw
+Doug Yoel
+Dougie MacLean
 Dove Shack
 Doves
 Down (AKA Kilo)
@@ -1122,15 +1338,19 @@ Dr. Dre
 Dr. Hook
 Dr. John
 Drake
+Drake Bell
 Dramarama
 Dramatics
 Dream
 Dream Syndicate
 Dreams So Real
 Dredg
+Drew Seeley
 Driver Friendly
 Drowners
 Dru Hill
+Dräco Rosa
+Dua Lipa
 Duane Eddy
 Dubstar
 Duffy
@@ -1142,6 +1362,7 @@ Dustin Lynch
 Dusty Springfield
 Dwight Twilley
 Dwight Twilley Band
+Dwight Yoakam
 E-40
 ELO
 EMF
@@ -1155,6 +1376,8 @@ Echo & the Bunnymen
 Echobelly
 Echosmith
 Ed Ames
+Ed Harcourt
+Ed Sheeran
 Eddie Cochran
 Eddie Floyd
 Eddie Hodges
@@ -1182,6 +1405,8 @@ Edwyn Collins
 Eels
 Egypt Central
 Eiffel 65
+Eileen McGann
+Eilen Jewell
 El Chicano
 El DeBarge
 Elastica
@@ -1193,20 +1418,35 @@ Elephant's Memory
 Eleventh Dream Day
 Eli Young Band
 Elisa Fiorillo
+Eliza Gilkyson
+Elizabeth Cotten
 Elizabeth Gillies
+Ella Eyre
 Ella Fitzgerald
+Ella Henderson
+Elle King
 Ellie Goulding
+Elliott Murphy
 Elliott Smith
 Elliott Yamin
+Ellis Paul
 Elton John
 Elvin Bishop
 Elvis Costello
 Elvis Presley
 Embrace
+Emeli Sandé
 Emerson Drive
 Emiliana Torrini
+Emilie Mover
 Emilio Pericoli
+Emily Haines
+Emily Maguire
 Eminem
+Emm Gryner
+Emmy Rossum
+Emmy the Great
+Emmylou Harris
 Empire of the Sun
 En Vogue
 Enanitos Verdes
@@ -1220,7 +1460,9 @@ Envy on the Coast
 Enya
 Erase Errata
 Erasure
+Eric Andersen
 Eric Benet
+Eric Bibb
 Eric Burdon and War
 Eric Burdon and the Animals
 Eric Carmen
@@ -1228,7 +1470,11 @@ Eric Church
 Eric Clapton
 Eric Gaffney
 Eric Heatherly
+Eric Taylor
+Eric Von Schmidt
+Erica Wheeler
 Erick Sermon
+Erin McKeown
 Ernie (Jim Henson)
 Ernie Fields
 Ernie K-Doe
@@ -1246,6 +1492,7 @@ Etta James
 Eugene Church
 Eugenius
 Europe
+Euros Childs
 Eurythmics
 Evan & Jaron
 Evanescence
@@ -1264,6 +1511,7 @@ Every Mothers' Son
 Everything But The Girl
 Everything but the Girl
 Evie Sands
+Ewan MacColl
 Exile
 Exposé
 Extreme
@@ -1273,6 +1521,7 @@ Eyeshine
 Fabian
 Fabolous
 Face To Face
+Faheem Najm
 Failure
 Faith Evans
 Faith Hill
@@ -1296,10 +1545,12 @@ Father MC
 Fats Domino
 Fearless Vampire Killers
 Feeder
+Fefe Dobson
 Fergie
 Ferlin Husky
 Ferrante & Teicher
 Ferrante and Teicher
+Ferron
 Field Mob
 Fightstar
 Filter
@@ -1328,6 +1579,7 @@ Flo Rida
 Flobots
 Floetry
 Florence + The Machine
+Florence Welch
 Florence and the Machine
 Flow
 Floyd Cramer
@@ -1356,14 +1608,19 @@ Foxy
 Foxy Brown
 Framing Hanley
 France Joli
+Francesca Battistelli
 Francesqa
 Franck Pourcel's French Fiddles
+Frank Black
 Frank Black and the Catholics
+Frank Christian
 Frank Gari
 Frank Ifield
+Frank J. Myers
 Frank Mills
 Frank Sinatra
 Frank Stallone
+Frank Turner
 Franke & The Knockouts
 Franke & the Knockouts
 Frankie Avalon
@@ -1376,20 +1633,26 @@ Frankie Smith
 Frankie Valli
 Franz Ferdinand
 Freak Nasty
+Fred Cole
 Fred Hughes
+Fred J. Eaglesmith
 Fred Knoblock
+Fred Neil
 Fred Wesley
 Freda Payne
 Freddie Cannon
 Freddie Hart
 Freddie Jackson
+Freddie Mercury
 Freddie Scott
 Freddie and the Dreamers
 Freddy Cannon
 Freddy Fender
 Freddy King
+Freddy Moore
 Fredrick Knight
 Free
+Freedy Johnston
 Freeze the Atlantic
 Frente!
 Frida
@@ -1406,11 +1669,15 @@ Fun
 Fun Factory
 Fun Lovin Criminals
 Fun.
+Félix Leclerc
 G-Unit
+GG Allin
 GQ
 GS Boyz
 GTR
 Gabrielle
+Gabrielle Aplin
+Gail Davies
 Galaxie 500
 Gale Garnett
 Gallery
@@ -1418,16 +1685,23 @@ Galt Aureus
 Game Theory
 Garbage
 Gardner & Dyke
+Gareth Davies
 Garfunkel
 Garnet Mimms
+Garnet Rogers
 Garry Miles
 Garry Mills
 Garth Brooks
 Gary "U.S." Bonds
 Gary (U.S.) Bonds
 Gary Allan
+Gary Barlow
+Gary Clark
 Gary Glitter
+Gary Jules
 Gary Lewis and the Playboys
+Gary Lightbody
+Gary Moore
 Gary Numan
 Gary Puckett
 Gary U.S. Bonds
@@ -1439,15 +1713,19 @@ Gavin Rossdale
 Gemini Syndrome
 Gene
 Gene Chandler
+Gene Clark
 Gene Cotton
 Gene Loves Jezebel
 Gene McDaniels
 Gene Pitney
 Gene Redding
+Gene Summers
 Gene and Debbe
 General Public
 Generationals
 Genesis
+Geoff Bartley
+Geoffrey Williams
 Geographer
 George Baker Selection
 George Benson
@@ -1473,6 +1751,7 @@ Giant Steps
 Giggles
 Gilbert O'Sullivan
 Gillette
+Gillian Welch
 Gin Blossoms
 Gina G
 Gina Thompson
@@ -1489,6 +1768,8 @@ Gladys Knight and the Pips
 Glass Tiger
 Glasvegas
 Glen Campbell
+Glen Phillips
+Glenn Danzig
 Glenn Frey
 Glenn Medeiros
 Glenn Yarbrough
@@ -1508,6 +1789,7 @@ Golden Earring
 Golden Palominos
 Goldfinger
 Gomez
+Gone Thursday
 Gonzalez
 Goo Goo Dolls
 Good Charlotte
@@ -1515,15 +1797,18 @@ Goodbye Mr. Mackenzie
 Goodie Mob
 Goodman & Brown
 Goon Moon
+Gordon Bok
 Gordon Lightfoot
 Gorilla Zoe
 Gorillaz
 Gotye
 Graham Coxon
+Graham Nash
 Grand Funk
 Grand Funk Railroad
 Grandaddy
 Grant Lee Buffalo
+Grant-Lee Phillips
 Grateful Dead
 Gravity Kills
 Grayson Hugh
@@ -1533,12 +1818,15 @@ Green Day
 Green Jelly
 Green River
 Green on Red
+Greg Brown
 Greg Guidry
 Greg Kihn
 Greg Kihn Band
 Gregg Allman
 Gregory Abbott
+Gregory Douglass
 Gretchen Wilson
+Grey DeLisle
 Grimes
 Grinderman
 Grizzly Bear
@@ -1550,9 +1838,12 @@ Guided by Voices
 Gumball
 Guns N' Roses
 Guster
+Guy Clark
 Guy Mitchell
+Guy Van Duser
 Gwen McCrae
 Gwen Stefani
+Gwendolyn
 Gym Class Heroes
 Gândul Mâței
 H-Town
@@ -1564,7 +1855,9 @@ Halestorm
 Half Japanese
 Halsey
 Hank Ballard and the Midnighters
+Hank Green
 Hank Locklin
+Hank Williams
 Hanson
 Happy Mondays
 Hard-Fi
@@ -1574,32 +1867,43 @@ Harold Faltermeyer
 Harold Melvin and the Blue Notes
 Harpers Bizarre
 Harry Chapin
+Harry Connick, Jr.
+Harry Nilsson
+Harry Styles
 Harvey Danger
 Havana Brown
+Hawksley Workman
 Hawthorne Heights
 Hayden
+Hayes Carll
 Hayley Mills
 Hayley Williams
+Haylie Duff
 Hazen Street
 He Is We
 Headstones
 Heart
 Heartland
 Heather Headley
+Heather Nova
 Heatwave
 Heavy D
 Heavy D & The Boyz
+Heidi Range
 Helen Reddy
+Helen Slater
 Helium
 Hello Sleepwalkers
 Hellogoodbye
 Henry Gross
 Henry Lee Summer
 Henry Mancini and His Orchestra
+Henry Rollins
 Henson Cargill
 Herb Alpert
 Herb Alpert & The Tijuana Brass
 Herb Alpert And The Tijuana Brass
+Herb Pedersen
 Herbie Mann
 Herman Brood
 Herman's Hermits
@@ -1615,7 +1919,10 @@ His Orchestra and Chorus
 Hockey
 Hoku
 Hole
+Holly Brook
+Holly Cole
 Holly McNarland
+Holly Near
 Hollywood Argyles
 Hollywood Undead
 Homer & Jethro
@@ -1639,6 +1946,7 @@ House Of Pain
 Houston
 Howard Jones
 Howie Day
+Hoyt Axton
 Hozier
 Hudson Brothers
 Hudson and Landry
@@ -1646,6 +1954,7 @@ Huey
 Huey Lewis & The News
 Huey Lewis And The News
 Huey Lewis and the News
+Hugh Blumenfeld
 Hugh Masekela
 Hugo Montenegro
 Hum
@@ -1668,10 +1977,14 @@ II D Extreme
 IMx
 INXS
 IV Xample
+Ian Anderson
 Ian Brown
+Ian Dury
 Ian Gomm
+Ian Hunter
 Ian Matthews
 Ian Thomas
+Ian Tyson
 Ian Whitcomb
 Ice Cube
 Icehouse
@@ -1680,6 +1993,7 @@ Icon For Hire
 Ida Maria
 Ideal
 Ideamen
+Idina Menzel
 Idlewild
 Iggy Pop
 Ike & Tina Turner
@@ -1691,8 +2005,11 @@ Immature
 Imogen Heap
 Inc.
 Incubus
+India.Arie
 Inez Foxx
 Information Society
+Ingrid Croce
+Ingrid Michaelson
 Ini Kamoze
 Inner Circle
 Inoj
@@ -1703,6 +2020,7 @@ Interpol
 Into Another
 Intro
 Irene Cara
+Iris DeMent
 Irma Thomas
 Iron & Wine
 Iron Butterfly
@@ -1710,6 +2028,7 @@ Irv Gotti Presents The Inc.
 Isaac Hayes
 Ivan Neville
 Ivo Robic
+Ivor Novello
 Ivoryline
 Iyaz
 J-Kwon
@@ -1722,25 +2041,32 @@ J.D. Souther
 J.J. Cale
 J.J. Fad
 J.J. Jackson
+J.P. Cormier
 JC Chasez
 JD
 JT Money
 Ja Rule
 Jack Blanchard & Misty Morgan
+Jack Grunsky
+Jack Hardy
 Jack Johnson
 Jack Jones
 Jack Off Jill
 Jack Scott
+Jack Tempchin
+Jack Vidgen
 Jack Wagner
 Jack White
 Jack's Mannequin
 Jackie DeShannon
+Jackie Greene
 Jackie Lee
 Jackie Moore
 Jackie Ross
 Jackie Wilson
 Jackson 5
 Jackson Browne
+Jackson C. Frank
 Jacksons
 Jacky Noguez and His Musette Orchestra
 Jadakiss
@@ -1748,16 +2074,25 @@ Jade
 Jagged Edge
 Jaguares
 Jaheim
+Jake Bugg
 Jake Owen
+Jakob Dylan
+Jamelia
 James
 James "The Rev" Sullivan
+James Bay
 James Blunt
 James Bourne
 James Brown
 James Darren
 James Gilreath
+James Hetfield
 James Iha
 James Ingram
+James Keelaghan
+James Maslow
+James McMurtry
+James Morrison
 James Otto
 James Ray
 James Taylor
@@ -1769,53 +2104,72 @@ Jamie Walters
 Jan & Dean
 Jan Bradley
 Jan Hammer
+Jan Randall
 Jan and Dean
 Jana Kramer
 Jane Child
+Jane Siberry
 Jane Wiedlin
 Jane's Addiction
+Janelle Monáe
 Janet
 Janet Jackson
 Janie Grant
 Janis Ian
 Janis Joplin
 Jann Arden
+Jared Leto
 Jaron And The Long Road To Love
 Jars Of Clay
 Jars of Clay
 Jarvis Cocker
 Jasmine Guy
 Jason Aldean
+Jason Collett
 Jason DeRulo
+Jason Derulo
 Jason Loewenstein
 Jason Mraz
 Jawbox
 Jay & the Americans
 Jay Ferguson
 Jay Sean
+Jay Semko
 Jay and the Americans
 Jay and the Techniques
 Jay-Z
 Jaya
+Jaymay
 Jazmine Sullivan
 Jean Knight
+Jean Leloup
 Jeanne Black
 Jeanne Pruett
 Jeannie C. Riley
+Jeff Bennett
 Jeff Buckley
+Jeff Mangum
+Jeff Tweedy
 Jefferson Airplane
 Jefferson Starship
+Jeffree Star
+Jeffrey Foucault
 Jeffrey Osborne
 Jellybean
 Jem
+Jenn Grant
+Jennette McCurdy
 Jennifer Holliday
 Jennifer Hudson
 Jennifer Lopez
+Jennifer Nettles
 Jennifer Paige
 Jennifer Rush
 Jennifer Warnes
 Jeremih
+Jeremy Fisher
 Jeremy Jordan
+Jeremy Taylor
 Jermaine Dupri
 Jermaine Jackson
 Jermaine Stewart
@@ -1823,18 +2177,25 @@ Jerrod Niemann
 Jerry Butler
 Jerry Cantrell
 Jerry Jaye
+Jerry Jeff Walker
 Jerry Lee Lewis
 Jerry Reed
 Jerry Vale
 Jerry Wallace
 Jersey Budd
 Jesse Belvin
+Jesse Brand
+Jesse Colin Young
+Jesse Harris
 Jesse Johnson
 Jesse Leach
 Jesse McCartney
 Jesse Powell
+Jesse Winchester
 Jessi Colter
 Jessica Andrews
+Jessica Cornish
+Jessica Harp
 Jessica Simpson
 Jessie Hill
 Jessie J
@@ -1843,17 +2204,28 @@ Jet
 Jethro Tull
 Jewel
 Jewel Akens
+Jez Lowe
 Jibbs
 Jigsaw
+Jill Barber
 Jill Scott
 Jill Sobule
+Jim Bianco
+Jim Bryson
 Jim Capaldi
 Jim Croce
+Jim Infantino
 Jim Jones
+Jim King
+Jim Lauderdale
+Jim Morrison
+Jim Noir
+Jim Page
 Jim Photoglo
 Jim Reeves
 Jim Stafford
 Jim Weatherly
+Jim Wolf
 Jimi Hendrix
 Jimmie Rodgers
 Jimmy "Bo" Horne
@@ -1873,7 +2245,11 @@ Jimmy Gilmer and the Fireballs
 Jimmy Hall
 Jimmy Hughes
 Jimmy Jones
+Jimmy LaFave
 Jimmy McGriff
+Jimmy Murphy
+Jimmy Pop
+Jimmy Rankin
 Jimmy Ray
 Jimmy Reed
 Jimmy Ruffin
@@ -1882,7 +2258,9 @@ Jimmy Soul
 Jimmy Wayne
 Jive Bunny & The Mastermixers
 Jo Dee Messina
+Jo-El Sonnier
 JoJo
+Joan Armatrading
 Joan Baez
 Joan Jett
 Joan Jett & The Blackhearts
@@ -1905,13 +2283,19 @@ Joe Harnell
 Joe Henderson
 Joe Hinton
 Joe Jackson
+Joe Jonas
 Joe Jones
+Joe Lopez
 Joe Nichols
 Joe Public
 Joe Simon
 Joe South
+Joe Strummer
 Joe Tex
 Joe Walsh
+Joel Gibb
+Joel Madden
+Joel Zifkin
 Joey Dee & the Starliters
 Joey Dee and the Starliters
 Joey Heatherton
@@ -1924,19 +2308,32 @@ John Cafferty
 John Cafferty and the Beaver Brown Band
 John Cougar
 John Cougar Mellencamp
+John Deacon
 John Denver
+John Flansburgh
 John Fogerty
 John Forte
 John Fred and His Playboy Band
+John Frusciante
+John Gorka
+John Hartford
+John Hiatt
+John K. Samson
 John Legend
 John Lennon
+John Linnell
+John Martyn
 John Mayer
 John Mellencamp
 John Michael Montgomery
+John Newman
 John O'Banion
 John Ono Lennon
+John Otway
 John Parr
 John Paul Young
+John Prine
+John Rzeznik
 John Schneider
 John Sebastian
 John Stewart
@@ -1944,6 +2341,7 @@ John Taylor
 John Travolta
 John Travolta and Olivia Newton-John
 John Valenti
+John Vesely
 John Waite
 John Williams
 John and Ernest
@@ -1964,6 +2362,8 @@ Johnny Maestro
 Johnny Marr
 Johnny Mathis
 Johnny Nash
+Johnny Otis
+Johnny Paycheck
 Johnny Preston
 Johnny Rivers
 Johnny Thunder
@@ -1972,21 +2372,34 @@ Johnny Wakelin and the Kinshasa Band
 Johnny and the Hurricanes
 Jon B.
 Jon Bon Jovi
+Jon Foreman
+Jon McLaughlin
 Jon Secada
 Jon Spencer Blues Explosion
 Jon and Robin
 Jonas Brothers
+Jonatha Brooke
+Jonathan Byrd
+Jonathan Coulton
 Jonathan Davis
 Jonathan Edwards
 Jonathan King
+Jonathan Richman
 Joni Mitchell
 Jordan Knight
 Jordin Sparks
 Jorgen Ingmann and His Guitar
 Jose Feliciano
+Joseph Arthur
+Josh Doyle
 Josh Gracin
+Josh Ritter
+Josh Rouse
 Josh Turner
+Josh White
 Joshua Kadison
+Joshua Radin
+Joss Stone
 Journey
 Joy Division
 Joyce Kennedy
@@ -2002,12 +2415,19 @@ Judy Collins
 Judybats
 Juelz Santana
 Juice Newton
+Jules Shear
+Julian Barry
 Julian Casablancas
 Julian Cope
 Julian Lennon
 Juliana Hatfield
+Julie Doiron
+Julie Miller
 Julie Rogers
+Julien Aklei
+Julien Baker
 Julien-K
+Juliet Wyers
 Juliette and the Licks
 Julio Iglesias
 Jumpin' Gene Simmons
@@ -2017,7 +2437,9 @@ Just Us
 Justin Bieber
 Justin Hayward
 Justin Moore
+Justin Nozuka
 Justin Timberlake
+Justin Vernon
 Juvenile
 K's Choice
 K-Ci & JoJo
@@ -2033,8 +2455,10 @@ KC and the Sunshine Band
 KISS
 KMFDM
 KT Tunstall
+Kacey Musgraves
 Kai Winding & Orchestra
 Kaiser Chiefs
+Kaitlyn Maher
 Kaizers Orchestra
 Kajagoogoo
 Kandi
@@ -2043,33 +2467,61 @@ Kane Roberts
 Kansas
 Kanye West
 Kardinal Offishall
+Karen Poole
+Kari Jobe
+Karl Blau
 Karla Bonoff
 Karmin
 Karyn White
 Kasabian
 Kasenetz-Katz Singing Orchestral Circus
+Kashif
 Kat Deluna
+Kat Flint
+Kate & Anna McGarrigle
 Kate Bush
+Kate Campbell
+Kate Earl
+Kate Nash
+Kate Rusby
+Kate Voegele
+Kate Wolf
 Katharine McPhee
+Kathleen Edwards
 Kathy Linden
+Kathy Mattea
+Kathy Sledge
 Kathy Troccoli
 Kathy Young
 Katrina & The Waves
+Katy Carr
 Katy Perry
 Ke$ha
+Keb' Mo'
 Keedy
+Keisha Buchanan
 Keith
+Keith Anderson
 Keith Carradine
+Keith Follesé
+Keith Jolie
 Keith Murray
+Keith Richards
 Keith Sweat
 Keith Urban
 Keith Washington
 Keke Wyatt
 Kelis
+Keller Williams
 Kellie Pickler
 Kelly Clarkson
+Kelly Joe Phelps
 Kelly Price
 Kelly Rowland
+Ken Andrews
+Kendall Schmidt
+Kenna
+Kenneth "Babyface" Edmonds
 Kenny Ball and His Jazzmen
 Kenny Chesney
 Kenny Dino
@@ -2080,25 +2532,33 @@ Kenny Nolan
 Kenny Rogers
 Kent
 Keri Hilson
+Keri Noble
 Kermit (Jim Henson)
+Kesha
 Ketty Lester
+Kevin Ayers
 Kevin Devine
+Kevin Jonas
 Kevin Lyttle
 Kevin Paige
 Kevin Rudolf
+Kevin Welch
 Kevon Edmonds
 Keyshia Cole
 Kid 'N Play
 Kid Cudi
 Kid Rock
+Kieran Kane
 Kiki Dee
 Kill Hannah
 Killdozer
 Killing Joke
 Killswitch Engage
 Kim Carnes
+Kim Richey
 Kim Wilde
 Kimbra
+Kimya Dawson
 King Charles
 King Curtis
 King Floyd
@@ -2128,10 +2588,13 @@ Kool & The Gang
 Korn
 Kraftwerk
 Kris Allen
+Kris Delmhorst
 Kris Jensen
 Kris Kristofferson
 Kris Kross
+Kristina Olsen
 Kristinia Debarge
+Kristy Hanson
 Kula Shaker
 Kurt Cobain
 Kut Klose
@@ -2157,6 +2620,7 @@ La Roux
 LaBelle
 LaFee
 LaVern Baker
+Labi Siffre
 Lacey Sturm
 Lady Antebellum
 Lady GaGa
@@ -2167,6 +2631,7 @@ Lalo Schifrin
 Lamont Dozier
 Lana Del Rey
 Larrikin Love
+Larry Blackmon
 Larry Elgart
 Larry Finnegan
 Larry Graham
@@ -2177,15 +2642,23 @@ Larsen-Feiten Band
 Lasgo
 Last Child
 Laura Branigan
+Laura Love
+Laura Marling
+Laura Nyro
+Laura Veirs
+Lauren Aquilina
 Lauren Wood
+Laurie Anderson
 Laurnea
 Lauryn Hill
 Lawrence Welk
 Lawson
+Layne Staley
 Le Click
 LeAnn Rimes
 LeBlanc and Carr
 LeToya
+Lead Belly
 Leapy Lee
 Led Zeppelin
 Lee Ann Womack
@@ -2194,30 +2667,39 @@ Lee Dorsey
 Lee Greenwood
 Lee Michaels
 Lee Ritenour
+Lefty Frizzell
 Leif Garrett
+Leigh Nash
 Len
 Len Barry
+Lena Fiagbe
 Lenny Kravitz
 Lenny Welch
 Leo Sayer
 Leon Haywood
 Leon Russell
 Leona Lewis
+Leonard Cohen
 Leroy Van Dyke
 Les Cooper and the Soul Rockers
 Les Crane
 Lesley Gore
+Leslie Feist
 Leslie Pearl
 Less Than Jake
 Let's Active
 Letters to Cleo
 Level 42
 Levert
+Levon Helm
+Liam Gallagher
+Liam Payne
 Liars
 Lidell Townsell & M.T.F.
 Lifehouse
 Lighthouse
 Lightning Seeds
+Lights
 Lil Bow Wow
 Lil Jon
 Lil Jon & The East Side Boyz
@@ -2231,21 +2713,28 @@ Lil' Mo
 Lil' Romeo
 Lil' Wayne
 Lil' Zane
+Lily Allen
 Lilys
 Limahl
+Lin-Manuel Miranda
 Lina Santiago
 Linda Jones
+Linda Perry
 Linda Ronstadt
 Linda Scott
+Linda Waterfall
 Lindisfarne
+Lindsay Lohan
 Lindsey Buckingham
 Linear
 Link
 Link Wray
 Linkin Park
 Lionel Richie
+Lisa Coleman
 Lisa Fischer
 Lisa Keith
+Lisa Lavie
 Lisa Lisa & Cult Jam
 Lisa Lisa And Cult Jam
 Lisa Loeb
@@ -2272,6 +2761,7 @@ Little Willie John
 Live
 Living Colour
 Living In A Box
+Livingston Taylor
 Liz Damon's Orient Express
 Liz Phair
 Lloyd
@@ -2284,6 +2774,7 @@ Lobo
 Local H
 Local Natives
 Lodger
+Logan Henderson
 Loggins & Messina
 Lolita
 Londonbeat
@@ -2296,7 +2787,11 @@ Loop
 Lord Tariq & Peter Gunz
 Lorde
 Loreena McKennitt
+Loretta Lynn
+Lori Cullen
+Lori McKenna
 Lorne Greene
+Lorraine Segato
 Los Bravos
 Los Del Rio
 Los Indios Tabajaras
@@ -2305,6 +2800,7 @@ Los Lonely Boys
 Los Umbrellos
 LostAlone
 Lostprophets
+Lotti Golden
 Lou Barlow
 Lou Bega
 Lou Christie
@@ -2316,7 +2812,10 @@ Loudon Wainwright III
 Louie Louie
 Louis Armstrong
 Louis Prima
+Louis Royer
+Louis Tomlinson
 Louis XIV
+Louise Taylor
 Love Among Freaks
 Love And Theft
 Love Battery
@@ -2332,10 +2831,15 @@ Low
 Lower Than Atlantis
 Lucas
 Lucero
+Lucie Silvas
+Lucinda Williams
+Lucy Kaplansky
 Lucy Pearl
 Ludacris
+Lui Collins
 Luke
 Luke Bryan
+Luke Doucet
 Lulu
 Lumidee
 Luna
@@ -2346,11 +2850,15 @@ Lush
 Luther Ingram
 Luther Vandross
 Lyfe Jennings
+Lyle Lovett
 Lynda Thomas
 Lynn Anderson
+Lynn Miles
+Lynsey de Paul
 Lynyrd Skynyrd
 M
 M People
+M. Ward
 M.C. Brains
 M.C. Breed
 M.C. Hammer
@@ -2362,12 +2870,14 @@ MC Lyte
 MFSB
 MGMT
 Mac Davis
+Mac Demarco
 Mac McAnally
 Mac and Katie Kissoon
 Mack 10
 Macy Gray
 Mad Cobra
 Mad Season
+Madeleine Peyroux
 Madeline Bell
 Madina Lake
 Madness
@@ -2376,10 +2886,14 @@ Madrugada
 Magic Dirt
 Magnapop
 Magoo & Timbaland
+Maia Sharp
 Maino
 Major Harris
 Major Lance
 Makethisrelate
+Mal Pope
+Malcolm David Kelley
+Malcolm Guite
 Malfunkshun
 Mallory Knox
 Malo
@@ -2395,13 +2909,18 @@ Mansun
 Manu Chao
 Manu Dibango
 Mar-Keys
+Marc Almond
 Marc Anthony
 Marc Cohn
 Marc Nelson
+Marc Scibilia
+Marce
 Marching Band
 Marcie Blane
 Marco Restrepo
 Marcy Playground
+Maren Ord
+Maria D'Luz
 Maria Muldaur
 Mariah Carey
 Marianas Trench
@@ -2410,39 +2929,57 @@ Marie Osmond
 Marilyn Manson
 Marilyn McCoo & Billy Davis Jr.
 Marilyn McCoo and Billy Davis Jr.
+Marina Diamandis
+Marina Lambrini Diamandis
 Marina and the Diamonds
 Mario
 Mario Vazquez
 Mario Winans
 Mark Chesnutt
 Mark Dinning
+Mark Erelli
+Mark Heard
 Mark Hoppus
+Mark Knopfler
+Mark Kozelek
+Mark Lanegan
 Mark Lindsay
 Mark Morrison
+Mark Owen
 Mark Wills
 Marky Mark & The Funky Bunch
 Maroon 5
 Maroon5
 Marques Houston
+Marshall Drew
 Martha & The Vandellas
 Martha & the Vandellas
 Martha Reeves and the Vandellas
+Martha Scanlan
+Martha Wainwright
 Martha and The Muffins
 Martha and the Vandellas
+Martie Maguire
 Martika
 Martin Denny
 Martin Page
+Martin Sexton
 Martin Solveig
 Martina McBride
 Marty Balin
 Marty Robbins
+Marty Stuart
+Martyn Joseph
 Marv Johnson
 Marvin Gaye
 Marvin Hamlisch
+Mary Chapin Carpenter
+Mary Gauthier
 Mary Hopkin
 Mary J. Blige
 Mary Jane Girls
 Mary MacGregor
+Mary Margaret O'Hara
 Mary Mary
 Mary Wells
 Mary's Danish
@@ -2453,13 +2990,21 @@ Massive Attack
 Masta Ace Incorporated
 Master P
 Mastodon
+Mat Kearney
 Matchbox 20
 Matchbox Twenty
+Matchstik
 Material Issue
 Matisyahu
+Matraca Berg
+Matt Bigland
+Matt Costa
+Matt Hales
+Matt Johnson
 Matt Monro
 Matt Nathanson
 Matt Shadows
+Matt Wertz
 Matt Willis
 Matt and Kim
 Matthew Good
@@ -2468,7 +3013,10 @@ Matthew Sweet
 Matthew Tuck
 Matthew Wilder
 Matthews' Southern Comfort
+Maura O'Connell
 Maureen McGovern
+Maurice Gibb
+Maurice White
 Maurice Williams & The Zodiacs
 Max Frost and the Troopers
 Maxi Priest
@@ -2479,26 +3027,36 @@ Maxïmo Park
 Mayday
 Mayday Parade
 Maynard Ferguson
+Maynard James Keenan
 Mazzy Star
 McBusted
 McFadden and Whitehead
 McFly
 McLusky
+Mean Gene Kelton
 Meat Loaf
 Meat Puppets
 Meco
 Medicine
+Meg Hutchinson
 Meg Myers
+Megan Slankard
+Meghan Trainor
 Mel And Tim
 Mel Carter
 Mel Torme
 Melanie
+Melanie Brown
+Melanie Chisholm
+Melanie Doane
 Melanie Fiona
 Melanie Martinez
 Meli'sa Morgan
 Melissa Auf der Maur
 Melissa Etheridge
+Melissa Ferrick
 Melissa Manchester
+Melissa McClelland
 Mellow Man Ace
 Melvins
 Men At Large
@@ -2511,45 +3069,65 @@ Meri Wilson
 Merle Haggard
 Merril Bainbridge
 Merrilee Rush
+Meryn Cadell
 Metallica
 Method Man
 Metro Station
 Miami Sound Machine
+Michael Andrews
 Michael Bolton
+Michael Bowers
 Michael Buble
 Michael Damian
+Michael Fracasso
 Michael Franti
+Michael J. Merenda, Jr.
 Michael Jackson
 Michael Johnson
+Michael Marra
+Michael Masser
 Michael McDonald
 Michael Morales
 Michael Murphey
+Michael Nesmith
 Michael Nesmith and the First National Band
 Michael Parks
 Michael Penn
 Michael Poulsen
 Michael Sembello
+Michael Smith
 Michael Stanley Band
 Michael Stipe
+Michael Sweet
 Michael W. Smith
+Michel Rivard
 Michel'le
 Michelle Branch
+Michelle Malone
+Michelle Shocked
 Mick Jagger
 Mick Jagger & David Bowie
+Mick Jones
 Mickey Gilley
 Mickey Mozart Quintet
+Mickey Newbury
 Middle Class Rut
 Midnight Oil
 Midnight Star
 Mighty Mighty Bosstones
 Miguel
 Miguel Rios
+Mika
 Mikaila
 Mike + The Mechanics
 Mike Clifford
+Mike Cross
+Mike Doughty
 Mike Douglas
 Mike Jones
+Mike Ness
 Mike Oldfield
+Mike Patton
 Mike Posner
 Mike Post
 Mike Reno & Ann Wilson
@@ -2569,6 +3147,7 @@ Minnie Riperton
 Mint Condition
 Minutemen
 Miracle Legion
+Mirah Yom Tov Zeitlyn
 Miranda Lambert
 Miriam Makeba
 Mis-teeq
@@ -2589,9 +3168,11 @@ Mocedades
 Models
 Modern English
 Modest Mouse
+Moe Berg
 Mogwai
 Moist
 Mokenstef
+Molly Jenson
 Moloko
 Monaco
 Mongo Santamaria Band
@@ -2609,6 +3190,7 @@ Morningwood
 Morphine
 Morris Albert
 Morrissey
+Mose Allison
 Mother Goose
 Mother Love Bone
 Mother Mother
@@ -2636,6 +3218,7 @@ Musical Youth
 Musiq
 Musiq Soulchild
 Mutemath
+Mutya Buena
 My Bloody Valentine
 My Chemical Romance
 My Darkest Days
@@ -2652,18 +3235,23 @@ N.O.R.E.
 N2Deep
 NOAH
 Nada Surf
+Nadia Ali
 Naked Eyes
 Name Taken
+Nanci Griffith
 Nancy Martinez
 Nancy Sinatra
 Nancy Wilson
+Nanette Maxine
 Napoleon XIV
 Nappy Roots
 Nas
 Nash & Young
 Nat King Cole
+Natalia Zukerman
 Natalie
 Natalie Cole
+Natalie Gelman
 Natalie Imbruglia
 Natalie Merchant
 Natasha Bedingfield
@@ -2681,6 +3269,8 @@ Neil Diamond
 Neil Hefti
 Neil Sedaka
 Neil Young
+Neko Case
+Nellie McKay
 Nelly
 Nelly Furtado
 Nelson
@@ -2690,6 +3280,7 @@ Neon Horse
 Neon Indian
 Neon Trees
 Nerf Herder
+Nerina Pallot
 Netral
 Neu Electrikk
 Neutral Milk Hotel
@@ -2704,17 +3295,23 @@ New Order
 New Politics
 New Radicals
 New York City
+Newton Faulkner
 Next
 Nia Peeples
 Nic Nassuet
 Nick Cannon
 Nick Cave and the Bad Seeds
+Nick Drake
 Nick Gilder
+Nick Granato
+Nick Harper
+Nick Jonas
 Nick Lachey
 Nick Lowe
 Nickelback
 Nicki French
 Nicki Minaj
+Nicky Jam
 Nico Vega
 Nicole
 Nicolette Larson
@@ -2724,8 +3321,12 @@ Night
 Night Ranger
 Night Verses
 Nightmare and the Cat
+Nik Kershaw
+Nikhil Korula
 Nikki
+Nikki Jean
 Nilsson
+Nina Nastasia
 Nina Simone
 Nina Sky
 Nine Black Alps
@@ -2743,6 +3344,7 @@ No Devotion
 No Doubt
 No Mercy
 Noel
+Noel Gallagher
 Noel Gallagher's High Flying Birds
 Noir Désir
 Nonchalant
@@ -2750,6 +3352,7 @@ Noori
 Norah Jones
 Noreaga
 Norma Tanega
+Norman Blake
 Norman Connors
 Norman Greenbaum
 Nothing But Thieves
@@ -2781,6 +3384,7 @@ Olenka and the Autumn Lovers
 Oleta Adams
 Oliver
 Olivia
+Olivia Bonilla
 Olivia Newton-John
 Ollie & Jerry
 Omarion
@@ -2810,6 +3414,7 @@ Ozma
 Ozzy Osbourne
 P!nk
 P. Diddy
+P. F. Sloan
 P.J. Harvey
 P.O.D.
 PJ Harvey
@@ -2817,6 +3422,7 @@ PM Dawn
 PVRIS
 Pablo Cruise
 Pacific Gas and Electric
+Paddy McAloon
 Pale Saints
 Panic! At The Disco
 Papa Roach
@@ -2827,6 +3433,7 @@ Paramore
 Paris Hilton
 Parliament
 Partners In Kryme
+Passenger
 Passion Pit
 Pat Benatar
 Pat Boone
@@ -2835,7 +3442,9 @@ Pato Fu
 Patrice Rushen
 Patrick Hernandez
 Patrick Simmons
+Patrick Stump
 Patrick Swayze
+Patrick Watson
 Patsy Cline
 Patti Austin
 Patti LaBelle
@@ -2843,26 +3452,34 @@ Patti Page
 Patti Smith
 Patti Smith Group
 Patty Duke
+Patty Griffin
+Patty Larkin
 Patty Smyth
 Paul & Linda McCartney
 Paul & Mary
 Paul & Paula
 Paul Anka
+Paul Butterfield
 Paul Carrack
 Paul Davis
 Paul Evans
 Paul Hardcastle
+Paul Heaton
 Paul Humphrey
 Paul Lekakis
 Paul Mauriat and His Orchestra
 Paul McCartney
 Paul Nicholas
 Paul Petersen
+Paul Poulton
 Paul Revere & the Raiders
 Paul Revere and the Raiders
+Paul Siebel
 Paul Simon
 Paul Stookey
+Paul Stuart Davies
 Paul Wall
+Paul Weller
 Paul Westerberg
 Paul Young
 Paul and Mary
@@ -2878,6 +3495,7 @@ Peaches & Herb
 Peaches and Herb
 Pearl Jam
 Pebbles
+Pebe Sebert
 Pedro the Lion
 Peggy Lee
 Peggy Scott & Jo Jo Benson
@@ -2890,17 +3508,27 @@ Pere Ubu
 Perfect Gentlemen
 Perry Como
 Pet Shop Boys
+Pete Doherty
 Pete Drake
+Pete Ham
+Pete Seeger
 Pete Townsend
 Pete Wingfield
+Peter Alsop
+Peter Bellamy
 Peter Bjorn and John
 Peter Brown
+Peter Case
 Peter Cetera
+Peter Cincotti
 Peter Frampton
 Peter Gabriel
+Peter Hammill
 Peter McCann
+Peter Mulvey
 Peter Murphy
 Peter Nero
+Peter Rowan
 Peter Schilling
 Peter Wolf
 Peter and Gordon
@@ -2909,17 +3537,22 @@ Petula Clark
 Phantogram
 Phantom Planet
 Pharrell
+Pharrell Williams
 Phil Collins
 Phil McLean
+Phil Ochs
 Phil Phillips
 Phil Seymour
 Phil Vassar
 Philip Bailey
+Philip Lindholm
 Phillip Phillips
 Phish
 Phoebe Snow
 Phoenix
 Photoglo
+Pia Mia
+Pierce Pettis
 Pierce the Veil
 Pierre Bouvier
 Pillar
@@ -2940,6 +3573,8 @@ Player
 Pleasure P
 Plies
 Plimsouls
+Plume Latraverse
+Plunkett
 Pluto
 Poco
 Poe
@@ -2948,6 +3583,7 @@ Pointer Sisters
 Poison
 Police
 Polly Brown
+Polly Scattergood
 Polvo
 Pond
 Poor Old Lu
@@ -2972,6 +3608,7 @@ Primal Scream
 Primitive Radio Gods
 Primus
 Prince
+Priscilla Ahn
 Procol Harum
 Prodigy
 Profyle
@@ -3012,11 +3649,18 @@ R.E.M.
 REO Speedwagon
 RTZ
 Ra Ra Riot
+Rachael Sage
+Rachael Yamagata
+Rachel Platten
 Radiohead
 Rage Against The Machine
 Rain Parade
+Raina Rose
+Rakim
 Ral Donner
+Ralph McTell
 Ralph Tresvant
+Ralston Bowles
 Ram Jam
 Rammstein
 Ramones
@@ -3036,6 +3680,7 @@ Rascal Flatts
 Raspberries
 Ratatat
 Ratt
+Raven-Symoné
 Raveonettes
 Ray Anthony
 Ray Barretto
@@ -3043,7 +3688,9 @@ Ray Bryant Combo
 Ray Charles
 Ray Charles Singers
 Ray Conniff
+Ray Davies
 Ray J
+Ray LaMontagne
 Ray Parker Jr.
 Ray Peterson
 Ray Price
@@ -3058,6 +3705,7 @@ Ready For The World
 Real Life
 Real McCoy
 Reba
+Reba McEntire
 Rebbie Jackson
 Recovery Child
 Red Hot Chili Peppers
@@ -3065,6 +3713,7 @@ Red House Painters
 Redbone
 Redd Kross
 Redeye
+Redfoo
 Redman
 Rednex
 Reef
@@ -3082,16 +3731,26 @@ Restless Heart
 Reunion
 Revenge
 Rex Smith
+Rhett Miller
+Rhonda Vincent
 Rhythm Heritage
 Ric Ocasek
+Rich Batsford
 Rich Boy
 Richard Ashcroft
 Richard Chamberlain
+Richard Fariña
 Richard Harris
 Richard Hawley
+Richard Manuel
 Richard Marx
+Richard Shindell
+Richard Thompson
+Richard Wright
 Richie Havens
+Richie Sambora
 Rick Astley
+Rick DePiro
 Rick Dees
 Rick James
 Rick Nelson
@@ -3101,6 +3760,8 @@ Rick Springfield
 Rickie Lee Jones
 Ricky Martin
 Ricky Nelson
+Ricky Ross
+Ricky Skaggs
 Ride
 Riff
 Right Said Fred
@@ -3108,26 +3769,34 @@ Rihanna
 Ringo Starr
 Rise Against
 Rita Coolidge
+Rita Ora
 Ritchie Valens
 Rivermaya
+Rivers Cuomo
 Roachford
 Rob Base & D.J. E-Z Rock
+Rob Heath
 Rob Thomas
 Rob Zombie
+Robbie Boyd
 Robbie Dupree
 Robbie Nevil
 Robbie Patton
 Robbie Williams
 Robert "Throb" Young
+Robert Earl Keen
 Robert Ellis Orrall
 Robert Goulet
+Robert Hunter
 Robert John
+Robert Johnson
 Robert Knight
 Robert Maxwell
 Robert Miles
 Robert Palmer
 Robert Parker
 Robert Plant
+Robert Smith
 Robert Tepper
 Roberta Flack
 Robin Gibb
@@ -3145,35 +3814,50 @@ Rockets
 Rockwell
 Rocky Burnette
 Rod Bernard
+Rod MacDonald
+Rod McKuen
+Rod Picott
 Rod Stewart
 Rodney Atkins
 Rodney Crowell
 Roger
+Roger Clyne
 Roger Daltrey
+Roger McGuinn
 Roger Miller
+Roger Taylor
+Roger Troutman
 Roger Voudouris
+Roger Waters
 Roger Williams
 Rolf Harris
 Rome
 Ron Holden
+Ron Sexsmith
 Ronnie Dove
 Ronnie Dyson
 Ronnie Hawkins
+Ronnie James Dio
 Ronnie McDowell
 Ronnie Milsap
 Ronny & The Daytonas
 Ronny and the Daytonas
 Rooney
+Rory McLeod
 Rosanne Cash
+Rose Cousins
 Rose Royce
 Roses Are Red
 Rosie
+Ross Lynch
 Roxette
 Roxy Music
 Roy Drusky
 Roy Hamilton
+Roy Harper
 Roy Head
 Roy Orbison
+Roy Wood
 Royal Bliss
 Royal Blood
 Royal Philharmonic Orchestra
@@ -3188,13 +3872,18 @@ Rude Boys
 Ruff Endz
 Rufus
 Rufus Thomas
+Rufus Wainwright
 Run DMC
 Run-D.M.C.
 Runt
 Rupert Holmes
 Rush
 Russ Irwin
+Ruthie Foster
+Ryan Adams
 Ryan Cabrera
+Ryan Fletcher
+Ryan Tedder
 Ryn Weaver
 Rythm Syndicate
 S Club 7
@@ -3203,6 +3892,7 @@ SCH
 SWV
 Sa-Fire
 Sade
+Sade Adu
 Safaris
 Safetysuit
 Saga
@@ -3220,8 +3910,10 @@ Sam & Dave
 Sam Cooke
 Sam Harris
 Sam Neely
+Sam Phillips
 Sam Roberts
 Sam Salter
+Sam Smith
 Sam and Dave
 Sam the Sham and the Pharaohs
 Samantha Fox
@@ -3229,12 +3921,16 @@ Samantha Mumba
 Samantha Sang
 Sambomaster
 Sami Jo
+Samm Bennett
 Sammi Smith
 Sammie
 Sammy Davis Jr.
 Sammy Hagar
 Sammy Johns
 Sammy Turner
+Sananda Maitreya
+Sandi Thom
+Sandy Denny
 Sandy Nelson
 Sandy Posey
 Santa Esmeralda
@@ -3244,9 +3940,18 @@ Saosin
 Sara Bareilles
 Sara Craig
 Sara Evans
+Sara Hickman
+Sarah Brightman
+Sarah Buxton
+Sarah Harmer
+Sarah Jarosz
+Sarah Lee Guthrie
 Sarah McLachlan
+Sarah Pedinotti
+Sarah Perrotta
 Sarah Vaughan
 Sarina Paris
+Sass Jordan
 Savage
 Savage Garden
 Save Ferris
@@ -3259,6 +3964,7 @@ Scarface
 Scarlett & Black
 School of Fish
 Scorpions
+Scott Law
 Scott McKenzie
 Scott Weiland
 Scotty McCreery
@@ -3268,10 +3974,13 @@ Screaming Trees
 Scritti Politti
 Seal
 Seals and Crofts
+Sean Danielsen
+Sean Duffy
 Sean Kingston
 Sean Paul
 Seaweed
 Sebadoh
+Sebastien Grainger
 Secondhand Serenade
 Seduction
 Seether
@@ -3295,9 +4004,12 @@ Shania Twain
 Shanice
 Shannon
 Shaquille O'Neal
+Sharon Jones
 Shaun Cassidy
 Shawn Colvin
+Shawn Mendes
 Shawn Mullins
+Shawn Phillips
 Shawn Stockman
 Shawnna
 Shawty Lo
@@ -3308,10 +4020,13 @@ Shed Seven
 Shedaisy
 Sheena Easton
 Sheila E.
+Sheila Nicholls
 Sheila on 7
+Shelagh McDonald
 Shelby Flint
 Shellac
 Shelley Fabares
+Shelly Poole
 Shep and the Limelites
 Sheryl Crow
 Shihad
@@ -3320,6 +4035,7 @@ Shiny Toy Guns
 Shirley Bassey
 Shirley Brown
 Shirley Ellis
+Shirley Manson
 Shirley Murdock
 Shirley and Company
 Shohortoli
@@ -3329,8 +4045,11 @@ Short Stack
 Shorty Long
 Shout Out Louds
 Shudder to Think
+Shwayze
+Si Kahn
 Sia Furler
 Sick Puppies
+Sierra Noble
 Sigur Rós
 Silk
 Silkk The Shocker
@@ -3341,6 +4060,7 @@ Silverstein
 Silversun Pickups
 Silvetti
 Simon & Garfunkel
+Simon Joyner
 Simon and Garfunkel
 Simple Minds
 Simple Plan
@@ -3348,16 +4068,19 @@ Simply Red
 Sinead O'Connor
 Sinéad Lohan
 Sinéad O'Connor
+Siobhán Donaghy
 Siouxsie and the Banshees
 Sir Douglas Quintet
 Sir Mix-A-Lot
 Sisqo
+Sisqó
 Sister Hazel
 Sister Janet Mead
 Sister Sledge
 Six Finger Satellite
 Sixpence None The Richer
 Sixpence None the Richer
+Sixto Rodriguez
 Skee-Lo
 Skeeter Davis
 Skid Row
@@ -3372,6 +4095,7 @@ Skylark
 Skypilot
 Skyy
 Slade
+Slaid Cleaves
 Slaughter
 Slave
 Sleater-Kinney
@@ -3384,6 +4108,7 @@ Slim Harpo
 Slint
 Slipknot
 Sloan
+Sloan Wainwright
 Slowdive
 Slum Village
 Sly & The Family Stone
@@ -3428,7 +4153,9 @@ Sonny
 Sonny & Cher
 Sonny Charles
 Sons of Day
+Sonya Kitchell
 Sophie B. Hawkins
+Soraya
 Sort Sol
 Soul Asylum
 Soul Coughing
@@ -3436,6 +4163,7 @@ Soul For Real
 Soul II Soul
 Soul Survivors
 SoulDecision
+Soulja Boy
 Soulja Boy Tell'em
 Soundgarden
 Sounds Of Sunshine
@@ -3468,6 +4196,7 @@ Spyro Gyra
 Squeeze
 Squirrel Nut Zippers
 Stabbing Westward
+Stacey Earle
 Stacey Q
 Stacie Orrico
 Stacy Earl
@@ -3475,6 +4204,7 @@ Stacy Lattisaw
 StainD
 Stampeders
 Stan Getz
+Stan Rogers
 Stanley Clarke/George Duke
 Starbuck
 Starflyer 59
@@ -3497,25 +4227,41 @@ Steel Breeze
 Steelheart
 Steely Dan
 Stellar West
+Stephan Jenkins
 Stephanie Mills
 Stephen Bishop
+Stephen Duffy
+Stephen Fearing
 Stephen Stills
+Stephin Merritt
 Steppenwolf
 Stereo MC's
 Stereolab
 Stereophonics
 Steve Adey
+Steve Albini
 Steve Azar
+Steve Baxter
+Steve Earle
 Steve Forbert
+Steve Goodman
 Steve Holy
+Steve Jocz
+Steve Knightley
 Steve Lawrence
+Steve Marriott
 Steve Martin
+Steve Millar
 Steve Miller Band
 Steve Perry
 Steve Taylor
 Steve Taylor & The Perfect Foil
+Steve Tilston
 Steve Wariner
 Steve Winwood
+Steve Young
+Steven Tyler
+Steven Van Zandt
 Stevie B
 Stevie Nicks
 Stevie Wonder
@@ -3523,6 +4269,8 @@ Stevie Woods
 Stills & Nash
 Stills and Nash
 Sting
+Stoll Vaughan
+Stompin' Tom Connors
 Stone Sour
 Stone Temple Pilots
 Stonebolt
@@ -3541,6 +4289,7 @@ Sublime
 Subway
 Sue Thompson
 Suede
+Sufjan Stevens
 Sugar
 Sugar Ray
 Sugarcult
@@ -3561,8 +4310,11 @@ Supertramp
 Surface
 Surrounded
 Survivor
+Susan Aglukark
+Susan Werner
 Suzanne Vega
 Suzi Quatro
+Suzy Bogguss
 Sweat & Tears
 Sweat and Tears
 Sweathog
@@ -3575,6 +4327,7 @@ Swingin' Medallions
 Switchfoot
 Sworn In
 Sybil
+Syd Barrett
 Sylk-E Fyne
 Sylvester
 Sylvia
@@ -3582,6 +4335,7 @@ Synch
 Syndicate Of Sound
 System Of A Down
 T'Pau
+T-Bone Burnett
 T-Pain
 T. Rex
 T.G. Sheppard
@@ -3596,6 +4350,7 @@ Tab Hunter
 Taco
 Tag Team
 Taio Cruz
+Taj Mahal
 Take That
 Takida
 Taking Back Sunday
@@ -3606,10 +4361,12 @@ Tame Impala
 Tami Show
 Tamia
 Tammy Wynette
+Tanita Tikaram
 Tank
 Tapes 'n Tapes
 Tappi Tíkarrass
 Tara Kemp
+Tara MacLean
 Tasmin Archer
 Tatyana Ali
 Tavares
@@ -3621,9 +4378,11 @@ Teairra Mari
 Team Sleep
 Tears For Fears
 Technotronic
+Ted Hawkins
 Ted Nugent
 Teddy Geiger
 Teddy Pendergrass
+Teddy Thompson
 Teegarden & Van Winkle
 Teena Marie
 Teenage Fanclub
@@ -3636,9 +4395,12 @@ Teresa Brewer
 Teri DeSario
 Terri Clark
 Terri Gibbs
+Terri Hendrix
 Terrible Things
 Terror Fabulous
 Terror Squad
+Terry Allen
+Terry Callier
 Terry Ellis
 Terry Jacks
 Terry Stafford
@@ -3787,6 +4549,7 @@ The Operation M.D.
 The Owl Service (band)
 The Pastels
 The Pillows
+The Platters
 The Pogues
 The Polyphonic Spree
 The Posies
@@ -3865,6 +4628,7 @@ Theola Kilgore
 Theory Of A Deadman
 Therapy?
 There For Tomorrow
+Theresa Andersson
 They Might Be Giants
 Thin Lizzy
 Thin White Rope
@@ -3890,8 +4654,13 @@ Tierra
 Tiffany
 Tiffany Alvord
 Tiger Please
+Tim Buckley
+Tim Hardin
+Tim Hughes
 Tim McGraw
 Tim McIlrath
+Tim O'Brien
+Tim Rice
 Timbaland
 Timbaland & Magoo
 Timbuk 3
@@ -3899,27 +4668,38 @@ Timex Social Club
 Timi Yuro
 Timmy T
 Timmy Thomas
+Timothy B. Schmit
 Tin Tin
 Tina Arena
 Tina Turner
 Tinie Tempah
+Tish Hinojosa
 Toad The Wet Sprocket
 Toad the Wet Sprocket
 Toadies
 Toby Beau
 Toby Keith
 Todd Rundgren
+Todd Snider
 Tokyo Police Club
 Tom Cochrane
 Tom DeLonge
 Tom Fletcher
 Tom Glazer
 Tom Jones
+Tom Lehrer
+Tom McRae
 Tom Morello
+Tom Odell
+Tom Paxton
 Tom Petty
 Tom Petty and the Heartbreakers
+Tom Rush
+Tom Russell
 Tom T. Hall
 Tom Tom Club
+Tom Vek
+Tom Waits
 Tomahawk
 Tommy Boyce and Bobby Hart
 Tommy Dee
@@ -3937,25 +4717,32 @@ Tones on Tail
 Toni Basil
 Toni Braxton
 Toni Fisher
+Toni Price
 Tonic
 Tonight Alive
 Tony Bellus
 Tony Bennett
+Tony Bird
 Tony Camillo's Bazuka
 Tony Carey
 Tony Joe White
+Tony Oller
 Tony Orlando
 Tony Orlando and Dawn
+Tony Ramey
 Tony Rich Project
 Tony Terry
 Tony! Toni! Toné!
 Too Much Joy
 Tool
+Top Quality
 Tori Amos
+Tori Kelly
 Total
 Toto
 Tove Lo
 Tower Of Power
+Townes Van Zandt
 Toya
 Trace Adkins
 Tracey Lee
@@ -3972,10 +4759,12 @@ Trapt
 Trashcan Sinatras
 Travie McCoy
 Travis
+Travis Meeks
 Travis Porter
 Travis Tritt
 Travis and Bob
 Trent Reznor
+Trevor Horn
 Trey Lorenz
 Trey Songz
 Trick Daddy
@@ -3984,16 +4773,20 @@ Trina
 Trini Lopez
 Tripping Daisy
 Trisha Yearwood
+Tristan Prettyman
 Triumph
 Troy Baker
 Troy Shondell
 Truth Hurts
 Tse Tse Fly
+Tulisa Contostavlos
 Tupac
+Tupac Shakur
 Tuxedo Junction
 Tweaker
 Tweet
 Twenty One Pilots
+Twiggy Ramirez
 Twin Atlantic
 Twista
 Twisted Sister
@@ -4001,6 +4794,8 @@ Two Door Cinema Club
 Tycoon
 Tyga
 Tyler Collins
+Tyler Hilton
+Tyler Joseph
 Tyrese
 Tyrone Davis
 Tyson Ritter
@@ -4033,6 +4828,8 @@ Urge Overkill
 Uriah Heep
 Us Amongst The Rest
 Usher
+Utada Hikaru
+Utah Phillips
 Utopia
 Uverworld
 V.I.C.
@@ -4043,6 +4840,7 @@ Van Halen
 Van McCoy
 Van Morrison
 Van Stephenson
+Vance Gilbert
 Vandenberg
 Vanessa Carlton
 Vanessa Petruo
@@ -4053,25 +4851,33 @@ Vanilla Fudge
 Vanilla Ice
 Vanity Fare
 Various Artists
+Vassy
 Vast
 Vector
+Veda Hille
 Velvet Revolver
 Vengaboys
 Veridia
+Vernon Dalhart
 Verona
 VersaEmerge
 Versus
 Vertical Horizon
 Veruca Salt
 Vib Gyor
+Vic Chesnutt
 Vic Chestnutt
 Vic Dana
+Vic Fuentes
 Vicki Lawrence
 Vicki Sue Robinson
+Victoria Banks
 Victoria Williams
+Vienna Teng
 Vik Venus
 Vikki Carr
 Village People
+Vince Bell
 Vince Gill
 Vince Guaraldi Trio
 Violent Femmes
@@ -4097,6 +4903,7 @@ Wallflowers
 Walt Mink
 Walter Brennan
 Walter Egan
+Walter Hyatt
 Walter Murphy
 Wang Chung
 Wannadies
@@ -4126,6 +4933,7 @@ Weeping Willows
 Weezer
 Weird Al Yankovic
 Wellwater Conspiracy
+Wendy Melvoin
 Westlife
 Westside Connection
 Wet Wet Wet
@@ -4147,14 +4955,22 @@ Wilbert Harrison
 Wilco
 Wild Cherry
 Wild Strawberries
+Will Hoge
+Will Oldham
 Will Smith
 Will To Power
+Will Young
 Willa Ford
 William Bell
 William DeVaughn
+William Fitzsimmons
 Willie Mitchell
 Willie Nelson
+Willie Nile
+Willie P. Bennett
+Willis Alan Ramsey
 Willow
+Willy Porter
 Wilson Phillips
 Wilson Pickett
 Wilton Place Street Band
@@ -4166,15 +4982,18 @@ Wink Martindale
 Wintersleep
 Wire
 Wiz Khalifa
+Wizz Jones
 Woe, Is Me
 Wolf Alice
 Wolf Parade
 Wooden Shjips
 Woodkid
+Woody Guthrie
 Working for a Nuclear Free City
 World Party
 Wreckx-N-Effect
 Wyclef Jean
+Wynn Stewart
 Xscape
 Xzibit
 YC
@@ -4183,8 +5002,10 @@ Yarbrough and Peoples
 Yellowcard
 Yes
 Ying Yang Twins
+Yoko Kikuchi
 Yolanda Adams
 Yolanda Be Cool
+Yolanda Pérez
 Young & Restless
 Young Black Teenagers
 Young Buck
@@ -4199,13 +5020,29 @@ YoungBloodZ
 Yung Berg
 Yung Joc
 Yung L.A.
+Yusuf Islam (formerly Cat Stevens)
 Yvonne Elliman
 ZZ Top
 Zac Brown Band
+Zack de la Rocha
 Zager & Evans
+Zayn Malik
+Zendaya
 Zhane
 dada
 diVINYLS
 hundred Reasons
+k.d. lang
 t.A.T.u.
 will.i.am
+Judie Tzuke
+Karl Wallinger
+Clifford T. Ward
+Roger Waters
+Helen Watson
+Robbie Williams
+Robin Williamson
+Amy Winehouse
+Robert Wyatt
+Pete Wylie
+Sami Yusuf

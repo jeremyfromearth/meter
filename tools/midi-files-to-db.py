@@ -94,7 +94,14 @@ for f in os.listdir(dirname):
                 print('BPM:', max(bpms, key=bpms.get))
                 print('Programs:', programs)
                 print('Duration:', m.length)
-                print(' '.join(lyrics))
+                print('Lyrics:', ' '.join(lyrics))
+                years = []
+                key_words = ' '.join(words)
+                year_search = re.findall(' (\d{4}) ', key_words)
+                if len(year_search) > 0:
+                    years = set([int(y) for y in year_search if int(y) > 1800 and int(y) < 2017])
+                print('Years', years)
+                print('Keywords:', key_words)
                 for i in range(1, 8):
                     ngrams = create_ngrams(words, i)
                     for gram in ngrams:
@@ -113,6 +120,7 @@ for f in os.listdir(dirname):
                             print('Video Game:', phrase)
                         if phrase in instruments:
                             print('Instrument:', phrase)
+
 				
             except Exception as e:
                 print('Could not open file', f)

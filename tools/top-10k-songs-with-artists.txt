@@ -5,17 +5,17 @@
 'Baby I'm For Real/Natural High', After 7 
 'The Way You Do The Things You Do/My Girl', Daryl Hall & John Oates 
 'Til You Do Me Right, After 7 
-('Til) I Kissed You, Everly Brothers, The 
+('Til) I Kissed You, Everly Brothers 
 (All Of A Sudden) My Heart Sings, Paul Anka 
 (Can't Live Without Your) Love And Affection, Nelson 
 (Dance With The) Guitar Man, Duane Eddy 
 (Do The) Push And Pull (Part 1), Rufus Thomas 
 (Don't Fear) The Reaper, Blue Öyster Cult 
 (Don't Worry) If There's A Hell Below We're All Going To Go, Curtis Mayfield 
-(Down At) Papa Joe's, Dixiebelles, The 
+(Down At) Papa Joe's, Dixiebelles 
 (Every Time I Turn Around) Back In Love Again, L.T.D. 
 (Everything I Do) I Do It For You, Bryan Adams 
-(For God's Sake) Give More Power To The People, Chi-Lites, The 
+(For God's Sake) Give More Power To The People, Chi-Lites 
 (Forever) Live And Die, Orchestral Manoeuvres In The Dark 
 (Ghost) Riders In The Sky, Outlaws 
 (Girls, Girls, Girls) Made To Love, Eddie Hodges 
@@ -92,15 +92,12 @@
 **1999**, Prince 
 ..Baby One More Time, Britney Spears 
 1 Thing, Amerie 
-1, 2 Step, Ciara 
-1,2,3 Red Light, 1910 Fruitgum Company, The 
-1,2,3,4 (Sumptin' New), Coolio 
-1,2,3,4, Plain White T's 
 1-2-3, Gloria Estefan 
 1-2-3, Len Barry 
 10-9-8, Face To Face 
 100 Years, Five For Fighting 
 100x Pure Love, Crystal Waters 
+12-Bar Original, The Beatles
 15 Minutes, Marc Nelson 
 16 Candles, Crests, The 
 18 And Life, Skid Row 
@@ -125,11 +122,11 @@
 32 Flavors, Alana Davis 
 33, Smashing Pumpkins, The 
 3am, Matchbox Twenty 
+4 5 6, Sole 
 4 Ever, Lil' Mo 
 4 In The Morning, Gwen Stefani 
 4 Minutes, Madonna 
 4 Seasons Of Loneliness, Boyz II Men 
-4, 5, 6, Sole 
 5 Miles To Empty, Brownstone 
 5 O'Clock, Nonchalant 
 5 O'Clock, T-Pain 
@@ -155,6 +152,7 @@
 99, Toto 
 A Bay Bay, Hurricane Chris 
 A Beautiful Morning, Rascals, The 
+A Beginning, The Beatles
 A Big Hunk O' Love, Elvis Presley 
 A Boy Named Sue, Johnny Cash 
 A Boy Without A Girl, Frankie Avalon 
@@ -163,6 +161,7 @@ A Broken Wing, Martina McBride
 A Change Would Do You Good, Sheryl Crow 
 A Cowboys Work Is Never Done, Sonny & Cher 
 A Day In My Life (Without You), Lisette Melendez 
+A Day In The Life, The Beatles
 A Different Corner, George Michael 
 A Different World, Bucky Covington 
 A Dose Of Rock 'N' Roll, Ringo Starr 
@@ -174,6 +173,7 @@ A Girl Like You, Smithereens, The
 A Girl Like You, Young Rascals 
 A Groovy Kind Of Love, Mindbenders, The 
 A Hard Day's Night, Beatles, The 
+A Hard Day's Night, The Beatles
 A Hazy Shade Of Winter, Simon and Garfunkel 
 A Horse With No Name, America 
 A Hundred Pounds Of Clay, Gene McDaniels 
@@ -212,6 +212,7 @@ A Question Of Temperature, Balloon Farm, The
 A Real Fine Place To Start, Sara Evans 
 A Rockin' Good Way (To Mess Around And Fall In Love), Dinah Washington 
 A Rose Is Still A Rose, Aretha Franklin 
+A Shot Of Rhythm And Blues, The Beatles
 A Sign Of The Times, Petula Clark 
 A Song For Mama, Boyz II Men 
 A Song Of Joy (Himmo A La Alegria), Miguel Rios 
@@ -220,6 +221,7 @@ A Summer Song, Chad Stuart and Jeremy Clyde
 A Sweet Woman Like You, Joe Tex 
 A Swingin' Safari, Billy Vaughn and His Orchestra 
 A Taste Of Honey, Martin Denny 
+A Taste Of Honey, The Beatles
 A Teenager In Love, Dion and the Belmonts 
 A Thousand Miles, Vanessa Carlton 
 A Thousand Stars, Kathy Young 
@@ -258,7 +260,9 @@ Accidentally In Love, Counting Crows
 According To You, Orianthi 
 Achy Breaky Heart, Billy Ray Cyrus 
 Across The River, Bruce Hornsby 
+Across The Universe, The Beatles
 Act A Fool, Ludacris 
+Act Naturally, The Beatles
 Action, Freddy Cannon 
 Action, Sweet 
 Action, Terror Fabulous 
@@ -314,6 +318,7 @@ Ain't Nothing 'Bout You, Brooks & Dunn
 Ain't Nothing Like The Real Thing, Donny & Marie 
 Ain't Nothing Like The Real Thing, Marvin Gaye 
 Ain't Nothing You Can Do, Bobby Bland 
+Ain't She Sweet, The Beatles
 Ain't That A Shame (Live), Cheap Trick 
 Ain't That Just Like A Woman, Fats Domino 
 Ain't That Loving You Baby, Elvis Presley 
@@ -370,11 +375,13 @@ All I Want To Do, Sugarland
 All I Want, 702 
 All I Want, Toad The Wet Sprocket 
 All I Wanted, Kansas 
+All I've Got To Do, The Beatles
 All In My Mind, Maxine Brown 
 All My Life, Foo Fighters 
 All My Life, K-Ci & JoJo 
 All My Life, Linda Ronstadt 
 All My Love, Queen Pen 
+All My Loving, The Beatles
 All Night Long (All Night), Lionel Richie 
 All Night Long, Faith Evans 
 All Night Long, Joe Walsh 
@@ -402,13 +409,16 @@ All The Small Things, Blink-182
 All The Things (Your Man Won't Do), Joe 
 All The Things She Said, t.A.T.u. 
 All The Young Dudes, Mott the Hoople 
+All Things Must Pass, The Beatles
 All This Love, DeBarge 
 All This Time, Sting 
 All This Time, Tiffany 
 All Those Years Ago, George Harrison 
 All Through The Night, Cyndi Lauper 
+All Together Now, The Beatles
 All Woman, Lisa Stansfield 
 All You Need Is Love, Beatles, The 
+All You Need Is Love, The Beatles
 All You Wanted, Michelle Branch 
 All Your Life, Band Perry, The 
 All-American Girl, Carrie Underwood 
@@ -492,6 +502,7 @@ An Innocent Man, Billy Joel
 An Old Fashioned Love Song, Three Dog Night 
 And I Am Telling You I'm Not Going, Jennifer Holliday 
 And I Love Her, Beatles, The 
+And I Love Her, The Beatles
 And I Love You So, Perry Como 
 And On And On, Janet Jackson 
 And Our Feelings, Babyface 
@@ -499,6 +510,7 @@ And She Was, Talking Heads
 And The Beat Goes On, Whispers, The 
 And We Danced, Hooters 
 And When I Die, Blood, Sweat and Tears 
+And Your Bird Can Sing, The Beatles
 Angel Baby, Angelica 
 Angel Baby, Rosie 
 Angel Eyes, Jeff Healey Band, The 
@@ -523,12 +535,14 @@ Angie, Rolling Stones, The
 Angry All The Time, Tim McGraw 
 Animal, Def Leppard 
 Animal, Neon Trees 
+Anna (Go To Him), The Beatles
 Annie's Song, John Denver 
 Anniversary, Tony! Toni! Toné! 
 Another Brick In The Wall (Part II), Pink Floyd 
 Another Day In Paradise, Phil Collins 
 Another Day, Paul McCartney 
 Another Dumb Blonde, Hoku 
+Another Girl, The Beatles
 Another Lover, Giant Steps 
 Another Night, Real McCoy 
 Another One Bites The Dust, Queen 
@@ -541,6 +555,7 @@ Anticipation, Carly Simon
 Any Day Now, Ronnie Milsap 
 Any Love, Luther Vandross 
 Any Man Of Mine, Shania Twain 
+Any Time At All, The Beatles
 Any Time, Any Place, Janet Jackson 
 Any Way That You Want Me, Evie Sands 
 Any Way You Want It, Dave Clark Five 
@@ -601,6 +616,7 @@ Ascension (Don't Ever Wonder), Maxwell
 Ashes By Now, Rodney Crowell 
 Asia Minor, Kokomo 
 Ask Me What You Want, Millie Jackson 
+Ask Me Why, The Beatles
 Ask Me, Elvis Presley 
 Ask Of You, Raphael Saadiq 
 Ask The Lonely, Four Tops 
@@ -666,6 +682,7 @@ Baby I'm-A Want You, Bread
 Baby It's You, JoJo 
 Baby It's You, Shirelles, The 
 Baby It's You, Smith 
+Baby It's You, The Beatles
 Baby Jane, Rod Stewart 
 Baby Let Me Kiss You, King Floyd 
 Baby Let Me Take You (In My Arms), Detroit Emeralds 
@@ -679,6 +696,8 @@ Baby That's Backatcha, Smokey Robinson
 Baby The Rain Must Fall, Glenn Yarbrough 
 Baby What You Want Me To Do, Jimmy Reed 
 Baby Workout, Jackie Wilson 
+Baby You're A Rich Man, The Beatles
+Baby's In Black, The Beatles
 Baby, Ashanti 
 Baby, Baby Don't Cry, Smokey Robinson 
 Baby, Brandy 
@@ -709,6 +728,7 @@ Back In My Arms Again, Supremes, The
 Back In The Day, Ahmad 
 Back In The High Life Again, Steve Winwood 
 Back In The U.S.A., Linda Ronstadt 
+Back In The USSR, The Beatles
 Back In Time, Pitbull 
 Back Off Boogaloo, Ringo Starr 
 Back On The Chain Gang, Pretenders, The 
@@ -727,6 +747,7 @@ Backwater, Meat Puppets
 Backyard Boogie, Mack 10 
 Bad Blood, Neil Sedaka 
 Bad Boy, Miami Sound Machine 
+Bad Boy, The Beatles
 Bad Boys, Inner Circle 
 Bad Case Of Loving You (Doctor, Doctor), Robert Palmer 
 Bad Day, Daniel Powter 
@@ -802,6 +823,7 @@ Beat Of A Heart, Scandal
 Beat's So Lonely, Charlie Sexton 
 Beatnik Fly, Johnny and the Hurricanes 
 Beautiful Day, U2 
+Beautiful Dreamer, The Beatles
 Beautiful Girls, Sean Kingston 
 Beautiful In My Eyes, Joshua Kadison 
 Beautiful Liar, Beyonce 
@@ -828,6 +850,7 @@ Because They're Young, Duane Eddy
 Because You Love Me, Jo Dee Messina 
 Because You Loved Me, Celine Dion 
 Because, Dave Clark Five, The 
+Because, The Beatles
 Bed Of Roses, Bon Jovi 
 Bed, J. Holiday 
 Bedrock, Young Money 
@@ -850,6 +873,7 @@ Beggin', Four Seasons, The
 Beginnings, Chicago 
 Behind Closed Doors, Charlie Rich 
 Behind These Hazel Eyes, Kelly Clarkson 
+Being For The Benefit Of Mr Kite!, The Beatles
 Being With You, Smokey Robinson 
 Believe Me, Royal Teens 
 Believe, Cher 
@@ -860,6 +884,7 @@ Bend Me, Shape Me, American Breed, The
 Bennie And The Jets, Elton John 
 Bent, matchbox twenty 
 Bernadette, Four Tops 
+Besame Mucho, The Beatles
 Best Days Of Your Life, Kellie Pickler 
 Best Friend, 50 Cent 
 Best Friend, Brandy 
@@ -929,6 +954,7 @@ Birdland, Chubby Checker
 Birthday Cake, Rihanna 
 Birthday Sex, Jeremih 
 Birthday Suit, Johnny Kemp 
+Birthday, The Beatles
 Birthday, Underground Sunshine 
 Bitch, Meredith Brooks 
 Bits And Pieces, Dave Clark Five, The 
@@ -955,6 +981,7 @@ Black Superman/Muhammad Ali, Johnny Wakelin and the Kinshasa Band
 Black Velvet, Alannah Myles 
 Black Water, Doobie Brothers, The 
 Blackberry Molasses, Mista 
+Blackbird, The Beatles
 Blackout, Breathe Carolina 
 Blah Blah Blah, Ke$ha 
 Blame It On The Bossa Nova, Eydie Gorme 
@@ -984,6 +1011,7 @@ Blue Bayou, Roy Orbison
 Blue Collar Man (Long Nights), Styx 
 Blue Eyes Crying In The Rain, Willie Nelson 
 Blue Eyes, Elton John 
+Blue Jay Way, The Beatles
 Blue Jean, David Bowie 
 Blue Monday, Orgy 
 Blue Money, Van Morrison 
@@ -1060,6 +1088,7 @@ Boy In The Box, Corey Hart
 Boyfriend #2, Pleasure P 
 Boyfriend, Ashlee Simpson 
 Boyfriend, Justin Bieber 
+Boys, The Beatles
 Brain Stew/Jaded, Green Day 
 Brand New Girlfriend, Steve Holy 
 Brand New Key, Melanie 
@@ -1179,10 +1208,10 @@ Buy Me A Rose, Kenny Rogers
 Buy U A Drank (Shawty Snappin'), T-Pain 
 By The Time This Night Is Over, Kenny G 
 By The Way, Red Hot Chili Peppers 
+Bye Bye Baby (Baby Goodbye), Four Seasons, The 
 Bye Bye Bye, N'Sync 
 Bye Bye, Jo Dee Messina 
 Bye Bye, Mariah Carey 
-Bye, Bye, Baby (Baby Goodbye), Four Seasons, The 
 C U When U Get There, Coolio 
 C'Mon N' Ride It (The Train), Quad City DJ's 
 C'est La Vie, B*Witched 
@@ -1239,6 +1268,7 @@ Can't Be Tamed, Miley Cyrus
 Can't Believe It, T-Pain 
 Can't Believe, Faith Evans 
 Can't Buy Me Love, Beatles, The 
+Can't Buy Me Love, The Beatles
 Can't Cry Anymore, Sheryl Crow 
 Can't Cry Hard Enough, Williams Brothers, The 
 Can't Deny It, Fabolous 
@@ -1295,13 +1325,16 @@ Careless Whisper, Wham!
 Caribbean Queen (No More Love On The Run), Billy Ocean 
 Caribbean, Mitchell Torok 
 Carlene, Phil Vassar 
+Carnival Of Light, The Beatles
 Carnival, Natalie Merchant 
+Carol, The Beatles
 Carolina In The Pines, Michael Murphey 
 Carpet Man, 5th Dimension, The 
 Carrie Anne, Hollies, The 
 Carrie, Europe 
 Carry On Wayward Son, Kansas 
 Carry Out, Timbaland 
+Carry That Weight, The Beatles
 Cars, Gary Numan 
 Casanova, Levert 
 Case Of The Ex (Whatcha Gonna Do), Mya 
@@ -1320,6 +1353,7 @@ Caught Up In The Rapture, Anita Baker
 Caught Up In You, .38 Special 
 Caught Up, Usher 
 Causing A Commotion, Madonna 
+Cayenne, The Beatles
 Cecilia, Simon & Garfunkel 
 Celebrate, Three Dog Night 
 Celebration, Kool & The Gang 
@@ -1334,6 +1368,7 @@ Chain Of Fools, Aretha Franklin
 Chained, Marvin Gaye 
 Chains Of Love, Erasure 
 Chains, Cookies, The 
+Chains, The Beatles
 Chains, Tina Arena 
 Change Clothes, Jay-Z 
 Change Of Heart, Cyndi Lauper 
@@ -1378,6 +1413,7 @@ Chevy Van, Sammy Johns
 Chewy Chewy, Ohio Express 
 Chick-A-Boom (Don't Ya Jes' Love It), Daddy Dewdrop 
 Chicken Fried, Zac Brown Band 
+Child Of Nature, The Beatles
 Children Of The Night, Richard Marx 
 Children, Robert Miles 
 China Girl, David Bowie 
@@ -1391,6 +1427,7 @@ Choo Choo Train, Box Tops, The
 Choose, Color Me Badd 
 Chopped 'N' Skrewed, T-Pain 
 Christine Sixteen, KISS 
+Christmas Time (Is Here Again), The Beatles
 Chuck E.'s In Love, Rickie Lee Jones 
 Chug-A-Lug, Roger Miller 
 Church Of The Poison Mind, Culture Club 
@@ -1400,10 +1437,12 @@ Cindy's Birthday, Johnny Crawford
 Cinnamon, Derek 
 Circle In The Sand, Belinda Carlisle 
 Circle Of Life, Elton John 
+Circles, The Beatles
 Circus, Britney Spears 
 Clair, Gilbert O'Sullivan 
 Clap For The Wolfman, Guess Who, The 
 Clap Your Hands, Beau-Marks, The 
+Clarabella, The Beatles
 Classical Gas, Mason Williams 
 Clean Up Woman, Betty Wright 
 Cleanin' Out My Closet, Eminem 
@@ -1448,6 +1487,7 @@ Come & Talk To Me, Jodeci
 Come A Little Bit Closer, Jay & the Americans 
 Come A Little Closer, Dierks Bentley 
 Come And Get It, Badfinger 
+Come And Get It, The Beatles
 Come And Get These Memories, Martha & The Vandellas 
 Come And Get With Me, Keith Sweat 
 Come And Get Your Love, Real McCoy 
@@ -1489,6 +1529,7 @@ Come To Me, Marv Johnson
 Come To My Window, Melissa Etheridge 
 Come Together, Aerosmith 
 Come Together, Beatles, The 
+Come Together, The Beatles
 Come Undone, Duran Duran 
 Come With Me, Puff Daddy 
 Come With Me, Shai 
@@ -1615,7 +1656,9 @@ Crumblin' Down, John Cougar Mellencamp
 Crush On You, Jets, The 
 Crush, David Archuleta 
 Crush, Jennifer Paige 
+Cry Baby Cry, The Beatles
 Cry Baby, Garnet Mimms 
+Cry For A Shadow, The Beatles
 Cry For Help, Rick Astley 
 Cry For You, Jodeci 
 Cry Like A Baby, Box Tops, The 
@@ -1633,6 +1676,7 @@ Crying Out For Me, Mario
 Crying Time, Ray Charles 
 Crying, Don McLean 
 Crying, Roy Orbison 
+Crying, Waiting, Hoping, The Beatles
 Crystal Blue Persuasion, Tommy James and the Shondells 
 Cuddly Toy (Feel For Me), Roachford 
 Culo, Pitbull 
@@ -1673,6 +1717,8 @@ Dance (A$$), Big Sean
 Dance (Disco Heat), Sylvester 
 Dance Across The Floor, Jimmy "Bo" Horne 
 Dance Again, Jennifer Lopez 
+Dance Dance Dance (Yowsah, Yowsah, Yowsah), Chic 
+Dance Dance Dance, Beach Boys, The 
 Dance Hall Days, Wang Chung 
 Dance Into The Light, Phil Collins 
 Dance Naked, John Mellencamp 
@@ -1686,8 +1732,6 @@ Dance With Me, Drifters, The
 Dance With Me, Orleans 
 Dance With Me, Peter Brown 
 Dance With My Father, Luther Vandross 
-Dance, Dance, Dance (Yowsah, Yowsah, Yowsah), Chic 
-Dance, Dance, Dance, Beach Boys, The 
 Dance, Dance, Fall Out Boy 
 Dancin' Away With My Heart, Lady Antebellum 
 Dancin' Man, Q 
@@ -1733,6 +1777,7 @@ Day By Day, Hooters
 Day Dreaming, Aretha Franklin 
 Day Is Done, Peter, Paul and Mary 
 Day Tripper, Beatles, The 
+Day Tripper, The Beatles
 Day-In Day-Out, David Bowie 
 Daybreak, Barry Manilow 
 Daydream Believer, Anne Murray 
@@ -1758,6 +1803,7 @@ Dear Lady Twist, Gary (U.S.) Bonds
 Dear Lonely Hearts, Nat King Cole 
 Dear Mama, 2 Pac 
 Dear One, Larry Finnegan 
+Dear Prudence, The Beatles
 December 1963 (Oh, What A Night), Four Seasons, The 
 December, Collective Soul 
 Deck Of Cards, Wink Martindale 
@@ -1792,6 +1838,7 @@ Destiny, Myron
 Detroit City, Bobby Bare 
 Detroit Rock City, KISS 
 Deuces, Chris Brown 
+Devil In Her Heart, The Beatles
 Devil Inside, INXS 
 Devil Or Angel, Bobby Vee 
 Devil With A Blue Dress On & Good Golly Miss Molly, Mitch Ryder 
@@ -1821,7 +1868,9 @@ Die Another Day, Madonna
 Differences, Ginuwine 
 Different Drum, Stone Poneys, The 
 Different Worlds, Maureen McGovern 
+Dig A Pony, The Beatles
 Dig In, Lenny Kravitz 
+Dig It, The Beatles
 Diggin' On You, TLC 
 Digging Your Scene, Blow Monkeys, The 
 Digital Display, Ready For The World 
@@ -1851,6 +1900,7 @@ Disturbia, Rihanna
 Ditty, Paperboy 
 Diva, Beyonce 
 Divine Thing, Soup Dragons, The 
+Dizzy Miss Lizzy, The Beatles
 Dizzy, Tommy Roe 
 Do Anything, Natural Selection 
 Do For Love, 2 Pac 
@@ -1908,11 +1958,13 @@ Do You Want Crying, Katrina & The Waves
 Do You Want Me, Salt 'N Pepa 
 Do You Want To Dance?, Bette Midler 
 Do You Want To Know A Secret, Beatles, The 
+Do You Want To Know A Secret, The Beatles
 Do You Want To, Xscape 
 Do You, Ne-Yo 
 Do Your Thing, Isaac Hayes 
 Do Your Thing, Watts 103rd Street Rhythm Band, The 
 Doctor My Eyes, Jackson Browne 
+Doctor Robert, The Beatles
 Doctor! Doctor!, Thompson Twins 
 Doctor's Orders, Carol Douglas 
 Does Anybody Really Fall In Love Anymore?, Kane Roberts 
@@ -1941,6 +1993,7 @@ Don't Be Cruel, Bobby Brown
 Don't Be Cruel, Cheap Trick 
 Don't Bet Money Honey, Linda Scott 
 Don't Blink, Kenny Chesney 
+Don't Bother Me, The Beatles
 Don't Break The Heart That Loves You, Connie Francis 
 Don't Bring Me Down, Animals, The 
 Don't Bring Me Down, Electric Light Orchestra 
@@ -1960,6 +2013,7 @@ Don't Disturb This Groove, System, The
 Don't Do Me Like That, Tom Petty and the Heartbreakers 
 Don't Dream It's Over, Crowded House 
 Don't Ever Be Lonely (A Poor Little Fool Like Me), Cornelius Brothers and Sister Rose 
+Don't Ever Change, The Beatles
 Don't Expect Me To Be Your Friend, Lobo 
 Don't Fall In Love With A Dreamer, Kenny Rogers 
 Don't Forget About Us, Mariah Carey 
@@ -1989,6 +2043,7 @@ Don't Let Go, Wang Chung
 Don't Let It End, Styx 
 Don't Let Me Be Lonely Tonight, James Taylor 
 Don't Let Me Be Misunderstood, Santa Esmeralda 
+Don't Let Me Down, The Beatles
 Don't Let Me Get Me, Pink 
 Don't Let The Green Grass Fool You, Wilson Pickett 
 Don't Let The Joneses Get You Down, Temptations, The 
@@ -2011,6 +2066,7 @@ Don't Mess Up A Good Thing, Fontella Bass
 Don't Mess With Bill, Marvelettes, The 
 Don't Mess With My Man, Nivea 
 Don't Need A Gun, Billy Idol 
+Don't Pass Me By, The Beatles
 Don't Phunk With My Heart, Black Eyed Peas, The 
 Don't Play That Song (You Lied), Ben E. King 
 Don't Play That Song, Aretha Franklin 
@@ -2140,6 +2196,7 @@ Drip Drop, Dion Di Muci
 Drive (For Daddy Gene), Alan Jackson 
 Drive By, Train 
 Drive Me Wild, Sawyer Brown 
+Drive My Car, The Beatles
 Drive, Cars, The 
 Drive, Incubus 
 Drive, R.E.M. 
@@ -2194,6 +2251,7 @@ Edge Of Seventeen (Just Like The White Winged Dove), Stevie Nicks
 Eenie Meenie, Sean Kingston 
 Ego, Beyonce 
 Eight Days A Week, Beatles, The 
+Eight Days A Week, The Beatles
 Eight Miles High, Byrds, The 
 Eighteen With A Bullet, Pete Wingfield 
 Eighteen, Alice Cooper 
@@ -2203,6 +2261,7 @@ El Watusi, Ray Barretto
 Eleanor Rigby, Aretha Franklin 
 Eleanor Rigby, Beatles, The 
 Eleanor Rigby, Ray Charles 
+Eleanor Rigby, The Beatles
 Election Day, Arcadia 
 Electric Avenue, Eddy Grant 
 Electric Blue, Icehouse 
@@ -2247,6 +2306,7 @@ Erotica, Madonna
 Escapade, Janet Jackson 
 Escape (The Pina Colada Song), Rupert Holmes 
 Escape, Enrique Iglesias 
+Etcetera, The Beatles
 Eternal Flame, Bangles 
 Evacuate The Dancefloor, Cascada 
 Eve Of Destruction, Barry McGuire 
@@ -2274,6 +2334,7 @@ Every Little Kiss, Bruce Hornsby
 Every Little Step, Bobby Brown 
 Every Little Thing I Do, Soul For Real 
 Every Little Thing She Does Is Magic, Police, The 
+Every Little Thing, The Beatles
 Every Morning, Sugar Ray 
 Every Other Time, LFO 
 Every Rose Has Its Thorn, Poison 
@@ -2304,11 +2365,13 @@ Everybody Wants To Rule The World, Tears For Fears
 Everybody Wants You, Billy Squier 
 Everybody's Everything, Santana 
 Everybody's Free (To Feel Good), Rozalla 
+Everybody's Got Something To Hide Except Me And My Monkey, The Beatles
 Everybody's Got The Right To Love, Supremes, The 
 Everybody's Got To Learn Sometime, Korgis, The 
 Everybody's Out Of Town, B.J. Thomas 
 Everybody's Somebody's Fool, Connie Francis 
 Everybody's Talkin', Nilsson 
+Everybody's Trying To Be My Baby, The Beatles
 Everybody, Tommy Roe 
 Everyday Is A Winding Road, Sheryl Crow 
 Everyday People, Sly & the Family Stone 
@@ -2485,6 +2548,7 @@ First Quarrel, Paul & Paula
 First Time, Lifehouse 
 Fish Ain't Bitin', Lamont Dozier 
 Five O'Clock World, Vogues, The 
+Fixing A Hole, The Beatles
 Flames Of Paradise, Jennifer Rush 
 Flash Light, Parliament 
 Flashdance...What A Feeling, Irene Cara 
@@ -2510,6 +2574,7 @@ Fly, Nicki Minaj
 Fly, Robin, Fly, Silver Convention 
 Fly, Sugar Ray 
 Flying Without Wings, Ruben Studdard 
+Flying, The Beatles
 Foe Tha Love Of $, Bone Thugs N Harmony 
 Follow Me, Uncle Kracker 
 Follow That Dream, Elvis Presley 
@@ -2540,6 +2605,7 @@ Fopp, Ohio Players
 For A Penny, Pat Boone 
 For All We Know, Carpenters 
 For America, Jackson Browne 
+For No One, The Beatles
 For Once In My Life, Stevie Wonder 
 For The First Time, Script, The 
 For The Good Times, Ray Price 
@@ -2549,6 +2615,7 @@ For The Love Of Money, O'Jays, The
 For The Love Of You (Part 1 And 2), Isley Brothers, The 
 For Tonight, Nancy Martinez 
 For What It's Worth, Buffalo Springfield, The 
+For You Blue, The Beatles
 For You I Will (Confidence), Teddy Geiger 
 For You I Will, Aaron Tippin 
 For You I Will, Monica 
@@ -2594,6 +2661,7 @@ Freak Like Me, Adina Howard
 Freak Me, Silk 
 Freddie's Dead (Theme From Superfly), Curtis Mayfield 
 Free And Easy (Down The Road I Go), Dierks Bentley 
+Free As A Bird, The Beatles
 Free Fallin', Tom Petty 
 Free Man In Paris, Joni Mitchell 
 Free Ride, Edgar Winter 
@@ -2622,6 +2690,7 @@ From A Distance, Bette Midler
 From A Jack To A King, Ned Miller 
 From A Window, Billy J. Kramer with the Dakotas 
 From His Woman To You, Barbara Mason 
+From Me To You, The Beatles
 From The Beginning, Emerson, Lake and Palmer 
 From The Bottom Of My Broken Heart, Britney Spears 
 From This Moment On, Shania Twain 
@@ -2630,7 +2699,7 @@ Frozen, Madonna
 Fu-Gee-La, Fugees 
 Full Moon, Brandy 
 Full Of Smoke, Christion 
-Fun, Fun, Fun, Beach Boys, The 
+Fun Fun Fun, Beach Boys, The 
 Funkdafied, Da Brat 
 Funky Broadway, Wilson Pickett 
 Funky Cold Medina, Tone Loc 
@@ -2678,8 +2747,8 @@ Georgia On My Mind, Ray Charles
 Georgy Girl, Seekers, The 
 Get At Me Dog, DMX 
 Get Away, Bobby Brown 
-Get Back, Beatles, The 
 Get Back, Ludacris 
+Get Back, The Beatles
 Get Buck In Here, DJ Felli Fel 
 Get Busy, Sean Paul 
 Get Closer, Linda Ronstadt 
@@ -2736,6 +2805,7 @@ Gettin' Some, Shawnna
 Gettin' Together, Tommy James and the Shondells 
 Gettin' You Home (The Black Dress Song), Chris Young 
 Getting Away With It, Electronic 
+Getting Better, The Beatles
 Getting Closer, Wings 
 Getto Jam, Domino 
 Ghetto Child, Spinners 
@@ -2769,6 +2839,7 @@ Girl You Know It's True, Milli Vanilli
 Girl, Destiny's Child 
 Girl, I've Been Hurt, Snow 
 Girl, Paul Wall 
+Girl, The Beatles
 Girl, You'll Be A Woman Soon, Neil Diamond 
 Girlfight, Brooke Valentine 
 Girlfriend, Avril Lavigne 
@@ -2819,10 +2890,12 @@ Giving It Up For Your Love, Delbert McClinton
 Giving You The Benefit, Pebbles 
 Giving You The Best That I Got, Anita Baker 
 Glad All Over, Dave Clark Five, The 
+Glad All Over, The Beatles
 Glad To Be Unhappy, Mamas & The Papas, The 
 Glad You Came, Wanted, The 
 Glamorous, Fergie 
 Glamour Boys, Living Colour 
+Glass Onion, The Beatles
 Gloria, Laura Branigan 
 Gloria, Shadows Of Knight, The 
 Glory Days, Bruce Springsteen 
@@ -2858,19 +2931,21 @@ Going Up The Country, Canned Heat
 Gold Digger, Kanye West 
 Gold, John Stewart 
 Gold, Spandau Ballet 
+Golden Slumbers, The Beatles
 Golden Years, David Bowie 
 Goldfinger, Shirley Bassey 
 Goldmine, Pointer Sisters 
 Gone At Last, Paul Simon 
+Gone Gone Gone, Everly Brothers, The 
 Gone Till November, Wyclef Jean 
 Gone Too Far, England Dan and John Ford Coley 
-Gone, Gone, Gone, Everly Brothers, The 
 Gone, Joey Heatherton 
 Gone, Montgomery Gentry 
 Gone, N'Sync 
 Gonna Fly Now (Theme From "Rocky"), Maynard Ferguson 
 Gonna Fly Now (Theme From Rocky), Bill Conti 
 Gonna Make You Sweat, C & C Music Factory 
+Good Day Sunshine, The Beatles
 Good Directions, Billy Currington 
 Good Enough, Bobby Brown 
 Good Feeling, Flo Rida 
@@ -2885,9 +2960,11 @@ Good Lovin' Ain't Easy To Come By, Marvin Gaye
 Good Lovin', Young Rascals 
 Good Luck Charm, Elvis Presley 
 Good Morning Beautiful, Steve Holy 
+Good Morning Good Morning, The Beatles
 Good Morning Heartache, Diana Ross 
 Good Morning Starshine, Oliver 
 Good News, Sam Cooke 
+Good Night, The Beatles
 Good Old Rock 'N' Roll, Cat Mother and the All Night News Boys 
 Good Stuff, B-52's, The 
 Good Thing, Fine Young Cannibals 
@@ -2934,6 +3011,7 @@ Got To Be There, Michael Jackson
 Got To Get It, Sisqo 
 Got To Get You Into My Life, Beatles, The 
 Got To Get You Into My Life, Earth, Wind and Fire 
+Got To Get You Into My Life, The Beatles
 Got To Get You Off My Mind, Solomon Burke 
 Got To Give It Up (Part 1), Marvin Gaye 
 Got Your Back, T.I. 
@@ -2993,6 +3071,7 @@ Half The Way, Crystal Gayle
 Half-Breed, Cher 
 Halfcrazy, Musiq 
 Halfway Gone, Lifehouse 
+Hallelujah, I Love Her So, The Beatles
 Hallelujah, Sweathog 
 Halo, Beyonce 
 Hand In My Pocket, Alanis Morissette 
@@ -3020,6 +3099,7 @@ Hanky Panky, Tommy James and the Shondells
 Happenings Ten Years Time Ago, Yardbirds, The 
 Happiest Girl In The Whole USA, Donna Fargo 
 Happily Ever After, Case 
+Happiness Is A Warm Gun, The Beatles
 Happy Anniversary, Little River Band 
 Happy Birthday Blues, Kathy Young 
 Happy Birthday, Sweet Sixteen, Neil Sedaka 
@@ -3178,6 +3258,7 @@ Hello Goodbye, Beatles, The
 Hello Heartache, Goodbye Love, Little Peggy March 
 Hello Hooray, Alice Cooper 
 Hello It's Me, Todd Rundgren 
+Hello Little Girl, The Beatles
 Hello Mary Lou, Ricky Nelson 
 Hello Muddah, Hello Fadduh! (A Letter From Camp), Allan Sherman 
 Hello Old Friend, Eric Clapton 
@@ -3186,6 +3267,7 @@ Hello Stranger, Yvonne Elliman
 Hello Walls, Faron Young 
 Hello Young Lovers, Paul Anka 
 Hello, Dolly!, Louis Armstrong 
+Hello, Goodbye, The Beatles
 Hello, I Love You, Doors, The 
 Hello, Lionel Richie 
 Hello, Martin Solveig 
@@ -3197,8 +3279,11 @@ Help Me, Joni Mitchell
 Help Me, Rhonda, Beach Boys, The 
 Help Pour Out The Rain (Lacey's Song), Buddy Jewell 
 Help!, Beatles, The 
+Help!, The Beatles
+Helter Skelter, The Beatles
 Hemorrhage (In My Hands), Fuel 
 Her Diamonds, Rob Thomas 
+Her Majesty, The Beatles
 Her Royal Majesty, James Darren 
 Her Town Too, James Taylor 
 Here (In Your Arms), Hellogoodbye 
@@ -3211,6 +3296,7 @@ Here Comes The Hotstepper, Ini Kamoze
 Here Comes The Judge, Shorty Long 
 Here Comes The Rain Again, Eurythmics 
 Here Comes The Sun, Richie Havens 
+Here Comes The Sun, The Beatles
 Here For A Good Time, George Strait 
 Here I Am (Come And Take Me), Al Green 
 Here I Am (Come And Take Me), UB40 
@@ -3229,6 +3315,7 @@ Here Without You, 3 Doors Down
 Here You Come Again, Dolly Parton 
 Here's To The Night, Eve 6 
 Here, Rascal Flatts 
+Here, There And Everywhere, The Beatles
 Hero Of The Day, Metallica 
 Hero, Chad Kroeger 
 Hero, Enrique Iglesias 
@@ -3240,41 +3327,43 @@ Hey Baby (They're Playing Our Song), Buckinghams, The
 Hey Baby, Henry Lee Summer 
 Hey Baby, No Doubt 
 Hey Big Brother, Rare Earth 
+Hey Bobba Needle, Chubby Checker 
+Hey Bulldog, The Beatles
 Hey D.J., Lighter Shade Of Brown, A 
 Hey Daddy (Daddy's Home), Usher 
 Hey Deanie, Shaun Cassidy 
 Hey Donna, Rythm Syndicate 
 Hey Girl (I Like Your Style), Temptations, The 
 Hey Girl, Donny Osmond 
+Hey Girl, Freddie Scott 
 Hey Jealousy, Gin Blossoms 
 Hey Joe, Leaves, The 
 Hey Jude, Beatles, The 
+Hey Jude, The Beatles
 Hey Jude, Wilson Pickett 
 Hey Ladies, Beastie Boys 
 Hey Leonardo (She Likes Me For Me), Blessid Union Of Souls 
+Hey Leroy, Your Mama's Callin' You, Jimmy Castor 
 Hey Little Cobra, Rip Chords, The 
 Hey Little Girl, Dee Clark 
 Hey Little Girl, Major Lance 
 Hey Lover, LL Cool J 
 Hey Ma, Cam'ron 
 Hey Mama, Black Eyed Peas, The 
+Hey Mister Sun, Bobby Sherman 
 Hey Mr. D.J., Zhane 
 Hey Nineteen, Steely Dan 
 Hey Paula, Paul and Paula 
+Hey Soul Sister, Train 
 Hey There Delilah, Plain White T's 
 Hey There Lonely Girl, Eddie Holman 
 Hey There Lonely Girl, Robert John 
+Hey Western Union Man, Jerry Butler 
 Hey Ya!, OutKast 
 Hey You Get Off My Mountain, Dramatics, The 
 Hey You, Bachman-Turner Overdrive 
 Hey! Baby, Bruce Channel 
-Hey, Bobba Needle, Chubby Checker 
-Hey, Girl, Freddie Scott 
-Hey, Leroy, Your Mama's Callin' You, Jimmy Castor 
-Hey, Mister Sun, Bobby Sherman 
-Hey, Soul Sister, Train 
-Hey, Western Union Man, Jerry Butler 
-Hi, Hi, Hi, Wings 
+Hi Hi Hi, Wings 
 Hi-De-Ho, Blood, Sweat and Tears 
 Hi-Heel Sneakers, Jose Feliciano 
 Hi-Heel Sneakers, Tommy Tucker 
@@ -3314,6 +3403,7 @@ Hold Her Tight, Osmonds, The
 Hold It Against Me, Britney Spears 
 Hold Me Now, Thompson Twins 
 Hold Me Tight, Johnny Nash 
+Hold Me Tight, The Beatles
 Hold Me, Fleetwood Mac 
 Hold Me, Thrill Me, Kiss Me, Kill Me, U2 
 Hold Me, Thrill Me, Kiss Me, Mel Carter 
@@ -3360,7 +3450,9 @@ Honestly, Stryper
 Honey Bee, Blake Shelton 
 Honey Chile, Martha Reeves and the Vandellas 
 Honey Come Back, Glen Campbell 
+Honey Don't, The Beatles
 Honey Love, R. Kelly 
+Honey Pie, The Beatles
 Honey, Bobby Goldsboro 
 Honey, Mariah Carey 
 Honky Cat, Elton John 
@@ -3434,6 +3526,7 @@ How Do I Make You, Linda Ronstadt
 How Do I Survive, Amy Holland 
 How Do U Want It, 2 Pac 
 How Do You Do It, Gerry and the Pacemakers 
+How Do You Do It, The Beatles
 How Do You Do?, Mouth and MacNeal 
 How Do You Keep The Music Playing, James Ingram 
 How Do You Like Me Now?!, Toby Keith 
@@ -3507,6 +3600,7 @@ I Am A Rock, Simon and Garfunkel
 I Am By Your Side, Corey Hart 
 I Am Love (Parts I & 2), Jackson 5 
 I Am Somebody (Part 2), Johnnie Taylor 
+I Am The Walrus, The Beatles
 I Am Woman, Helen Reddy 
 I Am.. I Said, Neil Diamond 
 I Beg Your Pardon, Kon Kan 
@@ -3521,6 +3615,7 @@ I Believe, Diamond Rio
 I Belong To You (Every Time I See Your Face), Rome 
 I Belong To You, Love Unlimited 
 I Breathe In, I Breathe Out, Chris Cagle 
+I Call Your Name, The Beatles
 I Can Do That, Montell Jordan 
 I Can Dream About You, Dan Hartman 
 I Can Hear Music, Beach Boys, The 
@@ -3611,6 +3706,7 @@ I Don't Want To Live Without You, Foreigner
 I Don't Want To Miss A Thing, Aerosmith 
 I Don't Want To Miss A Thing, Mark Chesnutt 
 I Don't Want To See You Again, Peter and Gordon 
+I Don't Want To Spoil The Party, The Beatles
 I Don't Want To Wait, Paula Cole 
 I Don't Want To, Toni Braxton 
 I Don't Want Your Love, Duran Duran 
@@ -3620,11 +3716,13 @@ I Drove All Night, Cyndi Lauper
 I Fall To Pieces, Patsy Cline 
 I Feel A Song (In My Heart), Gladys Knight and the Pips 
 I Feel Fine, Beatles, The 
+I Feel Fine, The Beatles
 I Feel For You, Chaka Khan 
 I Feel Love, Donna Summer 
 I Feel So Bad, Elvis Presley 
 I Feel You, Depeche Mode 
 I Finally Found Someone, Barbra Streisand 
+I Forgot To Remember To Forget, The Beatles
 I Fought The Law, Bobby Fuller Four 
 I Found Somebody, Glenn Frey 
 I Found Someone, Cher 
@@ -3645,6 +3743,7 @@ I Got A Man, Positive K
 I Got A Name, Jim Croce 
 I Got A Thang 4 Ya!, Lo-Key? 
 I Got A Wife, Mark IV, The 
+I Got A Woman, The Beatles
 I Got Id, Pearl Jam 
 I Got My Mind Made Up (You Can Get It Girl), Instant Funk 
 I Got Rhythm, Happenings, The 
@@ -3652,6 +3751,7 @@ I Got Stripes, Johnny Cash
 I Got The Feelin' (Oh No No), Neil Diamond 
 I Got The Feelin', James Brown 
 I Got The Hook Up!, Master P 
+I Got To Find My Baby, The Beatles
 I Got What I Wanted, Brook Benton 
 I Got You (I Feel Good), James Brown 
 I Got You Babe, Sonny & Cher 
@@ -3678,6 +3778,7 @@ I Just Called To Say I Love You, Stevie Wonder
 I Just Can't Help Believing, B.J. Thomas 
 I Just Can't Stop Loving You, Michael Jackson 
 I Just Don't Understand, Ann-Margret 
+I Just Don't Understand, The Beatles
 I Just Fall In Love Again, Anne Murray 
 I Just Wanna Be Mad, Terri Clark 
 I Just Wanna Love U (Give It 2 Me), Jay-Z 
@@ -3759,6 +3860,7 @@ I Luv Your Girl, The-Dream
 I Made It (Cash Money Heroes), Kevin Rudolf 
 I Made It Through The Rain, Barry Manilow 
 I Make A Fool Of Myself, Frankie Valli 
+I Me Mine, The Beatles
 I Melt, Rascal Flatts 
 I Miss My Friend, Darryl Worley 
 I Miss My Homies, Master P 
@@ -3780,6 +3882,7 @@ I Need You Tonight, Peter Wolf
 I Need You, America 
 I Need You, LeAnn Rimes 
 I Need You, Paul Carrack 
+I Need You, The Beatles
 I Need Your Love Tonight, Elvis Presley 
 I Need Your Loving, Don Gardner and Dee Dee Ford 
 I Never Cry, Alice Cooper 
@@ -3805,6 +3908,7 @@ I Run To You, Lady Antebellum
 I Saw God Today, George Strait 
 I Saw Her Again, Mamas and The Papas, The 
 I Saw Her Standing There, Beatles, The 
+I Saw Her Standing There, The Beatles
 I Saw Him Standing There, Tiffany 
 I Saw Linda Yesterday, Dickey Lee 
 I Saw Red, Warrant 
@@ -3821,6 +3925,7 @@ I Should Be Sleeping, Emerson Drive
 I Should Be So Lucky, Kylie Minogue 
 I Should Be.., Dru Hill 
 I Should Have Cheated, Keyshia Cole 
+I Should Have Known Better, The Beatles
 I Sold My Heart To The Junkman, Blue-Belles 
 I Started A Joke, Bee Gees, The 
 I Still Believe, Brenda K. Starr 
@@ -3861,6 +3966,7 @@ I Wanna Be Where You Are, Michael Jackson
 I Wanna Be With You, Mandy Moore 
 I Wanna Be With You, Raspberries 
 I Wanna Be Your Lover, Prince 
+I Wanna Be Your Man, The Beatles
 I Wanna Dance Wit' Choo (Doo Dat Dance), Disco Tex & The Sex-O-Lettes 
 I Wanna Dance With Somebody (Who Loves Me), Whitney Houston 
 I Wanna Do It All, Terri Clark 
@@ -3888,10 +3994,13 @@ I Want To Be Wanted (Per Tutta La Vita), Brenda Lee
 I Want To Be Your Man, Roger 
 I Want To Come Over, Melissa Etheridge 
 I Want To Hold Your Hand, Beatles, The 
+I Want To Hold Your Hand, The Beatles
 I Want To Know What Love Is, Foreigner 
 I Want To Live, Josh Gracin 
 I Want To Take You Higher, Ike & Tina Turner 
+I Want To Tell You, The Beatles
 I Want To Walk You Home, Fats Domino 
+I Want You (She's So Heavy), The Beatles
 I Want You Back, Jackson 5, The 
 I Want You Back, N'Sync 
 I Want You To Want Me (Live), Cheap Trick 
@@ -3921,6 +4030,7 @@ I Will Survive, Chantay Savage
 I Will Survive, Gloria Gaynor 
 I Will Wait, Hootie & The Blowfish 
 I Will, Dean Martin 
+I Will, The Beatles
 I Will.. But, SheDaisy 
 I Wish I Had A Girl, Henry Lee Summer 
 I Wish I Wasn't, Heather Headley 
@@ -3967,6 +4077,7 @@ I'll Always Love You, Taylor Dayne
 I'll Be Alright Without You, Journey 
 I'll Be Around, Rappin' 4-Tay 
 I'll Be Around, Spinners, The 
+I'll Be Back, The Beatles
 I'll Be By Your Side, Stevie B 
 I'll Be Doggone, Marvin Gaye 
 I'll Be Good To You, Brothers Johnson, The 
@@ -3974,6 +4085,7 @@ I'll Be Good To You, Quincy Jones
 I'll Be Loving You (Forever), New Kids On The Block 
 I'll Be Loving You, Collage 
 I'll Be Missing You, Puff Daddy & Faith Evans 
+I'll Be On My Way, The Beatles
 I'll Be Over You, Toto 
 I'll Be Satisfied, Jackie Wilson 
 I'll Be There (Live-Unplugged), Mariah Carey 
@@ -3989,8 +4101,11 @@ I'll Be Your Shelter (In Time Of Storm), Luther Ingram
 I'll Be Your Shelter, Taylor Dayne 
 I'll Be, Edwin McCain 
 I'll Be, Foxy Brown 
+I'll Cry Instead, The Beatles
 I'll Do 4 U, Father MC 
+I'll Follow The Sun, The Beatles
 I'll Get By, Eddie Money 
+I'll Get You, The Beatles
 I'll Give All My Love To You, Keith Sweat 
 I'll Have To Say I Love You In A Song, Jim Croce 
 I'll Make All Your Dreams Come True, Ronnie Dove 
@@ -4024,6 +4139,7 @@ I'm A Flirt, Bow Wow or R. Kelly
 I'm A Fool To Care, Joe Barry 
 I'm A Fool, Dino, Desi and Billy 
 I'm A Hustla, Cassidy 
+I'm A Loser, The Beatles
 I'm A Man, Chicago 
 I'm A Man, Spencer Davis Group 
 I'm A Man, Yardbirds, The 
@@ -4044,6 +4160,7 @@ I'm Coming Home, Stories
 I'm Coming Out, Diana Ross 
 I'm Crying, Animals, The 
 I'm Doin' Fine Now, New York City 
+I'm Down, The Beatles
 I'm Easy, Keith Carradine 
 I'm Every Woman, Chaka Khan 
 I'm Every Woman, Whitney Houston 
@@ -4067,7 +4184,9 @@ I'm Gonna Make You Love Me, Diana Ross and the Supremes
 I'm Gonna Make You Love Me, Madeline Bell 
 I'm Gonna Make You Mine, Lou Christie 
 I'm Gonna Miss Her (The Fishin' Song), Brad Paisley 
+I'm Gonna Sit Right Down And Cry (Over You), The Beatles
 I'm Gonna Tear Your Playhouse Down, Paul Young 
+I'm Happy Just To Dance With You, The Beatles
 I'm Happy That Love Has Found You, Jimmy Hall 
 I'm Henry The VIII, I Am, Herman's Hermits 
 I'm In Love, Aretha Franklin 
@@ -4081,6 +4200,7 @@ I'm Leaving It (All) Up To You, Donny and Marie Osmond
 I'm Leaving It Up To You, Dale & Grace 
 I'm Like A Bird, Nelly Furtado 
 I'm Livin' In Shame, Diana Ross and the Supremes 
+I'm Looking Through You, The Beatles
 I'm Movin' On, Rascal Flatts 
 I'm N Luv (Wit A Stripper), T-Pain 
 I'm Never Gonna Be Alone Anymore, Cornelius Brothers and Sister Rose 
@@ -4095,6 +4215,7 @@ I'm On Fire, Bruce Springsteen
 I'm On Fire, Dwight Twilley Band 
 I'm On One, DJ Khaled 
 I'm On The Outside (Looking In), Little Anthony & the Imperials 
+I'm Only Sleeping, The Beatles
 I'm Outstanding, Shaquille O'Neal 
 I'm Ready, Fats Domino 
 I'm Ready, Tevin Campbell 
@@ -4106,6 +4227,7 @@ I'm So Into You, SWV
 I'm So Lonesome I Could Cry, B.J. Thomas 
 I'm So Paid, Akon 
 I'm So Proud, Impressions, The 
+I'm So Tired, The Beatles
 I'm Sorry, Brenda Lee 
 I'm Sorry, John Denver 
 I'm Sprung, T-Pain 
@@ -4117,6 +4239,7 @@ I'm Still In Love With You, Sean Paul
 I'm Still Searching, Glass Tiger 
 I'm Still Standing, Elton John 
 I'm Stone In Love With You, Stylistics, The 
+I'm Talking About You, The Beatles
 I'm Telling You Now, Freddie and the Dreamers 
 I'm That Type Of Guy, LL Cool J 
 I'm The One You Need, Jody Watley 
@@ -4140,6 +4263,7 @@ I've Come Of Age, Billy Storm
 I've Done Everything For You, Rick Springfield 
 I've Found Someone Of My Own, Free Movement, The 
 I've Got A Feeling (We'll Be Seeing Each Other Again), Al Wilson 
+I've Got A Feeling, The Beatles
 I've Got A Lot To Learn About Love, Storm, The 
 I've Got A Rock N' Roll Heart, Eric Clapton 
 I've Got A Woman Part 1, Jimmy McGriff 
@@ -4152,6 +4276,7 @@ I've Got You Under My Skin, Four Seasons, The
 I've Gotta Be Me, Sammy Davis Jr. 
 I've Gotta Get A Message To You, Bee Gees, The 
 I've Had It, Bell Notes, The 
+I've Just Seen A Face, The Beatles
 I've Never Been To Me, Charlene 
 I've Passed This Way Before, Jimmy Ruffin 
 I've Told Every Little Star, Linda Scott 
@@ -4181,12 +4306,14 @@ If I Die Young, Band Perry, The
 If I Ever Fall In Love, Shai 
 If I Ever Lose My Faith In You, Sting 
 If I Fall You're Going Down With Me, Dixie Chicks, The 
+If I Fell, The Beatles
 If I Had A Hammer (The Hammer Song), Peter, Paul & Mary 
 If I Had A Hammer, Trini Lopez 
 If I Had My Wish Tonight, David Lasley 
 If I Had No Loot, Tony! Toni! Toné! 
 If I Had You, Adam Lambert 
 If I Loved You, Chad and Jeremy 
+If I Needed Someone, The Beatles
 If I Ruled The World, Nas 
 If I Wanted To, Melissa Etheridge 
 If I Were A Boy, Beyonce 
@@ -4248,6 +4375,7 @@ If You're Gone, matchbox twenty
 If You're Not The One, Daniel Bedingfield 
 If You're Reading This, Tim McGraw 
 If You're Ready (Come Go With Me), Staple Singers, The 
+If You've Got Trouble, The Beatles
 If Your Girl Only Knew, Aaliyah 
 If, Bread 
 If, Janet Jackson 
@@ -4276,7 +4404,9 @@ In My Dreams, Party, The
 In My Dreams, REO Speedwagon 
 In My Head, Jason DeRulo 
 In My House, Mary Jane Girls 
+In My Life, The Beatles
 In My Little Corner Of The World, Anita Bryant 
+In Spite Of All The Danger, The Beatles
 In The Ayer, Flo Rida 
 In The Closet, Michael Jackson 
 In The Dark, Dev 
@@ -4386,6 +4516,7 @@ It Was I, Skip and Flip
 It Wasn't Me, Shaggy 
 It Will Rain, Bruno Mars 
 It Won't Be Like This For Long, Darius Rucker 
+It Won't Be Long, The Beatles
 It Would Take A Strong Strong Man, Rick Astley 
 It's A Great Day To Be Alive, Travis Tritt 
 It's A Heartache, Bonnie Tyler 
@@ -4407,6 +4538,7 @@ It's All In The Game, Four Tops
 It's All Over Now, Rolling Stones, The 
 It's All Right, Impressions, The 
 It's All The Way Live (Now), Coolio 
+It's All Too Much, The Beatles
 It's Been Awhile, StainD 
 It's Ecstasy When You Lay Down Next To Me, Barry White 
 It's Five O'Clock Somewhere, Alan Jackson 
@@ -4441,6 +4573,7 @@ It's Now Or Never, Elvis Presley
 It's Now Or Never, John Schneider 
 It's Now Winters Day, Tommy Roe 
 It's Only Love, Bryan Adams 
+It's Only Love, The Beatles
 It's Only Love, Tommy James and the Shondells 
 It's Only Make Believe, Glen Campbell 
 It's Only Rock 'N Roll (But I Like It), Rolling Stones, The 
@@ -4517,6 +4650,7 @@ Jody's Got Your Girl And Gone, Johnnie Taylor
 Joey, Concrete Blonde 
 John, Lil Wayne 
 Johnny Angel, Shelley Fabares 
+Johnny B Goode, The Beatles
 Johnny Get Angry, Joanie Sommers 
 Johnny Jingo, Hayley Mills 
 Johnny Loves Me, Shelley Fabares 
@@ -4531,6 +4665,7 @@ Judy In Disguise (With Glasses), John Fred and His Playboy Band
 Judy's Turn To Cry, Lesley Gore 
 Juicy, Notorious B.I.G., The 
 Juke Box Hero, Foreigner 
+Julia, The Beatles
 Julie, Do Ya Love Me, Bobby Sherman 
 Jump (For My Love), Pointer Sisters 
 Jump Around, House Of Pain 
@@ -4549,6 +4684,7 @@ Jungle Love, Steve Miller Band, The
 Jungle Love, Time, The 
 Junior's Farm, Paul McCartney 
 Junk Food Junkie (Live), Larry Groce 
+Junk, The Beatles
 Just A Dream, Carrie Underwood 
 Just A Dream, Nelly 
 Just A Friend, Biz Markie 
@@ -4560,7 +4696,7 @@ Just A Lil Bit, 50 Cent
 Just A Little Bit Better, Herman's Hermits 
 Just A Little Too Much, Ricky Nelson 
 Just A Little, Beau Brummels, The 
-Just A Song Before I Go, Crosby, Stills and Nash 
+Just A Song Before I Go, Crosby Stills and Nash 
 Just Another Day In Paradise, Phil Vassar 
 Just Another Day, John Mellencamp 
 Just Another Day, Jon Secada 
@@ -4627,6 +4763,7 @@ Justify My Love, Madonna
 K-Jee, Nite-Liters 
 Kansas City, Trini Lopez 
 Kansas City, Wilbert Harrison 
+Kansas City/Hey-Hey-Hey-Hey!, The Beatles
 Karma (Remix), Lloyd Banks 
 Karma Chameleon, Culture Club 
 Karma, Alicia Keys 
@@ -4654,6 +4791,7 @@ Keep The Fire Burnin', REO Speedwagon
 Keep Their Heads Ringin', Dr. Dre 
 Keep Ya Head Up, 2 Pac 
 Keep Your Hands Off My Baby, Little Eva 
+Keep Your Hands Off My Baby, The Beatles
 Keep Your Hands To Yourself, Georgia Satellites 
 Keep Your Head Up, Andy Grammer 
 Keeper Of The Castle, Four Tops, The 
@@ -4721,6 +4859,7 @@ Know Your Enemy, Green Day
 Knowing Me, Knowing You, ABBA 
 Kodachrome, Paul Simon 
 Kokomo, Beach Boys, The 
+Komm, Gib Mir Deine Hand, The Beatles
 Kookie, Kookie (Lend Me Your Comb), Edward Byrnes 
 Krazy, Pitbull 
 Kryptonite (I'm On It), Purple Ribbon All-Stars 
@@ -4745,6 +4884,7 @@ Lady Love Me (One More Time), George Benson
 Lady Love, Lou Rawls 
 Lady Luck, Lloyd Price 
 Lady Madonna, Beatles, The 
+Lady Madonna, The Beatles
 Lady Marmalade (Voulez-Vous Coucher Avec Moi), LaBelle 
 Lady Marmalade, Christina Aguilera 
 Lady Willpower, Gary Puckett 
@@ -4782,7 +4922,7 @@ Late In The Evening, Paul Simon
 Lately, Divine 
 Lately, Jodeci 
 Laugh At Me, Sonny 
-Laugh, Laugh, Beau Brummels, The 
+Laugh Laugh, The Beau Brummels
 Laughing, Guess Who, The 
 Laughter In The Rain, Neil Sedaka 
 Laurie (Strange Things Happen), Dickey Lee 
@@ -4815,6 +4955,7 @@ Leave A Light On, Belinda Carlisle
 Leave A Tender Moment Alone, Billy Joel 
 Leave It, Yes 
 Leave Me Alone (Ruby Red Dress), Helen Reddy 
+Leave My Kitten Alone, The Beatles
 Leave The Pieces, Wreckers, The 
 Leave You Alone, Young Jeezy 
 Leavin', Jesse McCartney 
@@ -4823,6 +4964,7 @@ Leaving on A Jet Plane, Peter, Paul and Mary
 Legend Of A Cowgirl, Imani Coppota 
 Legs, ZZ Top 
 Lemon Tree, Trini Lopez 
+Lend Me Your Comb, The Beatles
 Les Bicyclettes De Belsize, Engelbert Humperdinck 
 Lesson In Leavin', Jo Dee Messina 
 Lessons In Love, Level 42 
@@ -4834,6 +4976,7 @@ Let Her In, John Travolta
 Let It Be Me, Betty Everett 
 Let It Be Me, Everly Brothers, The 
 Let It Be, Beatles, The 
+Let It Be, The Beatles
 Let It Go, Keyshia Cole 
 Let It Go, Ray J 
 Let It Out (Let It All Hang Out), Hombres, The 
@@ -4956,6 +5099,7 @@ Like A Rock, Bob Seger
 Like A Rolling Stone, Bob Dylan 
 Like A Stone, Audioslave 
 Like A Virgin, Madonna 
+Like Dreamers Do, The Beatles
 Like Glue, Sean Paul 
 Like I Love You, Justin Timberlake 
 Like No Other Night, 38 Special 
@@ -4989,6 +5133,7 @@ Little Bit Of Soap, Nigel Olsson
 Little Bitty Girl, Bobby Rydell 
 Little Bitty Pretty One, Clyde McPhatter 
 Little Boy Sad, Johnny Burnette 
+Little Child, The Beatles
 Little Children, Billy J. Kramer with the Dakotas 
 Little Deuce Coupe, Beach Boys, The 
 Little Diane, Dion 
@@ -5074,6 +5219,7 @@ Lonely Teenager, Dion
 Lonely Weekends, Charlie Rich 
 Lonely, Akon 
 Lonesome Loser, Little River Band 
+Lonesome Tears In My Eyes, The Beatles
 Long Ago And Far Away, James Taylor 
 Long Cool Woman (In A Black Dress), Hollies, The 
 Long Dark Road, Hollies, The 
@@ -5082,9 +5228,11 @@ Long Hot Summer, Keith Urban
 Long Lonesome Highway, Michael Parks 
 Long Long Time, Linda Ronstadt 
 Long Tall Glasses (I Can Dance), Leo Sayer 
+Long Tall Sally, The Beatles
 Long Time Gone, Dixie Chicks, The 
 Long Train Runnin', Doobie Brothers, The 
-Long, Long Way From Home, Foreigner 
+Long Long Way From Home, Foreigner 
+Long Long, Long, The Beatles
 Longer, Dan Fogelberg 
 Longfellow Serenade, Neil Diamond 
 Longview, Green Day 
@@ -5114,6 +5262,7 @@ Looking Through Your Eyes, LeAnn Rimes
 Looks Like We Made It, Barry Manilow 
 Loop De Loop, Johnny Thunder 
 Lorelei, Styx 
+Los Paranoias, The Beatles
 Lose Control, Missy Elliott 
 Lose My Breath, Destiny's Child 
 Lose My Mind, Young Jeezy 
@@ -5203,6 +5352,7 @@ Love Makes A Woman, Barbara Acklin
 Love Makes The World Go Round, Deon Jackson 
 Love Makes Things Happen, Pebbles 
 Love Me Do, Beatles, The 
+Love Me Do, The Beatles
 Love Me For A Reason, Osmonds, The 
 Love Me Tender, Richard Chamberlain 
 Love Me Tomorrow, Chicago 
@@ -5218,6 +5368,7 @@ Love Of A Lifetime, Firehouse
 Love Of A Woman, Travis Tritt 
 Love Of My Life (An Ode To Hip Hop), Erykah Badu 
 Love Of My Life, Brian McKnight 
+Love Of The Loved, The Beatles
 Love On A Two-Way Street, Moments, The 
 Love On The Rocks, Neil Diamond 
 Love On Top, Beyonce 
@@ -5280,6 +5431,7 @@ Love You Like A Love Song, Selena Gomez
 Love You Like I Never Loved Before, John O'Banion 
 Love You Out Loud, Rascal Flatts 
 Love You So, Ron Holden 
+Love You To, The Beatles
 Love Zone, Billy Ocean 
 Love's Been A Little Bit Hard On Me, Juice Newton 
 Love's Grown Deep, Kenny Nolan 
@@ -5294,6 +5446,7 @@ LoveGame, Lady GaGa
 LoveStoned, Justin Timberlake 
 Lovely Day, Bill Withers 
 Lovely One, Jacksons, The 
+Lovely Rita, The Beatles
 Lover Please, Clyde McPhatter 
 Lover's Holiday, Peggy Scott & Jo Jo Benson 
 Lover, Lover, Jerrod Niemann 
@@ -5316,6 +5469,7 @@ Lucas With The Lid Off, Lucas
 Luchini aka (This Is It), Camp Lo 
 Lucille, Everly Brothers, The 
 Lucille, Kenny Rogers 
+Lucille, The Beatles
 Luckenbach, Texas (Back To The Basics Of Love), Waylon Jennings 
 Lucky Devil, Carl Dobkins Jr. 
 Lucky Ladybug, Billy & Lillie 
@@ -5325,6 +5479,7 @@ Lucky Star, Madonna
 Lucky, Greg Kihn 
 Lucky, Jason Mraz 
 Lucy In The Sky With Diamonds, Elton John 
+Lucy In The Sky With Diamonds, The Beatles
 Luka, Suzanne Vega 
 Lullaby Of Love, Frank Gari 
 Lullaby, Shawn Mullins 
@@ -5349,6 +5504,7 @@ Mad About You, Belinda Carlisle
 Mad, Ne-Yo 
 Made In America, Toby Keith 
 Made You Look, Nas 
+Maggie Mae, The Beatles
 Maggie May, Rod Stewart 
 Magic Bus, Who, The 
 Magic Carpet Ride, Mighty Dub Kats, The 
@@ -5359,7 +5515,9 @@ Magic, B.o.B.
 Magic, Cars, The 
 Magic, Olivia Newton-John 
 Magic, Pilot 
+Magical Mystery Tour, The Beatles
 Magnet And Steel, Walter Egan 
+Mailman, Bring Me No More Blues, The Beatles
 Major Tom (Coming Home), Peter Schilling 
 Make A Little Magic, Dirt Band, The 
 Make A Move On Me, Olivia Newton-John 
@@ -5418,14 +5576,16 @@ Manhattan Spiritual, Reg Owen and His Orchestra
 Maniac, Michael Sembello 
 Manic Monday, Bangles 
 Many Tears Ago, Connie Francis 
+March Of The Meanies, The Beatles
 Margaritaville, Jimmy Buffett 
 Maria Elena, Los Indios Tabajaras 
-Maria, Maria, Santana 
-Marie, Bachelors, The 
+Maria Maria, Santana 
+Marie, The Bachelors 
 Marina, Rocco Granata 
 Marlena, Four Seasons, The 
-Marrakesh Express, Crosby, Stills & Nash 
+Marrakesh Express, Crosby Stills & Nash 
 Marry Me, Train 
+Martha My Dear, The Beatles
 Martian Hop, Ran-Dells, The 
 Marvin & Chardonnay, Big Sean 
 Marvin's Room, Drake 
@@ -5438,7 +5598,9 @@ Master Blaster (Jammin'), Stevie Wonder
 Master Jack, Four Jacks and A Jill 
 Masterpiece, Atlantic Starr 
 Masterpiece, Temptations, The 
+Matchbox, The Beatles
 Material Girl, Madonna 
+Maxwell's Silver Hammer, The Beatles
 May The Bird Of Paradise Fly Up Your Nose, Little Jimmy Dickens 
 May You Always, McGuire Sisters, The 
 Maybe I Deserve, Tank 
@@ -5459,6 +5621,7 @@ Me Love, Sean Kingston
 Me Myself And I, De La Soul 
 Me So Horny, 2 Live Crew 
 Me, Myself & I, Beyonce 
+Mean Mr Mustard, The Beatles
 Mean Woman Blues, Roy Orbison 
 Mean, Taylor Swift 
 Meant To Live, Switchfoot 
@@ -5474,6 +5637,7 @@ Memory, Barry Manilow
 Memphis Soul Stew, King Curtis 
 Memphis, Johnny Rivers 
 Memphis, Lonnie Mack 
+Memphis, Tennessee, The Beatles
 Men In Black, Will Smith 
 Mendocino, Sir Douglas Quintet 
 Mental Picture, Jon Secada 
@@ -5494,6 +5658,7 @@ Mexico, Bob Moore
 Miami Vice Theme, Jan Hammer 
 Miami, Will Smith 
 Michael, Highwaymen, The 
+Michelle, The Beatles
 Mickey's Monkey, Miracles, The 
 Mickey, Toni Basil 
 Midas Touch, Midnight Star 
@@ -5532,6 +5697,7 @@ Mirror, Mirror, Diana Ross
 Misery Business, Paramore 
 Misery, Maroon 5 
 Misery, Soul Asylum 
+Misery, The Beatles
 Misfit, Curiosity Killed The Cat 
 Mishale, Andru Donalds 
 Misled, Celine Dion 
@@ -5578,9 +5744,10 @@ Mohair Sam, Charlie Rich
 Moment 4 Life, Nicki Minaj 
 Moments, Emerson Drive 
 Mona Lisa, Carl Mann 
+Monday Monday, Mamas and The Papas, The 
 Monday Morning Church, Alan Jackson 
-Monday, Monday, Mamas and The Papas, The 
 Money (That's What I Want), Barrett Strong 
+Money (That's What I Want), The Beatles
 Money Ain't A Thang, JD 
 Money Don't Matter 2 Night, Prince 
 Money For Nothing, Dire Straits 
@@ -5606,11 +5773,13 @@ Moody River, Pat Boone
 Moon River, Henry Mancini, His Orchestra and Chorus 
 Moon River, Jerry Butler 
 Moonflight, Vik Venus 
+Moonlight Bay, The Beatles
 Moonlight Feels Right, Starbuck 
 More & More, Joe 
 More And More, Captain Hollywood Project 
 More Love, Kim Carnes 
 More Love, Smokey Robinson 
+More More More (Part 1), Andrea True Connection 
 More Than A Feeling, Boston 
 More Than A Woman, Aaliyah 
 More Than A Woman, Tavares 
@@ -5623,7 +5792,6 @@ More Than Words, Extreme
 More Than Words, Frankie J. 
 More Today Than Yesterday, Spiral Starecase 
 More, Kai Winding & Orchestra 
-More, More, More (Part 1), Andrea True Connection 
 More, Usher 
 Morgen, Ivo Robic 
 Mornin', Al Jarreau 
@@ -5634,6 +5802,7 @@ Morning Side Of The Mountain, Donny and Marie Osmond
 Morning Train (Nine To Five), Sheena Easton 
 Most Girls, Pink 
 Mother And Child Reunion, Paul Simon 
+Mother Nature's Son, The Beatles
 Mother Popcorn (You Got To Have A Mother For Me) (Part 1), James Brown 
 Mother-In-Law, Ernie K-Doe 
 Mothers Little Helper, Rolling Stones, The 
@@ -5656,6 +5825,7 @@ Movin' On, Mya
 Movin' Out (Anthony's Song), Billy Joel 
 Movin', Brass Construction 
 Moving On Up, M People 
+Mr Moonlight, The Beatles
 Mr. Bass Man, Johnny Cymbal 
 Mr. Big Stuff, Jean Knight 
 Mr. Blue, Fleetwoods, The 
@@ -5708,6 +5878,7 @@ My Baby, Temptations, The
 My Band, D12 
 My Best Friend, Tim McGraw 
 My Body, LSG 
+My Bonnie, The Beatles
 My Boo, Ghost Town DJ's 
 My Boo, Usher 
 My Boy Lollipop, Millie Small 
@@ -5784,6 +5955,7 @@ My Melody Of Love, Bobby Vinton
 My Mistake (Was To Love You), Diana Ross 
 My Mother's Eyes, Bette Midler 
 My Music, Loggins & Messina 
+My My My, Johnny Gill 
 My Name Is Not Susan, Whitney Houston 
 My Name Is, Eminem 
 My Next Thirty Years, Tim McGraw 
@@ -5808,7 +5980,6 @@ My Whole World Ended (The Moment You Left Me), David Ruffin
 My Wish Came True, Elvis Presley 
 My Wish, Rascal Flatts 
 My World Is Empty Without You, Supremes, The 
-My, My, My, Johnny Gill 
 Mysterious Ways, U2 
 Mystery Lady, Billy Ocean 
 Na Na Hey Hey Kiss Him Goodbye, Steam 
@@ -5941,6 +6112,7 @@ No More Words, Berlin
 No More, Ruff Endz 
 No Myth, Michael Penn 
 No Night So Long, Dionne Warwick 
+No No No Part II, Destiny's Child 
 No No Song, Ringo Starr 
 No One Else, Total 
 No One In The World, Anita Baker 
@@ -5956,6 +6128,7 @@ No Place That Far, Sara Evans
 No Problem, Lil Scrappy 
 No Rain, Blind Melon 
 No Reply At All, Genesis 
+No Reply, The Beatles
 No Scrubs, TLC 
 No Shoes, No Shirt, No Problems, Kenny Chesney 
 No Son Of Mine, Genesis 
@@ -5969,7 +6142,6 @@ No Time, Lil' Kim
 No Way Out, Jefferson Starship 
 No Woman No Cry, Fugees, The 
 No, Bulldog 
-No, No, No Part II, Destiny's Child 
 Nobody But Me, Human Beinz, The 
 Nobody But You, Dee Clark 
 Nobody Does It Better, Carly Simon 
@@ -5980,6 +6152,7 @@ Nobody Knows, Tony Rich Project
 Nobody Told Me, John Lennon 
 Nobody Wants To Be Lonely, Ricky Martin 
 Nobody Wants You When You're Down And Out, Bobby Womack 
+Nobody's Child, The Beatles
 Nobody's Fool, Cinderella 
 Nobody's Fool, Kenny Loggins 
 Nobody's Home, Avril Lavigne 
@@ -5990,10 +6163,13 @@ Nolia Clap, Juvenile
 None Of Your Business, Salt 'N Pepa 
 Norman, Sue Thompson 
 North To Alaska, Johnny Horton 
+Norwegian Wood (This Bird Has Flown), The Beatles
 Not A Day Goes By, Lonestar 
+Not A Second Time, The Beatles
 Not Afraid, Eminem 
 Not Enough Time, INXS 
 Not Gon' Cry, Mary J. Blige 
+Not Guilty, The Beatles
 Not Just Another Girl, Ivan Neville 
 Not Me, Orlons, The 
 Not Meant To Be, Theory Of A Deadman 
@@ -6008,6 +6184,7 @@ Nothin' But A Good Time, Poison
 Nothin' But The Cavi Hit, Mack 10 
 Nothin' My Love Can't Fix, Joey Lawrence 
 Nothin' On You, B.o.B. 
+Nothin' Shakin', The Beatles
 Nothin' To Hide, Poco 
 Nothin' To Lose, Josh Gracin 
 Nothin', N.O.R.E. 
@@ -6029,8 +6206,10 @@ Notorious, Duran Duran
 November Rain, Guns N' Roses 
 Novocaine For The Soul, Eels 
 Now And Forever, Richard Marx 
+Now And Then, The Beatles
 Now That We Found Love, Heavy D & The Boyz 
 Nowhere Man, Beatles, The 
+Nowhere Man, The Beatles
 Nowhere To Go, Melissa Etheridge 
 Nowhere To Run, Martha and the Vandellas 
 Nu Nu, Lidell Townsell & M.T.F. 
@@ -6045,6 +6224,7 @@ O, Omarion
 O-o-h Child, Five Stairsteps, The 
 O.P.P., Naughty By Nature 
 OMG, Usher 
+Ob-La-Di, Ob-La-Da, The Beatles
 Object Of My Desire, Starpoint 
 Objects In The Rear View Mirror May Appear Closer Than They Are, Meat Loaf 
 Obscene Phone Caller, Rockwell 
@@ -6052,6 +6232,7 @@ Obsessed, Mariah Carey
 Obsession (No Es Amor), Frankie J. 
 Obsession, Animotion 
 Ocean Avenue, Yellowcard 
+Octopus's Garden, The Beatles
 Ode To Billie Joe, Bobbie Gentry 
 Off The Wall, Michael Jackson 
 Oh Boy, Cam'ron 
@@ -6071,14 +6252,16 @@ Oh Well, Rockets
 Oh What A Night For Dancing, Barry White 
 Oh! Carol, Neil Sedaka 
 Oh! Darling, Robin Gibb 
+Oh! Darling, The Beatles
 Oh, Babe, What Would You Say?, Hurricane Smith 
 Oh, Ciara 
 Oh, Honey, Delegation 
 Oh, Pretty Woman, Roy Orbison 
 Oh, What A Night, Dells, The 
-Ohio, Crosby, Stills, Nash & Young 
+Ohio, Crosby Stills Nash & Young 
 Okay, Nivea 
 Old Alabama, Brad Paisley 
+Old Brown Shoe, The Beatles
 Old Days, Chicago 
 Old Man And Me (When I Get To Heaven), Hootie & The Blowfish 
 Old Rivers, Walter Brennan 
@@ -6113,6 +6296,7 @@ Once In Awhile, Chimes, The
 Once Upon A Time, Marvin Gaye 
 Once Upon A Time, Rochell and the Candles 
 Once You Get Started, Rufus 
+One After 909, The Beatles
 One And Only Man, Steve Winwood 
 One Bad Apple, Osmonds, The 
 One Broken Heart For Sale, Elvis Presley 
@@ -6186,6 +6370,7 @@ One, Bee Gees
 One, Three Dog Night 
 One, U2 
 Online, Brad Paisley 
+Only A Northern Song, The Beatles
 Only Girl (In The World), Rihanna 
 Only God Knows Why, Kid Rock 
 Only Happy When It Rains, Garbage 
@@ -6218,6 +6403,7 @@ Ooh Child, Dino
 Ooh La La (I Can't Get Over You), Perfect Gentlemen 
 Ooh La La, Rod Stewart 
 Ooh Poo Pah Doo - Part II, Jessie Hill 
+Ooh! My Soul, The Beatles
 Ooh!, Mary J. Blige 
 Ooo Baby Baby, Miracles, The 
 Oops (Oh My), Tweet 
@@ -6285,6 +6471,7 @@ P.I.M.P., 50 Cent
 P.S. I Love You, Beatles, The 
 P.T. 109, Jimmy Dean 
 P.Y.T. (Pretty Young Thing), Michael Jackson 
+PS I Love You, The Beatles
 Pac-Man Fever, Buckner & Garcia 
 Pain, Three Days Grace 
 Paint It, Black, Rolling Stones, The 
@@ -6305,6 +6492,7 @@ Paper Planes, M.I.A.
 Paper Roses, Anita Bryant 
 Paper Roses, Marie Osmond 
 Paperback Writer, Beatles, The 
+Paperback Writer, The Beatles
 Paperlate, Genesis 
 Papers, Usher 
 Paradise City, Guns N' Roses 
@@ -6350,6 +6538,7 @@ Peg, Steely Dan
 Penetration, Pyramids, The 
 Pennies From Heaven, Skyliners, The 
 Penny Lane, Beatles, The 
+Penny Lane, The Beatles
 Penny Lover, Lionel Richie 
 People Are Crazy, Billy Currington 
 People Are People, Depeche Mode 
@@ -6364,6 +6553,8 @@ People, Barbra Streisand
 Pepe, Duane Eddy 
 Pepino The Italian Mouse, Lou Monte 
 Pepper, Butthole Surfers 
+Pepperland Laid Waste, The Beatles
+Pepperland, The Beatles
 Peppermint Twist - Part 1, Joey Dee & the Starliters 
 Percolator (Twist), Billy Joe & The Checkmates 
 Perfect Situation, Weezer 
@@ -6393,6 +6584,7 @@ Piece Of My Heart, Big Brother & the Holding Company
 Piece Of My Heart, Tara Kemp 
 Pieces Of April, Three Dog Night 
 Pieces Of Me, Ashlee Simpson 
+Piggies, The Beatles
 Pillow Talk, Sylvia 
 Pilot Of The Airwaves, Charlie Dore 
 Pimpin' All Over The World, Ludacris 
@@ -6436,11 +6628,13 @@ Please Forgive Me, Bryan Adams
 Please Help Me, I'm Falling, Hank Locklin 
 Please Love Me Forever, Bobby Vinton 
 Please Love Me Forever, Cathy Jean 
+Please Mister Postman, The Beatles
 Please Mr. Please, Olivia Newton-John 
 Please Mr. Postman, Carpenters 
 Please Mr. Postman, Marvelettes, The 
 Please Mr. Sun, Tommy Edwards 
 Please Please Me, Beatles, The 
+Please Please Me, The Beatles
 Please Remember Me, Tim McGraw 
 Please Stay, Drifters, The 
 Please Tell Me Why, Jackie Wilson 
@@ -6459,6 +6653,7 @@ Poison, Bell Biv DeVoe
 Poker Face, Lady GaGa 
 Policy Of Truth, Depeche Mode 
 Polk Salad Annie, Tony Joe White 
+Polythene Pam, The Beatles
 Pon de Replay, Rihanna 
 Pontoon, Little Big Town 
 Pony Time, Chubby Checker 
@@ -6608,6 +6803,7 @@ Rain Over Me, Pitbull
 Rain Rain Go Away, Bobby Vinton 
 Rain, Madonna 
 Rain, SWV 
+Rain, The Beatles
 Rainbow (Studio), Gene Chandler 
 Rainbow Connection, Kermit (Jim Henson) 
 Raindrops Keep Fallin' On My Head, B.J. Thomas 
@@ -6645,8 +6841,9 @@ Real Good Man, Tim McGraw
 Real Love, Doobie Brothers, The 
 Real Love, Jody Watley 
 Real Love, Mary J. Blige 
+Real Love, The Beatles
 Real Muthaphuckkin G's, Eazy-E 
-Real, Real, Real, Jesus Jones 
+Real Real Real, Jesus Jones 
 Realize, Colbie Caillat 
 Really Wanna Know You, Gary Wright 
 Reason To Believe (Live), Rod Stewart 
@@ -6706,7 +6903,10 @@ Return To Sender, Elvis Presley
 Reunited, Peaches & Herb 
 Revenge, Brook Benton 
 Reverend Mr. Black, Kingston Trio, The 
+Revolution 1, The Beatles
+Revolution 9, The Beatles
 Revolution, Beatles, The 
+Revolution, The Beatles
 Rhapsody In The Rain, Lou Christie 
 Rhiannon (Will You Ever Win), Fleetwood Mac 
 Rhinestone Cowboy, Glen Campbell 
@@ -6764,6 +6964,7 @@ Ringo, Lorne Greene
 Rings, Cymarron 
 Rinky Dink, Baby Cortez 
 Rio, Duran Duran 
+Rip It Up/Shake, Rattle And Roll/Blue Suede Shoes, The Beatles
 Rise, Herb Alpert 
 Ritual, Dan Reed Network 
 River Deep-Mountain High, Supremes, The 
@@ -6783,6 +6984,7 @@ Rock And Roll Heaven, Righteous Brothers, The
 Rock And Roll Love Letter, Bay City Rollers 
 Rock And Roll Lullaby, B.J. Thomas 
 Rock And Roll Music, Beach Boys, The 
+Rock And Roll Music, The Beatles
 Rock Me Amadeus, Falco 
 Rock Me Gently, Andy Kim 
 Rock Me Tonight, Freddie Jackson 
@@ -6823,10 +7025,12 @@ Rockin' That Thang, The-Dream
 Rockstar, Nickelback 
 Rocky Mountain High, John Denver 
 Rocky Mountain Way, Joe Walsh 
+Rocky Raccoon, The Beatles
 Rocky, Austin Roberts 
 Rodeo, Juvenile 
 Roll Me Away, Bob Seger 
 Roll On Down The Highway, Bachman-Turner Overdrive 
+Roll Over Beethoven, The Beatles
 Roll To Me, Del Amitri 
 Roll Up, Wiz Khalifa 
 Roll With It, Steve Winwood 
@@ -6878,6 +7082,7 @@ Run Away Child, Running Wild, Temptations, The
 Run Away, Real McCoy 
 Run For Home, Lindisfarne 
 Run For The Roses, Dan Fogelberg 
+Run For Your Life, The Beatles
 Run It!, Chris Brown 
 Run Joey Run, David Geddes 
 Run Runaway, Slade 
@@ -6888,9 +7093,9 @@ Run To Him, Bobby Vee
 Run To Me, Bee Gees 
 Run To You, Bryan Adams 
 Run To You, Whitney Houston 
-Run, Baby Run (Back Into My Arms), Newbeats, The 
+Run Baby Run (Back Into My Arms), Newbeats, The 
 Run, George Strait 
-Run, Run, Look And See, Brian Hyland 
+Run Run Look And See, Brian Hyland 
 Run-Around, Blues Traveler 
 Runaround Sue, Dion 
 Runaround Sue, Leif Garrett 
@@ -6980,6 +7185,7 @@ Saved By Zero, Fixx, The
 Savin' Me, Nickelback 
 Saving All My Love For You, Whitney Houston 
 Saving Forever For You, Shanice 
+Savoy Truffle, The Beatles
 Say Aah, Trey Songz 
 Say Goodbye, Chris Brown 
 Say Hey (I Love You), Michael Franti 
@@ -7019,12 +7225,16 @@ Scream, Usher
 Se La, Lionel Richie 
 Sea Cruise, Frankie Ford 
 Sea Of Heartbreak, Don Gibson 
+Sea Of Holes, The Beatles
 Sea Of Love, Honeydrippers, The 
 Sea Of Love, Phil Phillips 
+Sea Of Monsters, The Beatles
+Sea Of Time, The Beatles
 Sealed With A Kiss, Bobby Vinton 
 Sealed With A Kiss, Brian Hyland 
 Sealed With A Kiss, Gary Lewis and the Playboys 
 Searchin' My Soul, Vonda Shepard 
+Searchin', The Beatles
 Searching For My Love, Bobby Moore and the Rhythm Aces 
 Seasons Change, Exposé 
 Seasons In The Sun, Terry Jacks 
@@ -7074,6 +7284,7 @@ Separate Lives, Phil Collins
 Separate Ways (Worlds Apart), Journey 
 Separated, Avant 
 September In The Rain, Dinah Washington 
+September In The Rain, The Beatles
 September Morn', Neil Diamond 
 September, Daughtry 
 September, Earth, Wind and Fire 
@@ -7105,7 +7316,10 @@ Sexy Girl, Glenn Frey
 Sexy Lady, Yung Berg 
 Sexy Love, Ne-Yo 
 Sexy Mama, Moments, The 
+Sexy Sadie, The Beatles
 SexyBack, Justin Timberlake 
+Sgt Pepper's Lonely Hearts Club Band (Reprise), The Beatles
+Sgt Pepper's Lonely Hearts Club Band, The Beatles
 Sha La La, Manfred Mann 
 Sha-La-La (Make Me Happy), Al Green 
 Shackles (Praise You), Mary Mary 
@@ -7139,7 +7353,7 @@ Shame On Me, Bobby Bare
 Shame On The Moon, Bob Seger 
 Shame, Evelyn "Champagne" King 
 Shame, Motels, The 
-Shame, Shame, Shame, Shirley and Company 
+Shame Shame Shame, Shirley and Company 
 Shame, Zhane 
 Shangri-La, Robert Maxwell 
 Shangri-La, Vic Dana 
@@ -7164,6 +7378,7 @@ She Believes In Me, Kenny Rogers
 She Belongs To Me, Rick Nelson 
 She Blinded Me With Science, Thomas Dolby 
 She Bop, Cyndi Lauper 
+She Came In Through The Bathroom Window, The Beatles
 She Can't Find Her Keys, Paul Petersen 
 She Couldn't Change Me, Montgomery Gentry 
 She Cried, Jay and the Americans 
@@ -7172,7 +7387,9 @@ She Drives Me Crazy, Fine Young Cannibals
 She Got It, 2 Pistols 
 She Hates Me, Puddle Of Mudd 
 She Loves You, Beatles, The 
+She Loves You, The Beatles
 She Never Cried In Front Of Me, Toby Keith 
+She Said She Said, The Beatles
 She Say (Oom Dooby Doom), Diamonds, The 
 She Talks To Angels, Black Crowes, The 
 She Thinks I Still Care, Elvis Presley 
@@ -7192,6 +7409,7 @@ She's A Fool, Lesley Gore
 She's A Heartbreaker, Gene Pitney 
 She's A Lady, Tom Jones 
 She's A Woman, Beatles, The 
+She's A Woman, The Beatles
 She's About A Mover, Sir Douglas Quintet 
 She's All I Ever Had, Ricky Martin 
 She's All I Got, Jimmy Cozier 
@@ -7202,6 +7420,7 @@ She's Gone, Daryl Hall & John Oates
 She's Got A Way, Billy Joel 
 She's Got You, Patsy Cline 
 She's Just My Style, Gary Lewis and the Playboys 
+She's Leaving Home, The Beatles
 She's Like The Wind, Lumidee 
 She's Like The Wind, Patrick Swayze 
 She's Mine, Steve Perry 
@@ -7255,6 +7474,7 @@ Shout - Part 1, Joey Dee and the Starliters
 Shout It Out Loud (Studio), KISS 
 Shout! Shout! (Knock Yourself Out), Ernie Maresca 
 Shout, Tears For Fears 
+Shout, The Beatles
 Show And Tell, Al Wilson 
 Show Me How To Live, Audioslave 
 Show Me Love, Robin S 
@@ -7278,6 +7498,7 @@ Sideshow, Blue Magic
 Sidewalk Surfin', Jan & Dean 
 Sidewalk Talk, Jellybean 
 Sideways, Dierks Bentley 
+Sie Liebt Dich, The Beatles
 Sign O' The Times, Prince 
 Sign Your Name, Terence Trent D'Arby 
 Signed, Sealed, Delivered (I'm Yours), Peter Frampton 
@@ -7349,6 +7570,7 @@ Slow And Sexy, Shabba Ranks
 Slow Dance (Hey Mr. D.J.), R. Kelly 
 Slow Dancin' Don't Turn Me On, Addrisi Brothers, The 
 Slow Down, Bobby Valentino 
+Slow Down, The Beatles
 Slow Hand, Pointer Sisters 
 Slow Jamz, Twista 
 Slow Motion, Color Me Badd 
@@ -7402,6 +7624,7 @@ So Fresh, So Clean, OutKast
 So Gone, Monica 
 So Good, B.o.B 
 So Good, So Right, Brenda Russell 
+So How Come (No One Loves Me), The Beatles
 So I Can Love You, Emotions, The 
 So In Love With Two, Mikaila 
 So In To You, Atlanta Rhythm Section 
@@ -7428,6 +7651,7 @@ Sock It To Me - Baby!, Mitch Ryder
 Softly, As I Leave You, Frank Sinatra 
 Soldier Boy, Shirelles, The 
 Soldier Of Love, Donny Osmond 
+Soldier Of Love, The Beatles
 Soldier, Destiny's Child 
 Solid, Ashford & Simpson 
 Solitaire, Carpenters 
@@ -7443,6 +7667,7 @@ Some Kind Of Lover, Jody Watley
 Some Kind Of Wonderful, Grand Funk 
 Some Like It Hot, Power Station, The 
 Some Nights, Fun. 
+Some Other Guy, The Beatles
 Some Things Are Better Left Unsaid, Daryl Hall & John Oates 
 Somebody Like You, Keith Urban 
 Somebody That I Used To Know, Gotye 
@@ -7496,6 +7721,7 @@ Something's Gotta Give, LeAnn Rimes
 Something's Wrong With Me, Austin Roberts 
 Something, Beatles, The 
 Something, Lasgo 
+Something, The Beatles
 Sometimes Love Just Ain't Enough, Patty Smyth 
 Sometimes She Cries, Warrant 
 Sometimes When We Touch, Dan Hill 
@@ -7538,9 +7764,10 @@ Soul-Limbo, Booker T. & The MG's
 Soulful Strut, Young-Holt Unlimited 
 Soulja Girl, Soulja Boy Tell'em 
 Souls, Rick Springfield 
+Sour Milk Sea, The Beatles
 South Side, Moby 
 South Street, Orlons, The 
-Southern Cross, Crosby, Stills & Nash 
+Southern Cross, Crosby Stills & Nash 
 Southern Hospitality, Ludacris 
 Southern Nights, Glen Campbell 
 Southern Voice, Tim McGraw 
@@ -7654,6 +7881,7 @@ Step By Step, Eddie Rabbitt
 Step By Step, New Kids On The Block 
 Step By Step, Whitney Houston 
 Step In The Name Of Love, R. Kelly 
+Step Inside Love, The Beatles
 Steppin' Out (Gonna Boogie Tonight), Tony Orlando and Dawn 
 Steppin' Out, Joe Jackson 
 Stereo Hearts, Gym Class Heroes 
@@ -7708,6 +7936,7 @@ Stranger On The Shore, Mr. Acker Bilk
 Strangers In The Night, Frank Sinatra 
 Strawberries, Smooth 
 Strawberry Fields Forever, Beatles, The 
+Strawberry Fields Forever, The Beatles
 Strawberry Letter 23, Brothers Johnson, The 
 Stray Cat Strut, Stray Cats 
 Street Dreams, Nas 
@@ -7759,13 +7988,13 @@ Sugar Hill, AZ
 Sugar On Sunday, Clique, The 
 Sugar Pie Guy (Part 1), Joneses, The 
 Sugar Shack, Jimmy Gilmer 
+Sugar Sugar, The Archies 
 Sugar Sugar, Wilson Pickett 
 Sugar Town, Nancy Sinatra 
 Sugar Walls, Sheena Easton 
 Sugar, Flo Rida 
-Sugar, Sugar, Archies, The 
 Sugar, We're Goin' Down, Fall Out Boy 
-Suite: Judy Blue Eyes, Crosby, Stills & Nash 
+Suite: Judy Blue Eyes, Crosby Stills & Nash 
 Sukiyaki, 4 P.M. 
 Sukiyaki, Kyu Sakamoto 
 Sukiyaki, Taste Of Honey, A 
@@ -7792,6 +8021,7 @@ Summertime, Kenny Chesney
 Summertime, New Kids On The Block 
 Summertime, Sundays, The 
 Sun City, Artists United Against Apartheid 
+Sun King, The Beatles
 Sunday Morning, Maroon5 
 Sundown, Gordon Lightfoot 
 Sunglasses At Night, Corey Hart 
@@ -7833,6 +8063,7 @@ Superwoman, Karyn White
 Sure As I'm Sittin' Here, Three Dog Night 
 Sure Gonna Miss Her, Gary Lewis and the Playboys 
 Sure Thing, Miguel 
+Sure To Fall (In Love With You), The Beatles
 Surf City, Jan & Dean 
 Surfer Girl, Beach Boys, The 
 Surfin' Bird, Trashmen, The 
@@ -7876,6 +8107,7 @@ Sweet Inspiration & Where You Lead (Live), Barbra Streisand
 Sweet Inspiration, Sweet Inspirations, The 
 Sweet Lady, Tyrese 
 Sweet Life, Paul Davis 
+Sweet Little Sixteen, The Beatles
 Sweet Love, Anita Baker 
 Sweet Love, Commodores 
 Sweet Mary, Wadsworth Mansion 
@@ -7933,6 +8165,7 @@ Take Five, Dave Brubeck Quartet
 Take Good Care Of Her, Adam Wade 
 Take Good Care Of My Baby, Bobby Vee 
 Take Good Care Of My Baby, Bobby Vinton 
+Take Good Care Of My Baby, The Beatles
 Take It Away, Paul McCartney 
 Take It Easy On Me, Little River Band 
 Take It Easy, Andy Taylor 
@@ -7958,6 +8191,7 @@ Take My Breath Away, Jessica Simpson
 Take My Heart (You Can Have It If You Want It), Kool & The Gang 
 Take Off, Bob & Doug Mc Kenzie 
 Take On Me, A-Ha 
+Take Out Some Insurance On Me, Baby, The Beatles
 Take Over Control, AfroJack 
 Take The Long Way Home, Supertramp 
 Take The Money And Run, Steve Miller Band 
@@ -8000,14 +8234,16 @@ Tattoos On This Town, Jason Aldean
 Tattva, Kula Shaker 
 Taurus, Dennis Coffey and the Detroit Guitar Band 
 Taxi, Harry Chapin 
+Taxman, The Beatles
 Teach Me How To Dougie, Cali Swag District 
 Teach Me Tonight, George Maharis 
-Teach Your Children, Crosby, Stills, Nash & Young 
+Teach Your Children, Crosby Stills Nash & Young 
 Teacher, Teacher, .38 Special 
 Tear Drop, Santo and Johnny 
 Tear The Roof Off The Sucker (Give Up The Funk), Parliament 
 Teardrops On My Guitar, Taylor Swift 
 Tears In Heaven, Eric Clapton 
+Teddy Boy, The Beatles
 Teddy, Connie Francis 
 Teen Age Idol, Rick Nelson 
 Teen Angel, Mark Dinning 
@@ -8039,9 +8275,11 @@ Tell Me Do You Wanna, Ginuwine
 Tell Me It's Real, K-Ci & JoJo 
 Tell Me Something Good, Rufus 
 Tell Me Tomorrow - Part 1, Smokey Robinson 
+Tell Me What You See, The Beatles
 Tell Me What You Want Me To Do, Tevin Campbell 
 Tell Me Why, Belmonts, The 
 Tell Me Why, Exposé 
+Tell Me Why, The Beatles
 Tell Me, Dick & DeeDee 
 Tell Me, Diddy 
 Tell Me, Dru Hill 
@@ -8070,6 +8308,7 @@ Thank God It's Friday, Love and Kisses
 Thank U, Alanis Morissette 
 Thank You (Falettinme Be Mice Elf Agin), Sly and the Family Stone 
 Thank You For Being A Friend, Andrew Gold 
+Thank You Girl, The Beatles
 Thank You Pretty Baby, Brook Benton 
 Thank You, Boyz II Men 
 Thanks For My Child, Cheryl 'Pepsii' Riley 
@@ -8079,11 +8318,14 @@ That Girl, Maxi Priest
 That Girl, Stevie Wonder 
 That Lady (Part 1), Isley Brothers, The 
 That Lucky Old Sun, Ray Charles 
+That Means A Lot, The Beatles
 That Sunday, That Summer, Nat King Cole 
 That Was Then, This Is Now, Monkees, The 
 That Was Yesterday, Foreigner 
 That'd Be Alright, Alan Jackson 
 That'll Be The Day, Linda Ronstadt 
+That'll Be The Day, The Beatles
+That's All Right (Mama), The Beatles
 That's All You Gotta Do, Brenda Lee 
 That's All, Genesis 
 That's How Love Goes, Jermaine Jackson 
@@ -8129,6 +8371,7 @@ The Baby, Blake Shelton
 The Ballad Of Bonnie And Clyde, Georgie Fame 
 The Ballad Of Jayne, L.A. Guns 
 The Ballad Of John And Yoko, Beatles, The 
+The Ballad Of John And Yoko, The Beatles
 The Ballad Of Paladin, Duane Eddy 
 The Ballad Of The Green Berets, S/Sgt. Barry Sadler (U.S. Army Special Forces) 
 The Battle Of Kookamonga, Homer & Jethro 
@@ -8182,6 +8425,7 @@ The Closer I Get To You, Roberta Flack
 The Closer You Get, Alabama 
 The Clouds, Spacemen, The 
 The Colour Of Love, Billy Ocean 
+The Continuing Story Of Bungalow Bill, The Beatles
 The Cover Of "Rolling Stone", Dr. Hook 
 The Cowboy In Me, Tim McGraw 
 The Crowd, Roy Orbison 
@@ -8206,6 +8450,7 @@ The End Is The Beginning Is The End, Smashing Pumpkins
 The End Of Our Road, Gladys Knight and the Pips 
 The End Of The Innocence, Don Henley 
 The End Of The World, Skeeter Davis 
+The End, The Beatles
 The Entertainer, Billy Joel 
 The Entertainer, Marvin Hamlisch 
 The Eyes Of A New York Woman, B.J. Thomas 
@@ -8223,6 +8468,7 @@ The Fish, Bobby Rydell
 The Flame, Cheap Trick 
 The Fly, Chubby Checker 
 The Fool On The Hill, Sergio Mendes and Brasil '66 
+The Fool On The Hill, The Beatles
 The Freshman, Verve Pipe, The 
 The Funky Judge, Bull And The Matadors 
 The Future's So Bright, I Gotta Wear Shades, Timbuk 3 
@@ -8252,8 +8498,10 @@ The Hawaiian Wedding Song (Ke Kali Nei Au), Andy Williams
 The Heart Of Rock & Roll, Huey Lewis and the News 
 The Heart Of The Matter, Don Henley 
 The Heat Is On, Glenn Frey 
+The Hippy Hippy Shake, The Beatles
 The Hitman, AB Logic 
 The Homecoming, Hagood Hardy 
+The Honeymoon Song, The Beatles
 The Honeythief, Hipsway 
 The Horse, Cliff Nobles 
 The House Of The Rising Sun, Animals, The 
@@ -8266,6 +8514,7 @@ The Hustle, Van McCoy
 The Immigrant, Neil Sedaka 
 The Impossible, Joe Nichols 
 The Impression That I Get, Mighty Mighty Bosstones 
+The Inner Light, The Beatles
 The Jam (Part 1), Bobby Gregg and His Friends 
 The Jerk, Larks, The 
 The Joker Went Wild, Brian Hyland 
@@ -8302,6 +8551,7 @@ The Logical Song, Supertramp
 The Lonely Bull (El Solo Torro), Tijuana Brass, The 
 The Lonely One, Duane Eddy 
 The Long And Winding Road, Beatles, The 
+The Long And Winding Road, The Beatles
 The Long Goodbye, Brooks & Dunn 
 The Long Run, Eagles 
 The Longest Time, Billy Joel 
@@ -8340,6 +8590,7 @@ The Name Of The Game, ABBA
 The Need To Be, Jim Weatherly 
 The Next Episode, Dr. Dre 
 The Next Time I Fall, Peter Cetera 
+The Night Before, The Beatles
 The Night Chicago Died, Paper Lace 
 The Night Has A Thousand Eyes, Bobby Vee 
 The Night Is Still Young, Billy Joel 
@@ -8399,9 +8650,11 @@ The Rockford Files, Mike Post
 The Rose, Bette Midler 
 The Rubberband Man, Spinners 
 The Safety Dance, Men Without Hats 
+The Saints, The Beatles
 The Same One, Brook Benton 
 The Search Is Over, Survivor 
 The Second Time Around, Shalamar 
+The Sheik Of Araby, The Beatles
 The Shelter Of Your Arms, Sammy Davis Jr. 
 The Shoop Shoop Song (It's In His Kiss), Betty Everett 
 The Shoop Shoop Song (It's In His Kiss), Cher 
@@ -8491,6 +8744,7 @@ The Woman With You, Kenny Chesney
 The Wonder Of You, Elvis Presley 
 The Wonder Of You, Ray Peterson 
 The Word Is Out, Jermaine Stewart 
+The Word, The Beatles
 The Work Song, Herb Alpert & The Tijuana Brass 
 The World I Know, Collective Soul 
 The World Is A Ghetto, War 
@@ -8539,6 +8793,7 @@ There'll Be Sad Songs (To Make You Cry), Billy Ocean
 There's A Kind Of Hush (All Over The World), Carpenters 
 There's A Kind Of Hush, Herman's Hermits 
 There's A Moon Out Tonight, Capris, The 
+There's A Place, The Beatles
 There's Gonna Be A Showdown, Archie Bell & The Drells 
 There's No Other (Like My Baby), Crystals, The 
 There's The Girl, Heart 
@@ -8562,9 +8817,11 @@ Things I Should Have Said, Grass Roots, The
 Things I'd Like To Say, New Colony Six 
 Things Just Ain't The Same, Deborah Cox 
 Things That Make You Go Hmmmm, C+C Music Factory 
+Things We Said Today, The Beatles
 Things'll Never Change, E-40 
 Things, Bobby Darin 
 Think About Me, Fleetwood Mac 
+Think For Yourself, The Beatles
 Think I'm In Love, Eddie Money 
 Think Of Laura, Christopher Cross 
 Think Of You, Usher 
@@ -8584,6 +8841,7 @@ This Afternoon, Nickelback
 This Ain't A Love Song, Bon Jovi 
 This Ain't A Scene, It's An Arms Race, Fall Out Boy 
 This Bitter Earth, Dinah Washington 
+This Boy, The Beatles
 This Could Be The Night, Loverboy 
 This DJ, Warren G 
 This Diamond Ring, Gary Lewis and the Playboys 
@@ -8638,6 +8896,7 @@ Those Oldies But Goodies (Remind Me Of You), Little Caesar and the Romans
 Those Were The Days, Mary Hopkin 
 Thou Shalt Not Steal, Dick and DeeDee 
 Thought I'd Died And Gone To Heaven, Bryan Adams 
+Three Cool Cats, The Beatles
 Three Hearts In A Tangle, Roy Drusky 
 Three Little Pigs, Green Jelly 
 Three Nights A Week, Fats Domino 
@@ -8661,6 +8920,7 @@ Thunder Island, Jay Ferguson
 TiK ToK, Ke$ha 
 Tic-Tac-Toe, Kyper 
 Ticket To Ride, Beatles, The 
+Ticket To Ride, The Beatles
 Ticks, Brad Paisley 
 Tie A Yellow Ribbon Round The Ole Oak Tree, Dawn 
 Tie Me Down, New Boyz 
@@ -8674,6 +8934,7 @@ Til My Baby Comes Home, Luther Vandross
 Till I Loved You (The Love Theme From Goya), Barbra Streisand 
 Till The World Ends, Britney Spears 
 Till Then, Classics, The 
+Till There Was You, The Beatles
 Till, Angels, The 
 Tim McGraw, Taylor Swift 
 Time (Clock Of The Heart), Culture Club 
@@ -8715,6 +8976,7 @@ To Be With You, Mr. Big
 To Each His Own, Faith, Hope and Charity 
 To Each His Own, Platters, The 
 To Give (The Reason I Live), Frankie Valli 
+To Know Her Is To Love Her, The Beatles
 To Live And Die In L.A., Wang Chung 
 To Love Somebody, Michael Bolton 
 To Sir With Love, Lulu 
@@ -8736,6 +8998,7 @@ Togetherness, Frankie Avalon
 Tom Cat, Rooftop Singers, The 
 Tom's Diner, DNA 
 Tomorrow Doesn't Matter Tonight, Starship 
+Tomorrow Never Knows, The Beatles
 Tomorrow, Chris Young 
 Tomorrow, Silverchair 
 Tomorrow, Strawberry Alarm Clock 
@@ -8748,15 +9011,15 @@ Tonight Is The Night, Outasight
 Tonight It's You, Cheap Trick 
 Tonight My Love, Tonight, Paul Anka 
 Tonight She Comes, Cars, The 
+Tonight Tonight Tonight, Genesis 
 Tonight Tonight, Hot Chelle Rae 
+Tonight Tonight, Smashing Pumpkins, The 
 Tonight's The Night (Gonna Be Alright), Rod Stewart 
 Tonight's The Night, Solomon Burke 
 Tonight, Ferrante & Teicher 
 Tonight, I Celebrate My Love, Roberta Flack 
 Tonight, Kool & The Gang 
 Tonight, New Kids On The Block 
-Tonight, Tonight, Smashing Pumpkins, The 
-Tonight, Tonight, Tonight, Genesis 
 Tonite's Tha Night, Kris Kross 
 Too Blind To See It, Kym Sims 
 Too Busy Thinking About My Baby, Marvin Gaye 
@@ -8774,6 +9037,7 @@ Too Many Fish In The Sea, Marvelettes, The
 Too Many Rivers, Brenda Lee 
 Too Many Walls, Cathy Dennis 
 Too Much Heaven, Bee Gees 
+Too Much Monkey Business, The Beatles
 Too Much Passion, Smithereens, The 
 Too Much Talk, Paul Revere and the Raiders 
 Too Much Time On My Hands, Styx 
@@ -8903,6 +9167,7 @@ Twilight Zone, Golden Earring
 Twine Time, Alvin Cash 
 Twist And Shout, Beatles, The 
 Twist And Shout, Isley Brothers, The 
+Twist And Shout, The Beatles
 Twist Of Fate, Olivia Newton-John 
 Twist, Twist Senora, Gary "U.S." Bonds 
 Twisted, Keith Sweat 
@@ -8918,6 +9183,7 @@ Two Is Better Than One, Boys Like Girls
 Two Lovers, Mary Wells 
 Two Occasions, Deele, The 
 Two Of Hearts, Stacey Q 
+Two Of Us, The Beatles
 Two Out Of Three Ain't Bad, Meat Loaf 
 Two People, Tina Turner 
 Two Places At The Same Time, Ray Parker Jr. 
@@ -8950,7 +9216,7 @@ U.S. Male, Elvis Presley
 Ugly, Bubba Sparxxx 
 Uh Huh, B2K 
 Uhh Ahh, Boyz II Men 
-Um, Um, Um, Um, Um, Um, Major Lance 
+Um Um Um Um Um Um, Major Lance 
 Umbrella, Rihanna 
 Un-Break My Heart, Toni Braxton 
 Un-Thinkable (I'm Ready), Alicia Keys 
@@ -9054,6 +9320,7 @@ Wait A Minute, Pussycat Dolls, The
 Wait For Me, Daryl Hall & John Oates 
 Wait For You, Elliott Yamin 
 Wait Til My Bobby Gets Home, Darlene Love 
+Wait, The Beatles
 Wait, White Lion 
 Waitin' On A Woman, Brad Paisley 
 Waiting For A Girl Like You, Foreigner 
@@ -9127,7 +9394,7 @@ Warm It Up, Kris Kross
 Was It Nothing At All, Michael Damian 
 Washington Square, Village Stompers, The 
 Wasted Days And Wasted Nights, Freddy Fender 
-Wasted On The Way, Crosby, Stills & Nash 
+Wasted On The Way, Crosby Stills & Nash 
 Wasted, Carrie Underwood 
 Wasted, Gucci Mane 
 Wasting My Time, Default 
@@ -9160,6 +9427,7 @@ We Built This City, Starship
 We Can Fly, Cowsills, The 
 We Can Work It Out, Beatles, The 
 We Can Work It Out, Stevie Wonder 
+We Can Work It Out, The Beatles
 We Can't Be Friends, Deborah Cox 
 We Can't Go Wrong, Cover Girls, The 
 We Connect, Stacey Q 
@@ -9256,6 +9524,7 @@ What Does It Take (To Win Your Love), Jr. Walker & the All Stars
 What Does It Take, Honeymoon Suite 
 What Goes Around Comes Around, Giggles 
 What Goes Around…Comes Around, Justin Timberlake 
+What Goes On, The Beatles
 What Have I Done To Deserve This, Pet Shop Boys 
 What Have You Done For Me Lately, Janet Jackson 
 What Hurts The Most, Rascal Flatts 
@@ -9297,6 +9566,7 @@ What You See Is What You Get, Brenda K. Starr
 What You Want, DMX 
 What You Want, Mase 
 What You Won't Do For Love, Bobby Caldwell 
+What You're Doing, The Beatles
 What'Chu Like, Da Brat 
 What'd I Say (Part I), Ray Charles 
 What's A Matter Baby (Is It Hurting You), Timi Yuro 
@@ -9318,6 +9588,7 @@ What's So Different?, Ginuwine
 What's So Good About Good-By, Miracles, The 
 What's The Frequency, Kenneth?, R.E.M. 
 What's The Matter With You Baby, Marvin Gaye 
+What's The New Mary Jane, The Beatles
 What's The Use Of Breaking Up, Jerry Butler 
 What's Up Doc? (Can We Rock?), Fu-Schnickens 
 What's Up, 4 Non Blondes 
@@ -9354,6 +9625,7 @@ When I Come Around, Green Day
 When I Die, Motherlode 
 When I Fall In Love, Celine Dion 
 When I Fall In Love, Lettermen, The 
+When I Get Home, The Beatles
 When I Get Where I'm Going, Brad Paisley 
 When I Grow Up (To Be A Man), Beach Boys, The 
 When I Grow Up, Pussycat Dolls, The 
@@ -9372,6 +9644,7 @@ When I'm Back On My Feet Again, Michael Bolton
 When I'm Gone, 3 Doors Down 
 When I'm Gone, Brenda Holloway 
 When I'm Gone, Eminem 
+When I'm Sixty-Four, The Beatles
 When It's Love, Van Halen 
 When It's Over, Sugar Ray 
 When Liking Turns To Loving, Ronnie Dove 
@@ -9448,6 +9721,7 @@ Where's The Playground Susie, Glen Campbell
 Wherever You Go, Voices Of Theory 
 Wherever You Will Go, Calling, The 
 Which Way You Goin' Billy?, Poppy Family, The 
+While My Guitar Gently Weeps, The Beatles
 While You See A Chance, Steve Winwood 
 Whine Up, Kat Deluna 
 Whip Appeal, Babyface 
@@ -9525,6 +9799,7 @@ Why Can't We Be Friends?, War
 Why Can't We Live Together, Timmy Thomas 
 Why Do Fools Fall In Love, Diana Ross 
 Why Does It Hurt So Bad, Whitney Houston 
+Why Don't We Do It In The Road?, The Beatles
 Why Don't We Fall In Love, Amerie 
 Why Don't We Just Dance, Josh Turner 
 Why Don't You & I, Santana 
@@ -9541,6 +9816,7 @@ Why You Wanna, T.I.
 Why, Annie Lennox 
 Why, Donny Osmond 
 Why, Frankie Avalon 
+Why, The Beatles
 Why?, Jadakiss 
 Wichita Lineman, Glen Campbell 
 Wicked Game, Chris Isaak 
@@ -9549,6 +9825,7 @@ Wifey, Next
 Wiggle It, 2 In A Room 
 Wiggle Wobble, Les Cooper and the Soul Rockers 
 Wild Boys, Duran Duran 
+Wild Honey Pie, The Beatles
 Wild Horses, Gino Vannelli 
 Wild Night, John Mellencamp 
 Wild One, Bobby Rydell 
@@ -9604,6 +9881,7 @@ Wishing Well, Terence Trent D'Arby
 Wishing You Were Here, Chicago 
 Wishlist, Pearl Jam 
 Witchy Woman, Eagles 
+With A Little Help From My Friends, The Beatles
 With A Little Luck, Wings 
 With Arms Wide Open, Creed 
 With Every Beat Of My Heart, Taylor Dayne 
@@ -9616,6 +9894,7 @@ With You, Chris Brown
 With You, Jessica Simpson 
 With You, Tony Terry 
 With Your Love, Jefferson Starship 
+Within You Without You, The Beatles
 Without Love (There Is Nothing), Tom Jones 
 Without Love, Donna Lewis 
 Without Me, Eminem 
@@ -9634,9 +9913,9 @@ Wolverton Mountain, Claude King
 Woman Don't Go Astray, King Floyd 
 Woman In Love, Barbra Streisand 
 Woman To Woman, Shirley Brown 
+Woman Woman, Union Gap 
 Woman, John Lennon 
 Woman, Peter and Gordon 
-Woman, Woman, Union Gap 
 Womanizer, Britney Spears 
 Won't Get Fooled Again, Who, The 
 Wonder, Natalie Merchant 
@@ -9658,12 +9937,13 @@ Wonderwall, Oasis
 Woo-Hah! Got You All In Check, Busta Rhymes 
 Woo-Hoo, Rock-A-Teens 
 Wooden Heart, Joe Dowell 
-Woodstock, Crosby, Stills, Nash & Young 
+Woodstock, Crosby Stills Nash & Young 
 Woodstock, Matthews' Southern Comfort 
 Wooly Bully, Sam the Sham and the Pharaohs 
 Word Up, Cameo 
 Words Get In The Way, Miami Sound Machine 
 Words Of Love, Mamas & The Papas, The 
+Words Of Love, The Beatles
 Words, Bee Gees, The 
 Words, Monkees, The 
 Work Hard, Play Hard, Wiz Khalifa 
@@ -9698,26 +9978,31 @@ Ya Ya, Lee Dorsey
 Yah Mo B There, James Ingram 
 Yankee Rose, David Lee Roth 
 Yeah 3X, Chris Brown 
+Yeah Yeah Yeah, Judson Spence 
 Yeah!, Usher 
-Yeah, Yeah, Yeah, Judson Spence 
 Year Of The Cat, Al Stewart 
 Years, Wayne Newton 
-Yeh, Yeh, Georgie Fame 
+Yeh Yeh, Georgie Fame 
 Yellow Bird, Arthur Lyman Group 
 Yellow River, Christie 
+Yellow Submarine In Pepperland, The Beatles
 Yellow Submarine, Beatles, The 
+Yellow Submarine, The Beatles
+Yer Blues, The Beatles
+Yes I'm Ready, Barbara Mason 
+Yes I'm Ready, Teri DeSario 
+Yes It Is, The Beatles
 Yes We Can Can, Pointer Sisters 
 Yes!, Chad Brock 
-Yes, I'm Ready, Barbara Mason 
-Yes, I'm Ready, Teri DeSario 
 Yester Love, Smokey Robinson 
 Yester-Me, Yester-You, Yesterday, Stevie Wonder 
 Yesterday Once More, Carpenters 
 Yesterday's Songs, Neil Diamond 
 Yesterday, Beatles, The 
+Yesterday, The Beatles
 Yo (Excuse Me Miss), Chris Brown 
 Yo-Yo, Osmonds, The 
-Yogi, Ivy Three, The 
+Yogi, The Ivy Three 
 You Ain't Seen Nothin' Yet, Bachman-Turner Overdrive 
 You Always Hurt The One You Love, Clarence Henry 
 You And I, Eddie Rabbitt 
@@ -9759,6 +10044,7 @@ You Can Have Her, Roy Hamilton
 You Can Have Her, Sam Neely 
 You Can't Change That, Raydio 
 You Can't Deny It, Lisa Stansfield 
+You Can't Do That, The Beatles
 You Can't Get What You Want (Till You Know What You Want), Joe Jackson 
 You Can't Hide Beautiful, Aaron Lines 
 You Can't Hurry Love, Phil Collins 
@@ -9812,14 +10098,17 @@ You Keep Me Hangin' On, Vanilla Fudge
 You Keep Running Away, Four Tops 
 You Know How We Do It, Ice Cube 
 You Know I Love You.. Don't You?, Howard Jones 
+You Know My Name (Look Up The Number), The Beatles
 You Know That I Love You, Santana 
 You Know What I Mean, Turtles, The 
 You Know What It Is, T.I. 
+You Know What To Do, The Beatles
 You Know You're Right, Nirvana 
 You Learn, Alanis Morissette 
 You Lie, Band Perry, The 
 You Light Up My Life, Debby Boone 
 You Light Up My Life, LeAnn Rimes 
+You Like Me Too Much, The Beatles
 You Little Trustmaker, Tymes, The 
 You Look Good In My Shirt, Keith Urban 
 You Made Me Believe In Magic, Bay City Rollers 
@@ -9840,9 +10129,11 @@ You Must Love Me, Madonna
 You Need Love Like I Do (Don't You), Gladys Knight & the Pips 
 You Needed Me, Anne Murray 
 You Never Done It Like That, Captain and Tennille 
+You Never Give Me Your Money, The Beatles
 You Ought To Be With Me, Al Green 
 You Oughta Know, Alanis Morissette 
 You Owe Me, Nas 
+You Really Got A Hold On Me, The Beatles
 You Really Got Me, Kinks, The 
 You Remind Me Of Something, R. Kelly 
 You Remind Me, Mary J. Blige 
@@ -9878,9 +10169,11 @@ You Won't Ever Be Lonely, Andy Griggs
 You Won't Forget Me, La Bouche 
 You Won't See Me Cry, Wilson Phillips 
 You Won't See Me, Anne Murray 
+You Won't See Me, The Beatles
 You'd Better Come Home, Petula Clark 
 You'll Accomp'ny Me, Bob Seger 
 You'll Be In My Heart, Phil Collins 
+You'll Be Mine, The Beatles
 You'll Lose A Good Thing, Barbara Lynn 
 You'll Never Find Another Love Like Mine, Lou Rawls 
 You'll See, Madonna 
@@ -9896,6 +10189,7 @@ You're Always On My Mind, SWV
 You're Amazing, Robert Palmer 
 You're Beautiful, James Blunt 
 You're Beginning To Get To Me, Clay Walker 
+You're Going To Lose That Girl, The Beatles
 You're Gonna Miss This, Trace Adkins 
 You're In Love, Wilson Phillips 
 You're In My Heart (The Final Acclaim), Rod Stewart 
@@ -9929,6 +10223,7 @@ You've Got A Friend, James Taylor
 You've Got A Friend, Roberta Flack 
 You've Got To Crawl (Before You Walk), 8th Day, The 
 You've Got To Hide Your Love Away, Silkie, The 
+You've Got To Hide Your Love Away, The Beatles
 You've Got Your Troubles, Fortunes 
 You've Lost That Lovin' Feelin', Righteous Brothers, The 
 You've Lost That Lovin' Feeling, Daryl Hall & John Oates 
@@ -9942,6 +10237,7 @@ You, Lloyd
 You, Monifah 
 Young And In Love, Dick and DeeDee 
 Young Blood, Bad Company 
+Young Blood, The Beatles
 Young Emotions, Ricky Nelson 
 Young Forever, Jay-Z 
 Young Girl, Union Gap 
@@ -9969,6 +10265,7 @@ Your Ma Said You Cried In Your Sleep Last Night, Kenny Dino
 Your Mama Don't Dance, Kenny Loggins 
 Your Mama Don't Dance, Poison 
 Your Man, Josh Turner 
+Your Mother Should Know, The Beatles
 Your Nose Is Gonna Grow, Johnny Crawford 
 Your Precious Love, Marvin Gaye 
 Your Smilin' Face, James Taylor 

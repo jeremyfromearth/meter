@@ -44,7 +44,6 @@
 95 South
 98°
 ? and the Mysterians
-A
 A Day To Remember
 A Perfect Circle
 A Rocket to the Moon
@@ -258,7 +257,6 @@ Arcane Roots
 Archers of Loaf
 Archie Bell & The Drells
 Architecture in Helsinki
-Archive
 Arctic Monkeys
 Area 11
 Aretha Franklin
@@ -409,6 +407,7 @@ Ben Sollee
 Benjamin Burnley
 Benjamin Gibbard
 Benji Madden
+Benny Bennassi
 Benny Mardones
 Bent Fabric and his Piano
 Berlin
@@ -1675,7 +1674,6 @@ G-Unit
 GG Allin
 GQ
 GS Boyz
-GTR
 Gabrielle
 Gabrielle Aplin
 Gail Davies
@@ -4140,7 +4138,6 @@ Soda Stereo
 Soft Cell
 Soho
 Sole
-Solo
 Solomon Burke
 Some Velvet Sidewalk
 Somethin' For The People
@@ -4413,7 +4410,6 @@ Texas
 Th' Faith Healers
 Thalia
 That Dog
-The
 The (Blossoms)
 The 1975
 The 77s
@@ -4613,6 +4609,7 @@ The Weakerthans
 The Wedding Present
 The Whigs
 The White Stripes
+The Who
 The Why Store
 The Wolfgang Press
 The Wolfhounds

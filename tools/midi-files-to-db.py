@@ -1,7 +1,7 @@
 import os
 import re
 import sys
-from random import random
+from random import random, shuffle
 from mido import MidiFile, MetaMessage, Message, tempo2bpm
 
 DB_VERSION = '1.0.0'
@@ -32,7 +32,7 @@ def create_ngrams(l, n):
     return zip(*[l[i:] for i in range(n)])
 
 # percentage of filess to analyze
-sample_size = 0.01
+sample_size = 0.001
 
 # load terms from files
 stop_words = create_set_from_file('stopwords.txt')
@@ -52,7 +52,9 @@ with open('top-10k-songs-with-artists.txt') as f:
     song_titles = [line.rstrip().lower().split(',') for line in f]
 
 # iterate over all files in supplied directory
-for f in os.listdir(dirname):
+files = os.listdir(dirname)
+shuffle(files)
+for f in files:
     if f.endswith('.mid') or f.endswith('.MID'):
         r = random()
         if r < sample_size:
@@ -67,7 +69,7 @@ for f in os.listdir(dirname):
                 current_bpm = 120
                 programs = set()
                 filename = clean_text(f, 4)
-                words = [] + (filename)
+                words = [] + filename
                 lyrics = []
                 for msg in m:
                     duration += msg.time 
@@ -97,24 +99,21 @@ for f in os.listdir(dirname):
                     bpms[current_bpm] += bpm_duration
                 else:
                     bpms[current_bpm] = bpm_duration
-                for word in words:
-                    if word in stop_words:
-                        words.remove(word)
 
                 keywords = ' '.join(words)
                 data['filename'] = f
                 data['bpm'] =  max(bpms, key=bpms.get)
                 data['programs'] = programs
                 data['duration'] = m.length
-                data['keywords'] = keywords
-                data['artists'] = []
-                data['titles'] = []
-                data['years'] = []
-                data['instruments'] = []
-                data['composers'] = []
-                data['soundtrack_composers'] = []
-                data['genres'] = []
-                data['game_titles'] = []
+                data['keywords'] = set(words)
+                data['artists'] = set()
+                data['titles'] = set()
+                data['years'] = set()
+                data['instruments'] = set()
+                data['composers'] = set()
+                data['soundtrack_composers'] = set()
+                data['genres'] = set()
+                data['game_titles'] = set()
 
                 artists = {} 
                 track_titles = {}
@@ -129,7 +128,7 @@ for f in os.listdir(dirname):
                         phrase = ' '.join(gram) 
                         for j in range(len(bb_songs)):
                             song = bb_songs[j]
-                            if len(song) >= 2 and song[1] in phrase:
+                            if len(song) >= 2 and song[1] == phrase:
                                 bb_track_titles[j] = song[1]
                             if len(song) >= 3: 
                                 if song[2] in phrase or song[2] == 'The ' + phrase:
@@ -143,41 +142,38 @@ for f in os.listdir(dirname):
                                 artists[j] = song[1]
 
                         if phrase in musicians:
-                            data['artists'].append(phrase)
+                            data['artists'].add(phrase)
                         if phrase in composers:
-                            data['composers'].append(phrase)
+                            data['composers'].add(phrase)
                         if phrase in soundtrack_composers:
-                            data['soundtrack_composers'].append(phrase)
+                            data['soundtrack_composers'].add(phrase)
                         if phrase in genres:
-                            data['genres'].append(phrase)
+                            data['genres'].add(phrase)
                         if phrase in videogames:
-                            data['game_titles'].append(phrase)
+                            data['game_titles'].add(phrase)
                         if phrase in instruments:
-                            data['instruments'].append(phrase)
+                            data['instruments'].add(phrase)
 
                 found_in_bb = False
                 for k, v in bb_artists.items():
                     if k in bb_track_titles:
                         found_in_bb = True
-                        data['artists'].append(bb_artists[k])
-                        data['years'].append(bb_songs[k][0])
-                        data['titles'].append(bb_track_titles[k])
+                        data['artists'].add(bb_artists[k])
+                        data['years'].add(bb_songs[k][0])
+                        data['titles'].add(bb_track_titles[k])
 
                 for k, v in artists.items():
                     if k in track_titles:
                         if not found_in_bb:
-                            data['artists'].append[k]
-                            data['titles'].append(track_titles[k])
+                            data['artists'].add(artists[k])
+                            data['titles'].add(track_titles[k])
 
                 year_search = re.findall(' (\d{4}) ', keywords)
                 if len(year_search) > 0:
-                    data['years'] += [int(y) for y in year_search if int(y) > 1800 and int(y) < 2017]
+                    data['years'] |= set([int(y) for y in year_search if int(y) > 1800 and int(y) < 2017])
 
                 print(data)
-
             except Exception as e:
                 print('Could not open file', f)
                 print(e)
                 pass
-
-print('Successfully found', successes)

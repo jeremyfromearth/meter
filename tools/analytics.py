@@ -125,9 +125,7 @@ class TermFreqInverseDocFreq:
         tf = self.tfidf[doc_index].toarray()
         for index in range(len(tf[0])):
             value = tf[0, index]
-            if value > 0.0:
-                terms[self.term_id_to_term[index]] = value
-            
+            terms[self.term_id_to_term[index]] = value if value >= 0.0 else 0.0
         result = pd.Series(terms)
-        result.sort(ascending=False)
+        result.sort_values(inplace=True, ascending=False)
         return result

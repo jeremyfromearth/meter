@@ -229,6 +229,7 @@ Double contrabass flute
 Doulophone cuprophone
 Drum machine
 Drum stick
+Drums
 Dubreq stylophone
 Duct Flute
 Dudelsack
@@ -245,6 +246,8 @@ Duxianqin
 Egg shaker
 Ektara
 Ekwe
+El Guitar
+Electric Guitar
 Electric guitar
 Electric organ
 Electric piano
@@ -400,6 +403,7 @@ Kettle drum Timpani
 Keyboard glockenspiel
 Keyed Bugle
 Keyed Trumpet
+Keys
 Khene
 Khim
 Khloy
@@ -653,6 +657,7 @@ Slenthem
 Slide guitar
 Slide whistle
 Slit drum
+Snare
 Snare Drum
 Snare drum
 Song bells
@@ -672,6 +677,7 @@ Steel guitar
 Steel pan
 Stomp box
 Stone marimba
+Strings
 Subcontrabass flute
 Subcontrabass saxophone
 Suikinkutsu
@@ -680,7 +686,10 @@ Suona
 Surdo
 Suspended cymbal
 Synclavier
+Synth
+Synths
 Synthesizer
+Synthesizers
 Säckpipa
 Tabla
 Tabla tarang
@@ -724,6 +733,7 @@ Timple
 Tin whistle
 Tingsha
 Tjelempung Celempung
+Tom
 Tom-tom
 Tom-tom drum
 Tonbak

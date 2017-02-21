@@ -12,9 +12,8 @@ from mido import MidiFile, MetaMessage, Message, tempo2bpm
 DB_VERSION = '1.0.0'
 
 dirname = ''
-tfidf_data = {}
+sample_size = 1.0
 file_upload_count = 0
-sample_size = 0.00001
 client = MongoClient('localhost', 27017)
 db = client.meter
 
@@ -74,128 +73,125 @@ for f in files:
         r = random()
         if r <= sample_size:
             try:
-                m = MidiFile(dirname +'/'+ f)
-                data = {'db_version': DB_VERSION}
-                duration = 0
-                bpms = {}
-                bpm_duration = 0
-                current_bpm = 120
-                programs = set()
-                filename = clean_text(f, 4)
-                words = [] + filename
-                lyrics = []
-                for msg in m:
-                    duration += msg.time 
-                    bpm_duration += msg.time
-
-                    if msg.type == 'set_tempo':
-                        if current_bpm in bpms:
-                            bpms[current_bpm] += bpm_duration
-                        else:
-                            bpms[current_bpm] = bpm_duration
-                        bpm_duration = 0
-                        current_bpm = round(tempo2bpm(msg.tempo))
-                    
-                    if msg.type == 'text':
-                        words += set(clean_text(msg.text))
-
-                    if msg.type == 'track_name':
-                        words += clean_text(msg.name)
-
-                    if msg.type == 'program_change':
-                        programs.add(msg.program)
-
-                    if msg.type == 'lyrics':
-                        lyrics.append(msg.text)
-
-                if current_bpm in bpms:
-                    bpms[current_bpm] += bpm_duration
-                else:
-                    bpms[current_bpm] = bpm_duration
-
-                keywords = ' '.join(words)
-
-                data['filename'] = f
-                data['bpm'] =  max(bpms, key=bpms.get)
-                data['programs'] = programs
-                data['duration'] = m.length
-                data['keywords'] = set(words)
-                data['artists'] = set()
-                data['titles'] = set()
-                data['years'] = set()
-                data['instruments'] = set()
-                data['composers'] = set()
-                data['soundtrack_composers'] = set()
-                data['genres'] = set()
-                data['game_titles'] = set()
-
-                artists = {} 
-                track_titles = {}
-
-                bb_years = {}
-                bb_artists = {}
-                bb_track_titles = {}
-                
-                for i in range(1, 5):
-                    ngrams = create_ngrams(words, i)
-                    for gram in ngrams:
-                        phrase = ' '.join(gram) 
-                        for j in range(len(bb_songs)):
-                            song = bb_songs[j]
-                            if len(song) >= 2 and song[1] == phrase:
-                                bb_track_titles[j] = song[1]
-                            if len(song) >= 3: 
-                                if song[2] in phrase or song[2] == 'The ' + phrase:
-                                    bb_artists[j] = song[2]
-
-                        for j in range(len(song_titles)):
-                            song = song_titles[j]
-                            if song[0] in phrase:
-                                track_titles[j] = song[0]
-                            if song[1] in phrase:
-                                artists[j] = song[1]
-
-                        if phrase in musicians:
-                            data['artists'].add(phrase)
-                        if phrase in composers:
-                            data['composers'].add(phrase)
-                        if phrase in soundtrack_composers:
-                            data['soundtrack_composers'].add(phrase)
-                        if phrase in genres:
-                            data['genres'].add(phrase)
-                        if phrase in videogames:
-                            data['game_titles'].add(phrase)
-                        if phrase in instruments:
-                            data['instruments'].add(phrase)
-
-                found_in_bb = False
-                for k, v in bb_artists.items():
-                    if k in bb_track_titles:
-                        found_in_bb = True
-                        data['artists'].add(bb_artists[k])
-                        data['years'].add(bb_songs[k][0])
-                        data['titles'].add(bb_track_titles[k])
-
-                for k, v in artists.items():
-                    if k in track_titles:
-                        if not found_in_bb:
-                            data['artists'].add(artists[k])
-                            data['titles'].add(track_titles[k])
-
-                year_search = re.findall(' (\d{4}) ', keywords)
-                if len(year_search) > 0:
-                    data['years'] |= set([int(y) for y in year_search if int(y) > 1800 and int(y) < 2017])
-            except Exception as e:
-                print('Could not open file', f)
-                print(e)
-            finally:
                 with open(dirname +'/'+ f, 'rb') as midi_file:
                     sha256 = hashlib.sha256()
                     for block in iter(lambda: midi_file.read(65536), b''):
                         sha256.update(block)
                     checksum = sha256.hexdigest()
-                    if db.midi_files.find_one({'checksum' : checksum}) is None:
+                    document_exists = db.midi_files.find_one({'checksum' : checksum})
+                    if document_exists is None:
+                        m = MidiFile(dirname +'/'+ f)
+                        data = {'db_version': DB_VERSION}
+                        duration = 0
+                        bpms = {}
+                        bpm_duration = 0
+                        current_bpm = 120
+                        programs = set()
+                        filename = clean_text(f, 4)
+                        words = [] + filename
+                        lyrics = []
+                        for msg in m:
+                            duration += msg.time 
+                            bpm_duration += msg.time
+
+                            if msg.type == 'set_tempo':
+                                if current_bpm in bpms:
+                                    bpms[current_bpm] += bpm_duration
+                                else:
+                                    bpms[current_bpm] = bpm_duration
+                                bpm_duration = 0
+                                current_bpm = round(tempo2bpm(msg.tempo))
+                            
+                            if msg.type == 'text':
+                                words += clean_text(msg.text)
+
+                            if msg.type == 'track_name':
+                                words += clean_text(msg.name)
+
+                            if msg.type == 'program_change':
+                                programs.add(msg.program)
+
+                            if msg.type == 'lyrics':
+                                lyrics.append(msg.text)
+
+                        if current_bpm in bpms:
+                            bpms[current_bpm] += bpm_duration
+                        else:
+                            bpms[current_bpm] = bpm_duration
+
+                        raw_text = ' '.join(words)
                         data['checksum'] = checksum
+                        data['raw_text'] = raw_text
+                        data['filename'] = f
+                        data['bpm'] =  max(bpms, key=bpms.get)
+                        data['programs'] = programs
+                        data['duration'] = m.length
+                        data['keywords'] = set(words)
+                        data['artists'] = set()
+                        data['titles'] = set()
+                        data['years'] = set()
+                        data['instruments'] = set()
+                        data['composers'] = set()
+                        data['soundtrack_composers'] = set()
+                        data['genres'] = set()
+                        data['game_titles'] = set()
+
+                        artists = {} 
+                        track_titles = {}
+
+                        bb_years = {}
+                        bb_artists = {}
+                        bb_track_titles = {}
+                        
+                        for i in range(1, 5):
+                            ngrams = create_ngrams(words, i)
+                            for gram in ngrams:
+                                phrase = ' '.join(gram) 
+                                for j in range(len(bb_songs)):
+                                    song = bb_songs[j]
+                                    if len(song) >= 2 and song[1] == phrase:
+                                        bb_track_titles[j] = song[1]
+                                    if len(song) >= 3: 
+                                        if song[2] in phrase or song[2] == 'The ' + phrase:
+                                            bb_artists[j] = song[2]
+
+                                for j in range(len(song_titles)):
+                                    song = song_titles[j]
+                                    if song[0] in phrase:
+                                        track_titles[j] = song[0]
+                                    if song[1] in phrase:
+                                        artists[j] = song[1]
+
+                                if phrase in musicians:
+                                    data['artists'].add(phrase)
+                                if phrase in composers:
+                                    data['composers'].add(phrase)
+                                if phrase in soundtrack_composers:
+                                    data['soundtrack_composers'].add(phrase)
+                                if phrase in genres:
+                                    data['genres'].add(phrase)
+                                if phrase in videogames:
+                                    data['game_titles'].add(phrase)
+                                if phrase in instruments:
+                                    data['instruments'].add(phrase)
+
+                        found_in_bb = False
+                        for k, v in bb_artists.items():
+                            if k in bb_track_titles:
+                                found_in_bb = True
+                                data['artists'].add(bb_artists[k])
+                                data['years'].add(bb_songs[k][0])
+                                data['titles'].add(bb_track_titles[k])
+
+                        for k, v in artists.items():
+                            if k in track_titles:
+                                if not found_in_bb:
+                                    data['artists'].add(artists[k])
+                                    data['titles'].add(track_titles[k])
+
+                        year_search = re.findall(' (\d{4}) ', raw_text)
+                        if len(year_search) > 0:
+                            data['years'] |= set([int(y) for y in year_search if int(y) > 1800 and int(y) < 2017])
                         try:
                             new_data = {}
                             for k, v in data.items():
@@ -203,42 +199,35 @@ for f in files:
                                     new_data[k] = list(v)
                                 else:
                                     new_data[k] = v
-                            db.midi_files.insert_one(new_data)
+                            obj_id = str(db.midi_files.insert(new_data))
                             file_upload_count += 1
-                            print(checksum)
+                            print('Added', f, 'to database')
                         except Exception as e:
                             print('Error adding data to db')
                             print(e)
-
-print(file_upload_count)
-
-# TODO: create new routine that iterates through each record in the db and create the tfidf that way
-#tfidf_data[index] = {'index': index, 'filename': f, 'keywords' : keywords}
+            except Exception as e:
+                print('Could not open file', f)
+                print(e)
 '''
-if save_tfidf:
-    df = DataFrame.from_dict(tfidf_data, orient='index')
-    tfidf = TermFreqInverseDocFreq()
-    tfidf.create(df, 'keywords', True)
-    def get_expanded(x):
-        return log(1.2 * len(x.name)) * x
-    for k, v in tfidf_data.items():
-        print(tfidf_data[k]['filename'])
-        terms = tfidf.get_sorted_terms_for_document(k)
-        terms_df = terms.to_frame()
-        terms_df['expanded'] = terms_df.apply(get_expanded, axis=1)
-        print(terms_df)
-    tfidf.save('midi-tfidf')
+print('Successully added', file_upload_count, 'files to database')
+df = DataFrame.from_dict(tfidf_data, orient='index')
+print(df.head())
+tfidf = TermFreqInverseDocFreq()
+tfidf.create(df, 'keywords', True)
+for k, v in tfidf_data.items():
+    print(k)
+    terms = tfidf.get_sorted_terms_for_document(k)
+    print(terms)
+tfidf.save('midi-tfidf')
+
+def get_expanded(x):
+    return log(len(x.name)) * x
+for k, v in tfidf_data.items():
+    print(k)
+    print(tfidf_data[k]['filename'])
+    terms = tfidf.get_sorted_terms_for_document(k)
+    print(terms)
+    #terms_df = terms.to_frame()
+    #terms_df['expanded'] = terms_df.apply(get_expanded, axis=1)
+    #print(terms_df)
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-

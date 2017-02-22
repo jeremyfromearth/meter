@@ -15,13 +15,14 @@ if app.config['DEBUG']:
 
 @app.route('/')
 def index():
+    print('returning index.html')
     return app.send_static_file('build/index.html')
 
+'''
 @app.route('/search/')
 def file_listing():
     search_filters = request.headers[search]
 
-    '''
     search:
         artist: true
         composers: true
@@ -29,5 +30,5 @@ def file_listing():
         song_title: true
         genres: []
         date-range: (a, b)
-    '''
     pass
+'''

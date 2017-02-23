@@ -208,26 +208,4 @@ for f in files:
             except Exception as e:
                 print('Could not open file', f)
                 print(e)
-'''
-print('Successully added', file_upload_count, 'files to database')
-df = DataFrame.from_dict(tfidf_data, orient='index')
-print(df.head())
-tfidf = TermFreqInverseDocFreq()
-tfidf.create(df, 'keywords', True)
-for k, v in tfidf_data.items():
-    print(k)
-    terms = tfidf.get_sorted_terms_for_document(k)
-    print(terms)
-tfidf.save('midi-tfidf')
 
-def get_expanded(x):
-    return log(len(x.name)) * x
-for k, v in tfidf_data.items():
-    print(k)
-    print(tfidf_data[k]['filename'])
-    terms = tfidf.get_sorted_terms_for_document(k)
-    print(terms)
-    #terms_df = terms.to_frame()
-    #terms_df['expanded'] = terms_df.apply(get_expanded, axis=1)
-    #print(terms_df)
-'''

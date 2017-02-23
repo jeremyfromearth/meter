@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from flask_pymongo import PyMongo
 app = Flask(__name__)
 app.config.from_object('config')
@@ -18,9 +18,11 @@ def index():
     print('returning index.html')
     return app.send_static_file('build/index.html')
 
-'''
-@app.route('/search/')
-def file_listing():
+@app.route('/search/', methods=['GET'])
+def search():
+    print(request.headers)
+    return jsonify({'data': 'here'})
+    '''
     search_filters = request.headers[search]
 
     search:
@@ -31,4 +33,4 @@ def file_listing():
         genres: []
         date-range: (a, b)
     pass
-'''
+    '''

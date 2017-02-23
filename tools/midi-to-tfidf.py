@@ -22,7 +22,7 @@ for f in cursor:
 
 df = DataFrame.from_dict(tfidf_data, orient='index')
 tfidf = TermFreqInverseDocFreq()
-tfidf.create(df, 'keywords', False)
+tfidf.create(df, 'raw_text', False)
 tfidf.save('midi-tfidf')
 
 # This part should live on the server

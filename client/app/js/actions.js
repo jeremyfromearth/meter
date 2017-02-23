@@ -27,15 +27,18 @@ function log(message) {
 }
 
 // Search for files
-const SearchFiles = 'search-files';
+const SearchFilesComplete = 'search-files-complete';
 function search_files(search) {
-    // TODO: Get search results from server
-    return {
-        type: SearchFiles,
-        data: {
-            search: search
-        }
-    }
+    return Observable.ajax({url: '/search', headers: {data : JSON.stringify(search)}})
+        .map(xhr => {
+            console.log(xhr.response);
+            return {
+                type: SearchFilesComplete,
+                data: {
+                    search_results: xhr.response
+                }
+            }
+        });
 }
 
 export {
@@ -44,5 +47,5 @@ export {
     bootstrap, 
     BootstrapComplete,
     search_files,
-    SearchFiles
+    SearchFilesComplete
 }

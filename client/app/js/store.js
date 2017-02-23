@@ -26,12 +26,12 @@ class Store extends RxStore {
                         output_panel: state.output_panel.concat([action.data])
                     };
                     return result;
-                case Actions.SearchFiles:
+                case Actions.SearchFilesComplete:
                     var result = {
                         ...state,
                         file_search: {
                             ...state.file_search,
-                            state: action.data.search,
+                            results: action.data.search_results,
                         },
                     };
                     console.log(result);

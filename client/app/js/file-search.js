@@ -14,15 +14,15 @@ class FileSearch extends Widget {
         this.filters_visible = false;
         this.filters_ui = UIBot();
         this.search = {
-            artist: '',
+            artists: '',
             bpm: '',
-            year: '',
-            composer: '',
+            years: '',
+            composers: '',
             duration: 180.0,
-            genre: '',
-            instrument: '',
-            song_title: '',
-            video_game: '',
+            genres: '',
+            instruments: '',
+            titles: '',
+            game_titles: '',
             keywords: ''
         };
 
@@ -50,15 +50,46 @@ class FileSearch extends Widget {
 
     onAfterAttach(message) {
         var filters_config = {
-            artist: {placeholder: 'ex. The Beatles, Alan Parsons Project'},
-            composer: {placeholder: 'ex. Hayned, Bach'},
-            song_title: {label: 'Song Title', placeholder: 'ex. Glass Onion or Hey Bulldog, Revolution'},
-            video_game: {label: 'Video Game Title', placeholder: 'ex. Legend of Zelda or Q-bert, Super Mario'}, 
-            genre: {placeholder: 'ex. rock, pop, dance, hip-hop'},
-            bpm: {placeholder: 'ex. 120 or 90-130', label: 'BPM'},
-            instrument: {placeholder: 'ex. marimba, bass guitar'},
-            year: {placeholder: 'ex. 2000 or 1954-1970', label: 'Year'},
-            duration: {label: 'Duration (seconds)', range: [5, 1000]},
+            artists: {
+                placeholder: 'ex. The Beatles, Alan Parsons Project', 
+                delimiter: ','
+            },
+            composers: {
+                placeholder: 'ex. Hayden, Bach', 
+                delimiter: ','
+            },
+            titles: {
+                label: 'Song Titles', 
+                placeholder: 'ex. Glass Onion or Hey Bulldog, Revolution', 
+                delimiter: ','
+            },
+            game_titles: {
+                label: 'Video Game Title', 
+                placeholder: 'ex. Legend of Zelda or Q-bert, Super Mario', 
+                delimiter: ','
+            }, 
+            genres: {
+                placeholder: 'ex. rock, pop, dance, hip-hop', 
+                delimiter: ','
+            },
+            bpm: {
+                placeholder: 'ex. 120 or 1990, 1930', 
+                label: 'BPM', 
+                delimiter: ','
+            },
+            instruments: {
+                placeholder: 'ex. marimba, bass guitar', 
+                delimiter: ','
+            },
+            years: {
+                placeholder: 'ex. 2000 or 1954-1970', 
+                label: 'Year', 
+                delimiter: ','
+            },
+            duration: {
+                label: 'Duration (seconds)', 
+                range: [5, 10000]
+            },
             ignore: ['keywords']
         };
 
@@ -95,8 +126,6 @@ class FileSearch extends Widget {
             });
 
         keyup.subscribe( event => {
-            //this.search[target.dataset.param] = target.value;
-            //this.store.dispatch(Actions.search_files(this.search));
             this.on_search_input_change(event);
         });
 
@@ -107,8 +136,6 @@ class FileSearch extends Widget {
             });
 
         change.subscribe( event => {
-            //this.search[target.dataset.param] = target.value;
-            //this.store.dispatch(Actions.search_files(this.search));
             this.on_search_input_change(event);
         });
     }
@@ -128,9 +155,6 @@ class FileSearch extends Widget {
     }
 
     on_search_input_change(event) {
-        var value = event.target.value;
-        var param = event.target.dataset.param;
-        this.search[param] = value;
         this.store.dispatch(Actions.search_files(this.search));
     }
 

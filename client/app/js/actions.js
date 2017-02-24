@@ -29,8 +29,6 @@ function log(message) {
 // Search for files
 const SearchFilesComplete = 'search-files-complete';
 function search_files(search) {
-    console.log('Actions.search_files');
-    console.log(search);
     return Observable.ajax({
             url: '/search', 
             responseType: 'json', 

@@ -140,20 +140,6 @@ class FileSearch extends Widget {
         });
     }
 
-    update_list(data) {
-        var list = document.getElementById('search-results-list');
-        for(var i = 0; i < data.file_system.midi_library.length; i++) {
-            var item = document.createElement('div');
-            item.className = 'search-result-list-item';
-            item.innerHTML = 
-                `<span class='fa fa-file-sound-o'/> 
-                    <div class='search-item-label'>
-                        ${data.file_system.midi_library[i].filename}
-                    </div>`
-            list.appendChild(item);
-        }
-    }
-
     on_search_input_change(event) {
         var keywords = d3.select('#search-input').node().value;
         keywords = keywords.length ? keywords.split(',') : [];
@@ -163,19 +149,6 @@ class FileSearch extends Widget {
 
     on_search_results_update(data) {
         var files = data.search_results;
-        /*
-        var list = document.getElementById('search-results-list');
-        for(var i = 0; i < files.length; i++) {
-            var item = document.createElement('div');
-            item.className = 'search-result-list-item';
-            item.innerHTML = 
-                `<span class='fa fa-file-sound-o'/> 
-                    <div class='search-item-label'>
-                        ${files[i].filename}
-                    </div>`
-            list.appendChild(item);
-        }
-        */
         d3.selectAll('.search-result-list-item').remove(); 
         d3.select('#search-results-list')
             .selectAll('div')
@@ -185,6 +158,7 @@ class FileSearch extends Widget {
             .classed('search-result-list-item', true)
             .each(function(d) {
                 d3.select(this)
+                    .attr('file-file-data', d.checksum)
                     .append('span')
                     .classed('fa fa-file-sound-o', true)
                     .each(function() {

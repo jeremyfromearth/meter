@@ -26,15 +26,6 @@ class Store extends RxStore {
                         output_panel: state.output_panel.concat([action.data])
                     };
                     return result;
-                case Actions.SearchFilesComplete:
-                    var result = {
-                        ...state,
-                        file_search: {
-                            ...state.file_search,
-                            results: action.data.search_results,
-                        },
-                    };
-                    return result;
                 default:
                     return state;
             }
@@ -51,34 +42,8 @@ const default_state = {
     output_panel: [
 
     ],
-    file_search: {
-        state: {
-            artist: '',
-            bpm: '',
-            year: '',
-            composer: '',
-            duration: 180.0,
-            genre: '',
-            instrument: '',
-            song_title: '',
-            video_game: '',
-            keywords: ''
-        },
-        config: {
-            artist: {placeholder: 'ex. The Beatles, Alan Parsons Project'},
-            composer: {placeholder: 'ex. Hayned, Bach'},
-            song_title: {label: 'Song Title', placeholder: 'ex. Glass Onion or Hey Bulldog, Revolution'},
-            video_game: {label: 'Video Game Title', placeholder: 'ex. Legend of Zelda or Q-bert, Super Mario'}, 
-            genre: {placeholder: 'ex. rock, pop, dance, hip-hop'},
-            bpm: {placeholder: 'ex. 120 or 90-130', label: 'BPM'},
-            instrument: {placeholder: 'ex. marimba, bass guitar'},
-            year: {placeholder: 'ex. 2000 or 1954-1970', label: 'Year'},
-            duration: {label: 'Duration (seconds)', range: [5, 1000]},
-            ignore: ['keywords']
-        }, 
-        results: {
-            
-        }
+    search_results: {
+        
     },
     tools : [{
             category: 'Analysis', 

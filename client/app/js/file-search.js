@@ -13,6 +13,19 @@ class FileSearch extends Widget {
         this.title.label = 'Search';
         this.filters_visible = false;
         this.filters_ui = UIBot();
+        this.search_state = {
+            artist: '',
+            bpm: '',
+            year: '',
+            composer: '',
+            duration: 180.0,
+            genre: '',
+            instrument: '',
+            song_title: '',
+            video_game: '',
+            keywords: ''
+        };
+
         this.node.innerHTML = 
             `<div class='search-container'>
                 <div class='search-input-container'>
@@ -32,11 +45,33 @@ class FileSearch extends Widget {
                 </div>
             </div>`;
         
-        this.store.subscribe('file_search.config', this.on_search_config_update.bind(this));
         this.store.subscribe('file_search.results', this.on_search_results_update.bind(this));
     }
 
     onAfterAttach(message) {
+        var filters_config = {
+            artist: {placeholder: 'ex. The Beatles, Alan Parsons Project'},
+            composer: {placeholder: 'ex. Hayned, Bach'},
+            song_title: {label: 'Song Title', placeholder: 'ex. Glass Onion or Hey Bulldog, Revolution'},
+            video_game: {label: 'Video Game Title', placeholder: 'ex. Legend of Zelda or Q-bert, Super Mario'}, 
+            genre: {placeholder: 'ex. rock, pop, dance, hip-hop'},
+            bpm: {placeholder: 'ex. 120 or 90-130', label: 'BPM'},
+            instrument: {placeholder: 'ex. marimba, bass guitar'},
+            year: {placeholder: 'ex. 2000 or 1954-1970', label: 'Year'},
+            duration: {label: 'Duration (seconds)', range: [5, 1000]},
+            ignore: ['keywords']
+        };
+
+        this.filters_ui.build(
+            this.search_state, 
+            filters_config, 
+            d3.select('#filters-container').node());
+
+        var inputs = this.filters_ui.get_inputs();
+        for(var i = 0; i < inputs.length; i++) {
+            this.add_input_keyup_observer(inputs[i]);
+        }
+
         d3.select('#search-filters-toggle')
             .on('click', () => {
                 this.filters_visible = !this.filters_visible;
@@ -77,19 +112,6 @@ class FileSearch extends Widget {
                         ${data.file_system.midi_library[i].filename}
                     </div>`
             list.appendChild(item);
-        }
-    }
-
-    on_search_config_update(data) {
-        this.search_state = {...data.file_search.state};
-        this.filters_ui.build(
-            this.search_state, 
-            data.file_search.config, 
-            document.getElementById('filters-container'));
-
-        var inputs = this.filters_ui.get_inputs();
-        for(var i = 0; i < inputs.length; i++) {
-            this.add_input_keyup_observer(inputs[i]);
         }
     }
 

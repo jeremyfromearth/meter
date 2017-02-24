@@ -8,12 +8,12 @@ class FileSearch extends Widget {
     constructor(store) {
         super();
         this.store = store;   
-        this.search_state = {};
+        this.search = {};
         this.addClass('content');
         this.title.label = 'Search';
         this.filters_visible = false;
         this.filters_ui = UIBot();
-        this.search_state = {
+        this.search = {
             artist: '',
             bpm: '',
             year: '',
@@ -63,7 +63,7 @@ class FileSearch extends Widget {
         };
 
         this.filters_ui.build(
-            this.search_state, 
+            this.search, 
             filters_config, 
             d3.select('#filters-container').node());
 
@@ -71,6 +71,8 @@ class FileSearch extends Widget {
         for(var i = 0; i < inputs.length; i++) {
             this.add_input_keyup_observer(inputs[i]);
         }
+
+        this.add_input_keyup_observer(d3.select('#search-input').node());
 
         d3.select('#search-filters-toggle')
             .on('click', () => {
@@ -83,21 +85,31 @@ class FileSearch extends Widget {
                     .classed('fa-caret-down fa-caret-right', false)
                     .classed(this.filters_visible ? 'fa-caret-down' : 'fa-caret-right', true);
             });
-
-        this.add_input_keyup_observer(d3.select('#search-input').node());
     }
 
     add_input_keyup_observer(input) {
         var keyup = Observable.fromEvent(input, 'keyup')
             .debounceTime(250)
             .map(function (e) {
-                return e.target;
+                return e;
             });
 
-        keyup.subscribe((target)=> {
-            this.search_state[target.dataset.param] = target.value;
-            this.store.dispatch(Actions.search_files(this.search_state));
-            return {}
+        keyup.subscribe( event => {
+            //this.search[target.dataset.param] = target.value;
+            //this.store.dispatch(Actions.search_files(this.search));
+            this.on_search_input_change(event);
+        });
+
+        var change = Observable.fromEvent(input, 'change')
+            .debounceTime(250)
+            .map(function(e) {
+                return e;
+            });
+
+        change.subscribe( event => {
+            //this.search[target.dataset.param] = target.value;
+            //this.store.dispatch(Actions.search_files(this.search));
+            this.on_search_input_change(event);
         });
     }
 
@@ -113,6 +125,13 @@ class FileSearch extends Widget {
                     </div>`
             list.appendChild(item);
         }
+    }
+
+    on_search_input_change(event) {
+        var value = event.target.value;
+        var param = event.target.dataset.param;
+        this.search[param] = value;
+        this.store.dispatch(Actions.search_files(this.search));
     }
 
     on_search_results_update(data) {

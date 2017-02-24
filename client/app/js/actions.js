@@ -29,9 +29,14 @@ function log(message) {
 // Search for files
 const SearchFilesComplete = 'search-files-complete';
 function search_files(search) {
-    return Observable.ajax({url: '/search', headers: {data : JSON.stringify(search)}})
+    return Observable.ajax({
+            url: '/search', 
+            responseType: 'json', 
+            method: 'POST', 
+            headers: {'Content-Type' : 'application/json'},
+            body: JSON.stringify(search)
+        })
         .map(xhr => {
-            console.log(xhr.response);
             return {
                 type: SearchFilesComplete,
                 data: {

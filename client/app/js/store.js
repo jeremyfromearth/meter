@@ -34,7 +34,6 @@ class Store extends RxStore {
                             results: action.data.search_results,
                         },
                     };
-                    console.log(result);
                     return result;
                 default:
                     return state;
@@ -63,6 +62,7 @@ const default_state = {
             instrument: '',
             song_title: '',
             video_game: '',
+            keywords: ''
         },
         config: {
             artist: {placeholder: 'ex. The Beatles, Alan Parsons Project'},
@@ -74,9 +74,10 @@ const default_state = {
             instrument: {placeholder: 'ex. marimba, bass guitar'},
             year: {placeholder: 'ex. 2000 or 1954-1970', label: 'Year'},
             duration: {label: 'Duration (seconds)', range: [5, 1000]},
+            ignore: ['keywords']
         }, 
         results: {
-
+            
         }
     },
     tools : [{

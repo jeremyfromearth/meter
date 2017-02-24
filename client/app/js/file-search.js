@@ -18,7 +18,7 @@ class FileSearch extends Widget {
                 <div class='search-input-container'>
                     <div>
                         <div class='search-component-label'>Search</div>
-                        <input id='search-input' type='text' placeholder='keywords'></input>
+                        <input id='search-input' data-param='keywords' type='text' placeholder='keywords'></input>
                     </div>
                     <div id='search-filter-container' class='search-filter-container'>
                         <span id='filter-toggle-arrow' class='fa fa-caret-right'>
@@ -31,40 +31,39 @@ class FileSearch extends Widget {
                     <div id='search-results-list' class='search-results-list'/>
                 </div>
             </div>`;
-        this.store.subscribe('file_search.config', this.update_search_config.bind(this));
-        this.store.subscribe('file_search.results', this.update_search_results.bind(this));
+        
+        this.store.subscribe('file_search.config', this.on_search_config_update.bind(this));
+        this.store.subscribe('file_search.results', this.on_search_results_update.bind(this));
     }
 
     onAfterAttach(message) {
-        var details_toggle = document.getElementById('search-filters-toggle');
-        details_toggle.addEventListener('click', () => {
-            var filters_container = document.getElementById('filters-container'); 
-            var arrow = document.getElementById('filter-toggle-arrow');
-            this.filters_visible = !this.filters_visible;
-            d3.select(filters_container)
-                .style('display', this.filters_visible ? 'inherit' : 'none');
-            d3.select(arrow)
-                .classed('fa-caret-down fa-caret-right', false)
-                .classed(this.filters_visible ? 'fa-caret-down' : 'fa-caret-right', true);
-        });
+        d3.select('#search-filters-toggle')
+            .on('click', () => {
+                this.filters_visible = !this.filters_visible;
 
-        var search_input = document.getElementById('search-input');
-        var keyup = Observable.fromEvent(search_input, 'keyup')
-            .debounceTime(500)
-            .map(function (e) {
-                return e.target.value;
+                d3.select('#filters-container')
+                    .style('display', this.filters_visible ? 'inherit' : 'none');
+
+                d3.select('#filter-toggle-arrow')
+                    .classed('fa-caret-down fa-caret-right', false)
+                    .classed(this.filters_visible ? 'fa-caret-down' : 'fa-caret-right', true);
             });
 
-        keyup.subscribe((text)=> {
-            // TODO: Call action for search for files
-            this.search_state.search_terms = text;
-            this.search();
-            return {}
-        });
+        this.add_input_keyup_observer(d3.select('#search-input').node());
     }
 
-    search() {
-        this.store.dispatch(Actions.search_files(this.search_state));
+    add_input_keyup_observer(input) {
+        var keyup = Observable.fromEvent(input, 'keyup')
+            .debounceTime(250)
+            .map(function (e) {
+                return e.target;
+            });
+
+        keyup.subscribe((target)=> {
+            this.search_state[target.dataset.param] = target.value;
+            this.store.dispatch(Actions.search_files(this.search_state));
+            return {}
+        });
     }
 
     update_list(data) {
@@ -81,17 +80,21 @@ class FileSearch extends Widget {
         }
     }
 
-    update_search_config(data) {
+    on_search_config_update(data) {
         this.search_state = {...data.file_search.state};
         this.filters_ui.build(
             this.search_state, 
             data.file_search.config, 
-            document.getElementById('filters-container'), 
-            this.search.bind(this));
+            document.getElementById('filters-container'));
+
+        var inputs = this.filters_ui.get_inputs();
+        for(var i = 0; i < inputs.length; i++) {
+            this.add_input_keyup_observer(inputs[i]);
+        }
     }
 
-    update_search_results(data) {
-             
+    on_search_results_update(data) {
+                 
     }
 }
 

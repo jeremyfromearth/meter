@@ -18,19 +18,7 @@ def index():
     print('returning index.html')
     return app.send_static_file('build/index.html')
 
-@app.route('/search/', methods=['GET'])
+@app.route('/search', methods=['POST'])
 def search():
-    print(request.headers)
+    print(request.json)
     return jsonify({'data': 'here'})
-    '''
-    search_filters = request.headers[search]
-
-    search:
-        artist: true
-        composers: true
-        albums: true
-        song_title: true
-        genres: []
-        date-range: (a, b)
-    pass
-    '''

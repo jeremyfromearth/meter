@@ -45,7 +45,7 @@ class FileSearch extends Widget {
                 </div>
             </div>`;
         
-        this.store.subscribe('file_search.results', this.on_search_results_update.bind(this));
+        this.store.subscribe('search_results', this.on_search_results_update.bind(this));
     }
 
     onAfterAttach(message) {
@@ -155,11 +155,45 @@ class FileSearch extends Widget {
     }
 
     on_search_input_change(event) {
+        var keywords = d3.select('#search-input').node().value;
+        keywords = keywords.length ? keywords.split(',') : [];
+        this.search['keywords'] = keywords;
         this.store.dispatch(Actions.search_files(this.search));
     }
 
     on_search_results_update(data) {
-                 
+        var files = data.search_results;
+        /*
+        var list = document.getElementById('search-results-list');
+        for(var i = 0; i < files.length; i++) {
+            var item = document.createElement('div');
+            item.className = 'search-result-list-item';
+            item.innerHTML = 
+                `<span class='fa fa-file-sound-o'/> 
+                    <div class='search-item-label'>
+                        ${files[i].filename}
+                    </div>`
+            list.appendChild(item);
+        }
+        */
+        d3.selectAll('.search-result-list-item').remove(); 
+        d3.select('#search-results-list')
+            .selectAll('div')
+            .data(files)
+            .enter()
+            .append('div')
+            .classed('search-result-list-item', true)
+            .each(function(d) {
+                d3.select(this)
+                    .append('span')
+                    .classed('fa fa-file-sound-o', true)
+                    .each(function() {
+                        d3.select(this)
+                            .append('div')
+                            .classed('search-item-label', true)
+                            .text(d.filename)
+                    })
+            });
     }
 }
 

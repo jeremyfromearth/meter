@@ -12,20 +12,23 @@ class Store extends RxStore {
         if(state && action) {
             switch(action.type) {
                 case Actions.BootstrapComplete:
-                    var result = {
+                    return {
                         ...state,
                         file_system: {
                             midi_library: action.data.file_system.midi_library
                         }, 
                         output_panel : state.output_panel.concat(['Bootstrap complete!'])
                     };
-                    return result;
                 case Actions.Log:
-                    var result = {
+                    return {
                         ...state,
                         output_panel: state.output_panel.concat([action.data])
                     };
-                    return result;
+                case Actions.SearchFilesComplete:
+                    return {
+                        ...state,
+                        search_results: action.data
+                    }
                 default:
                     return state;
             }
@@ -36,15 +39,8 @@ class Store extends RxStore {
 }
 
 const default_state = {
-    file_system: {
-
-    },
-    output_panel: [
-
-    ],
-    search_results: {
-        
-    },
+    output_panel: [],
+    search_results: [],
     tools : [{
             category: 'Analysis', 
             icon: 'fa-line-chart',

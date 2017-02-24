@@ -28,6 +28,8 @@ function log(message) {
 
 // Search for files
 const SearchFilesComplete = 'search-files-complete';
+const SearchFilesError = 'search-files-error';
+
 function search_files(search) {
     return Observable.ajax({
             url: '/search', 
@@ -39,9 +41,7 @@ function search_files(search) {
         .map(xhr => {
             return {
                 type: SearchFilesComplete,
-                data: {
-                    search_results: xhr.response
-                }
+                data: xhr.response
             }
         });
 }

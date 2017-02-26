@@ -11,4 +11,3 @@ require('../styles/font-awesome.min.css');
 // init
 const store = new Store() 
 new View(store);
-store.dispatch(Actions.bootstrap());

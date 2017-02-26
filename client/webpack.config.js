@@ -56,11 +56,7 @@ var config = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Meter'
-        }),
-        new CopyWebpackPlugin([{
-            from: './data',
-            to: Paths.Build + '/data'
-        }]),
+        })
         /*
         new CleanWebpackPlugin(['../server/meter/static/build'], {
             dry: false,

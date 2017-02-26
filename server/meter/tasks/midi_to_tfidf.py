@@ -1,4 +1,5 @@
 def run(dest, sample_rate = 1.0):
+    import pickle
     from math import log
     from random import random
     from pymongo import MongoClient
@@ -22,18 +23,20 @@ def run(dest, sample_rate = 1.0):
 
     df = DataFrame.from_dict(tfidf_data, orient='index')
     tfidf = TermFreqInverseDocFreq()
-    tfidf.create(df, 'raw_text', False)
-    tfidf.save(dest + '/midi-tfidf')
+    tfidf.create(df, 'raw_text', True)
+    tfidf.save(dest + '/midi-tfidf.pkl')
 
+    '''
     # This part should live on the server
-    #def get_expanded(x):
-        #return log(1.1 * len(x.name)) * x
+    def get_expanded(x):
+        return log(1.1 * len(x.name)) * x
 
-    #for k, v in tfidf_data.items():
-        #print(k)
-        #print(tfidf_data[k]['filename'])
-        #terms = tfidf.get_sorted_terms_for_document(k)
-        #print(terms)
-        #terms_df = terms.to_frame()
-        #terms_df['expanded'] = terms_df.apply(get_expanded, axis=1)
-        #print(terms_df)
+    for k, v in tfidf_data.items():
+        print(k)
+        print(tfidf_data[k]['filename'])
+        terms = tfidf.get_sorted_terms_for_document(k)
+        print(terms)
+        terms_df = terms.to_frame()
+        terms_df['expanded'] = terms_df.apply(get_expanded, axis=1)
+        print(terms_df)
+    '''

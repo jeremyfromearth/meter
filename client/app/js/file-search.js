@@ -1,5 +1,6 @@
 import * as d3 from 'd3'
 import UIBot from 'uibot'
+import deepEql from 'deep-eql'
 import {Observable} from 'rxjs'
 import {Widget} from 'phosphor/lib/ui/widget'
 import * as Actions from './actions'
@@ -8,11 +9,11 @@ class FileSearch extends Widget {
     constructor(store) {
         super();
         this.store = store;   
-        this.search = {};
         this.addClass('content');
         this.title.label = 'Search';
         this.filters_visible = false;
         this.filters_ui = UIBot();
+        this.previous_search = {};
         this.search = {
             artists: '',
             bpm: '',
@@ -59,7 +60,7 @@ class FileSearch extends Widget {
                 delimiter: ','
             },
             titles: {
-                label: 'Song Titles', 
+               label: 'Song Titles', 
                 placeholder: 'ex. Glass Onion or Hey Bulldog, Revolution', 
                 delimiter: ','
             },
@@ -142,10 +143,12 @@ class FileSearch extends Widget {
 
     on_search_input_change(event) {
         var keywords = d3.select('#search-input').node().value;
-        keywords = keywords.length ? keywords.split(',') : [];
-        console.log(this.search);
+        keywords = keywords.length ? keywords.split(' ') : [];
         this.search['keywords'] = keywords;
-        this.store.dispatch(Actions.search_files(this.search));
+        if(!deepEql(this.search, this.previous_search)) {
+            this.store.dispatch(Actions.search_files(this.search));
+            this.previous_search = {...this.search};
+        }
     }
 
     on_search_results_update(data) {

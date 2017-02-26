@@ -61,11 +61,13 @@ var config = {
             from: './data',
             to: Paths.Build + '/data'
         }]),
-        new CleanWebpackPlugin(['server/meter/static/build'], {
+        /*
+        new CleanWebpackPlugin(['../server/meter/static/build'], {
             dry: false,
             verbose: true,
             root: path.resolve(__dirname, '..')
         }),
+        */
         /*
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,

@@ -143,6 +143,7 @@ class FileSearch extends Widget {
     on_search_input_change(event) {
         var keywords = d3.select('#search-input').node().value;
         keywords = keywords.length ? keywords.split(',') : [];
+        console.log(this.search);
         this.search['keywords'] = keywords;
         this.store.dispatch(Actions.search_files(this.search));
     }

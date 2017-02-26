@@ -2,6 +2,7 @@ import json
 from bson.json_util import loads, dumps
 from flask import Flask, request, jsonify
 from flask_pymongo import PyMongo
+
 app = Flask(__name__)
 app.config.from_object('config')
 mongo = PyMongo(app)
@@ -33,14 +34,17 @@ def search():
             db_query[k] = {'$in': v}
         if isinstance(v, str) and v is not '':
             db_query[k] = v
+        if isinstance(v, float):
+            db_query[k] = {'$gt' : v}
 
-    
-    count = 0
+    print(db_query)
+
     results = []
     if len(query.keys()):
-        for record in mongo.db.midi_files.find(db_query):
-            if count < results_per_request:
-                results.append(json.loads(dumps(record)))
-                count += 1
+        query_result = mongo.db.midi_files.find(db_query).limit(results_per_request)
+        for record in query_result:
+            results.append(json.loads(dumps(record)))
+
+    print('Number of results:', len(results))
         
     return jsonify(results)

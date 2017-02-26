@@ -34,29 +34,21 @@ def search():
     terms = []
     for k, v in query.items():
         if isinstance(v, list) and len(v) > 0:
-            db_query[k] = {'$in': v}
-            terms += v
+            t = [s.lower().strip() for s in v]
+            db_query[k] = {'$in': t}
+            terms += t 
         if isinstance(v, str) and v is not '':
-            db_query[k] = v
-            terms.append(v)
-        if isinstance(v, float):
-            db_query[k] = {'$gt' : v}
+            db_query[k] = v.lower()
+            terms.append(db_query[k])
+        if isinstance(v, float) or isinstance(v, int):
+            db_query[k] = {'$lt' : v}
 
     results = []
     if len(terms):
         query_result = mongo.db.midi_files.find(db_query, {'filename': 1, 'checksum': 1})
         for record in query_result:
             results.append(json.loads(dumps(record)))
-    else:
-        print('No terms, returning empty list')
 
-    '''
-    count = 0
-    for result in results:
-        #tfidf = midi_tfidf.get_sorted_terms_for_document(result['filename'])
-        count+=1 
-    '''
-
-    print('Number of results:', len(results))
+    print('Number of results:', len(results), 'for terms', terms)
         
     return jsonify(results)

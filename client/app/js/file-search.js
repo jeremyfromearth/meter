@@ -122,9 +122,9 @@ class FileSearch extends Widget {
     add_input_keyup_observer(input) {
         var keyup = Observable.fromEvent(input, 'keyup')
             .debounceTime(250)
-            .map(function (e) {
+            .map(function(e) {
                 return e;
-            });
+            })
 
         keyup.subscribe( event => {
             this.on_search_input_change(event);

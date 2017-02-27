@@ -1,5 +1,6 @@
 def run(dest, sample_rate = 1.0):
     import pickle
+    import numpy as np
     from math import log
     from random import random
     from pymongo import MongoClient
@@ -25,8 +26,6 @@ def run(dest, sample_rate = 1.0):
     df = DataFrame.from_dict(tfidf_data, orient='index')
     tfidf = TermFreqInverseDocFreq()
     tfidf.create(df, 'raw_text', True)
-    #tfidf.save(dest + '/midi-tfidf.pkl')
-
     print('\nTFIDF Complete')
     print('Starting rank operation')
 
@@ -36,7 +35,6 @@ def run(dest, sample_rate = 1.0):
         print('\r', 'Processing {} of {} files'.format(i, count), end='')
         i += 1
         scores = {}
-        terms = tfidf.get_sorted_terms_for_document(checksum)
-        for x in terms.index:
-            scores[x] = {'tfidf': terms[x], 'rank': log(len(x)) * terms[x]}
+        terms = tfidf.get_sorted_terms_for_document(checksum).to_dict()
+        scores = {k: {'tfidf': v, 'rank': np.log(len(k)) * v} for (k, v) in terms.items()}
         db.midi_files.find_one_and_update({'checksum': checksum}, {'$set' : {'scores' : scores}}, {})

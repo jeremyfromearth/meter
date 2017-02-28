@@ -138,5 +138,5 @@ class TermFreqInverseDocFreq:
             value = tf[0, index]
             terms[self.term_id_to_term[index]] = value if value >= 0.0 else 0.0
         result = pd.Series(terms)
-        result.sort_values(inplace=True, ascending=False)
-        return result
+        #result.sort_values(inplace=True, ascending=False)
+        return result[result > 0.0]

@@ -15,13 +15,12 @@ def run(dest, sample_rate = 1.0):
     sample_rate = sample_rate
     count = db.midi_files.count()
     for f in db.midi_files.find({}, {'checksum' : 1, 'raw_text': 1, 'filename': 1}):
-        if random() < sample_rate:
-            i += 1
-            if 'checksum' in f:
-                tfidf_data[f['checksum']] = f
-                print('\r', 'Processing {} of {} files'.format(i, count), end='')
-            else:
-                print('ERROR: Checksum not found for {}'.format(f))
+        i += 1
+        if 'checksum' in f:
+            tfidf_data[f['checksum']] = f
+            print('\r', 'Processing {} of {} files'.format(i, count), end='')
+        else:
+            print('ERROR: Checksum not found for {}'.format(f))
 
     df = DataFrame.from_dict(tfidf_data, orient='index')
     tfidf = TermFreqInverseDocFreq()
@@ -36,5 +35,7 @@ def run(dest, sample_rate = 1.0):
         i += 1
         scores = {}
         terms = tfidf.get_sorted_terms_for_document(checksum).to_dict()
-        scores = {k: {'tfidf': v, 'rank': np.log(len(k)) * v} for (k, v) in terms.items()}
-        db.midi_files.find_one_and_update({'checksum': checksum}, {'$set' : {'scores' : scores}}, {})
+        for k, v in terms.items():
+            if len(k) > 1 and v > 0.0:
+                scores[k] =  {'tfidf': v, 'rank': np.log(len(k)) * v}
+        db.midi_files.update({'checksum': checksum}, {'$set' : {'scores' : scores}}, upsert=False)

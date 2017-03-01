@@ -25,30 +25,17 @@ def index():
 
 @app.route('/search', methods=['POST'])
 def search():
-    db_query = {}
+    results = []
     query = request.json
     results_per_request = 100
-    if 'results_per_request' in query:
-        results_per_request = query['results_per_request']
+    keywords = query['keywords']
+    db_query = {'keywords' : {'$all': keywords}}
+    query_result = mongo.db.midi_files.find(db_query, {'filename': 1, 'checksum': 1, 'scores' : 1})
 
-    terms = []
-    for k, v in query.items():
-        if isinstance(v, list) and len(v) > 0:
-            t = [s.lower().strip() for s in v]
-            db_query[k] = {'$in': t}
-            terms += t 
-        if isinstance(v, str) and v is not '':
-            db_query[k] = v.lower()
-            terms.append(db_query[k])
-        if isinstance(v, float) or isinstance(v, int):
-            db_query[k] = {'$lt' : v}
-
-    results = []
-    if len(terms):
-        query_result = mongo.db.midi_files.find(db_query, {'filename': 1, 'checksum': 1})
-        for record in query_result:
-            results.append(json.loads(dumps(record)))
-
-    print('Number of results:', len(results), 'for terms', terms)
-        
+    for record in query_result:
+        record_json = json.loads(dumps(record))
+        rank = 0
+        record_json['rank'] = rank
+        results.append(json.loads(dumps(record)))
+    print('Returning {} results'.format(len(results)))
     return jsonify(results)

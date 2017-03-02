@@ -25,17 +25,18 @@ def index():
 
 @app.route('/search', methods=['POST'])
 def search():
-    results = []
     query = request.json
     results_per_request = 100
-    keywords = query['keywords']
+    keywords = [s.strip().lower() for s in query['keywords']]
     db_query = {'keywords' : {'$all': keywords}}
     query_result = mongo.db.midi_files.find(db_query, {'filename': 1, 'checksum': 1, 'scores' : 1})
 
+    results = []
     for record in query_result:
-        record_json = json.loads(dumps(record))
         rank = 0
-        record_json['rank'] = rank
-        results.append(json.loads(dumps(record)))
-    print('Returning {} results'.format(len(results)))
+        for w in keywords:
+            if w in record['scores']:
+                rank += record['scores'][w]['rank']
+        results.append({'filename' : record['filename'], 'rank': rank})
+    results = sorted(results, key=lambda k : k['rank'], reverse=True)[:results_per_request]
     return jsonify(results)

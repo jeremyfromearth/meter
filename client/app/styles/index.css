@@ -19,6 +19,7 @@ input[type="text"] {
     box-shadow: none;
     box-sizing: border-box;
     font-size: 1.1em;
+    margin: 0.25em 0 0 0;
     outline: none;
     padding: 0.5em;
     width: 100%;
@@ -47,6 +48,7 @@ textarea:focus, input[type='text']:focus {outline:none;}
 }
 
 .toolbox-module-container {
+    border-radius: 0.25em;
     padding: 0.5em 0 0.5em 0.5em;
 }
 
@@ -62,9 +64,10 @@ textarea:focus, input[type='text']:focus {outline:none;}
 }
 
 .toolbox-category-container {
+    border-bottom: solid 1px #CCCCCC;    
+    border-radius: 0.25em;
     margin: 0 0 0.7em 0;
     padding: 0.8em;
-    border-bottom: solid 1px #CCCCCC;    
 }
 
 .toolbox-category-container:hover {
@@ -87,9 +90,9 @@ textarea:focus, input[type='text']:focus {outline:none;}
 |----------------------------------------------------------------------------*/
 
 .search-container {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .search-input-container {
@@ -107,31 +110,7 @@ textarea:focus, input[type='text']:focus {outline:none;}
     user-select: none;
 }
 
-.search-filter-container {
-    margin-top: 1em;
-}
-
-.search-filters {
-    display: none;
-    margin-top: 0.5em;
-}
-
-.search-filters .uibot .boolean-container {
-    display: flex;
-}
-
-.search-filters .uibot .boolean-container .label{
-    padding-top: 0.25em;
-    font-size: 0.9em;
-}
-
-.search-filters .uibot .label{
-    padding-top: 0.5em;
-    font-size: 0.9em;
-}
-
 .search-results-container {
-    border-radius: 0.25em;
     border-top: 0.1em #999 solid;
     flex-grow: 1;
     overflow-x: hidden;
@@ -139,9 +118,8 @@ textarea:focus, input[type='text']:focus {outline:none;}
     padding: 1.0em 1.0em 0 0;
 }
 
-.search-results-list {}
-
 .search-result-list-item {
+    border-radius: 0.25em;
     margin: 0 0 0 1.0em;
     overflow-x: hidden;
     overflow-y: hidden;

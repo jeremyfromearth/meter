@@ -10,19 +10,16 @@ class ToolBrowser extends Widget {
     constructor(store) {
         super();
         this.drag = null;
+        this.store = store;
+        this.module_lookup = {};
         this.addClass('content');
         this.title.label = 'Tools';
         this.node.innerHTML = `<div class='toolbox'></div>`;
-
-        this.store = store;
         this.store.subscribe('tools', this.on_tool_update.bind(this));
-
-        this.module_lookup = {};
     }
 
     on_tool_update(data) {
         var container = this.node.getElementsByTagName('div')[0];
-
         this.module_lookup = {};
         for(var i = 0; i < data.tools.length; i++) {
             var category = data.tools[i];

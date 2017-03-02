@@ -13,7 +13,6 @@ class FileSearch extends Widget {
         this.title.label = 'Search';
         this.filters_visible = false;
         this.filters_ui = UIBot();
-        this.previous_search = {};
         this.search = { keywords: ''};
 
         this.node.innerHTML = 
@@ -28,21 +27,22 @@ class FileSearch extends Widget {
                     <div id='search-results-list' class='search-results-list'/>
                 </div>
             </div>`;
-        
         this.store.subscribe('search_results', this.on_search_results_update.bind(this));
     }
 
     onAfterAttach(message) {
-        var input = d3.select('#search-input').node();
         d3.select('#search-input')
             .on('keyup', event => {
                 if(d3.event.keyCode == 13) {
-                    var keywords = d3.select('#search-input').node().value;
-                    keywords = keywords.length ? keywords.split(' ') : [];
-                    this.search['keywords'] = keywords;
-                    if(!deepEql(this.search, this.previous_search)) {
-                        this.store.dispatch(Actions.search_files(this.search));
-                        this.previous_search = {...this.search};
+                    var keywords = d3.event.target.value;
+                    var keyword_list = keywords.length ? keywords.split(' ') : [];
+                    if(keywords.length) {
+                        this.search['keywords'] = keyword_list;
+                        this.store.dispatch(
+                            Actions.log(
+                                'Starting search for: ' + keywords));
+                        this.store.dispatch(
+                            Actions.search_files(this.search));
                     }
                 }
             });
@@ -50,6 +50,9 @@ class FileSearch extends Widget {
 
     on_search_results_update(data) {
         var files = data.search_results;
+        if(this.search['keywords'].length == 0) return;
+        this.store.dispatch(
+            Actions.log('Search returned ' + files.length + ' result(s)'));
         d3.selectAll('.search-result-list-item').remove(); 
         d3.select('#search-results-list')
             .selectAll('div')

@@ -5,6 +5,7 @@ import {TabPanel, TabPlacement} from 'phosphor/lib/ui/tabpanel'
 import {Widget, WidgetFlag} from 'phosphor/lib/ui/widget'
 
 // applicaiton
+import * as Actions from './actions'
 import {create_main_menu} from './menu'
 import {FileSearch} from './file-search'
 import {OutputPanel} from './output-panel'
@@ -40,9 +41,6 @@ class View {
         source_box_panel.addWidget(output);
         source_panel.addWidget(session_widget);
         source_panel.addWidget(file_widget);
-        //file_widget.addWidget( file box panel { top to bottom } );
-        // file box panel add search widget
-        // file box panel add file list widget
         source_panel.addWidget(tools_widget);
         tool_box_panel.addWidget(tool_panel);
         main_panel.addWidget(source_box_panel);
@@ -58,6 +56,8 @@ class View {
 
         window.onresize = () => 
             main_panel.update();
+
+        store.dispatch(Actions.bootstrap());
     }
 }
 

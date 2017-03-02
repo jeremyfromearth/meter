@@ -14,9 +14,7 @@ class Store extends RxStore {
                 case Actions.BootstrapComplete:
                     return {
                         ...state,
-                        file_system: {
-                            midi_library: action.data.file_system.midi_library
-                        }, 
+                        user_data : action.data,
                         output_panel : state.output_panel.concat(['Bootstrap complete!'])
                     };
                 case Actions.Log:

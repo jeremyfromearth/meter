@@ -4,13 +4,10 @@ import {Observable} from 'rxjs'
 const BootstrapComplete = 'bootstrap-complete';
 function bootstrap() {
     // TODO: Get user vars from local storage and load needed resources
+    // Initialize the store!
     return {
         type: BootstrapComplete,
-        data: { 
-            file_system: {
-                midi_library: xhr.response
-            }
-        }
+        data: {}
     };
 }
 

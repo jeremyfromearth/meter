@@ -21,7 +21,7 @@ class FileSearch extends Widget {
                 <div class='search-input-container'>
                     <div>
                         <div class='search-component-label'>Search</div>
-                        <input id='search-input' data-param='keywords' type='text' placeholder='keywords'></input>
+                        <input id='search-input' type='text' placeholder='keywords'></input>
                     </div>
                 </div>
                 <div id='search-results-container' class='search-results-container'>
@@ -34,36 +34,18 @@ class FileSearch extends Widget {
 
     onAfterAttach(message) {
         var input = d3.select('#search-input').node();
-        var keyup = Observable.fromEvent(input, 'keyup')
-            .debounceTime(250)
-            .map(function(e) {
-                return e;
-            })
-
-        keyup.subscribe( event => {
-            this.on_search_input_change(event);
-        });
-
-        var change = Observable.fromEvent(input, 'change')
-            .debounceTime(250)
-            .map(function(e) {
-                return e;
-
+        d3.select('#search-input')
+            .on('keyup', event => {
+                if(d3.event.keyCode == 13) {
+                    var keywords = d3.select('#search-input').node().value;
+                    keywords = keywords.length ? keywords.split(' ') : [];
+                    this.search['keywords'] = keywords;
+                    if(!deepEql(this.search, this.previous_search)) {
+                        this.store.dispatch(Actions.search_files(this.search));
+                        this.previous_search = {...this.search};
+                    }
+                }
             });
-
-        change.subscribe( event => {
-            this.on_search_input_change(event);
-        });
-    }
-        
-    on_search_input_change(event) {
-        var keywords = d3.select('#search-input').node().value;
-        keywords = keywords.length ? keywords.split(' ') : [];
-        this.search['keywords'] = keywords;
-        if(!deepEql(this.search, this.previous_search)) {
-            this.store.dispatch(Actions.search_files(this.search));
-            this.previous_search = {...this.search};
-        }
     }
 
     on_search_results_update(data) {

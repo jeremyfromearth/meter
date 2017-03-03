@@ -20,30 +20,26 @@ class FileSearch extends Widget {
                 <div class='search-input-container'>
                     <div>
                         <div class='search-component-label'>Search</div>
+                        <i id='search-spinner' class="fa fa-spinner fa-pulse fa-fw"></i>
                         <input id='search-input' type='text' placeholder='keywords'></input>
                     </div>
                 </div>
                 <div id='search-results-container' class='search-results-container'>
                     <div id='search-results-list' class='search-results-list'/>
+                    
                 </div>
             </div>`;
         this.store.subscribe('search_results', this.on_search_results_update.bind(this));
     }
 
     onAfterAttach(message) {
+        d3.select('#search-spinner')
+            .style('opacity', 0.0);
+
         d3.select('#search-input')
             .on('keyup', event => {
                 if(d3.event.keyCode == 13) {
-                    var keywords = d3.event.target.value;
-                    var keyword_list = keywords.length ? keywords.split(' ') : [];
-                    if(keywords.length) {
-                        this.search['keywords'] = keyword_list;
-                        this.store.dispatch(
-                            Actions.log(
-                                'Starting search for: ' + keywords));
-                        this.store.dispatch(
-                            Actions.search_files(this.search));
-                    }
+                    this.search_by_keywords(d3.event.target.value);
                 }
             });
     }
@@ -72,6 +68,27 @@ class FileSearch extends Widget {
                             .text(d.filename)
                     })
             });
+
+        d3.select('#search-spinner')
+            .transition()
+            .duration(500)
+            .style('opacity', 0.0);
+    }
+
+    search_by_keywords(keywords) {
+        var keyword_list = keywords.length ? keywords.split(' ') : [];
+        if(keywords.length) {
+            this.search['keywords'] = keyword_list;
+            d3.select('#search-spinner')
+                .transition()
+                .duration(250)
+                .style('opacity', 1.0);
+            this.store.dispatch(
+                Actions.log(
+                    'Starting search for: ' + keywords));
+            this.store.dispatch(
+                Actions.search_files(this.search));
+        }            
     }
 }
 

@@ -35,7 +35,7 @@ def search():
     for record in query_result:
         rank = 0
         for w in keywords:
-            if w in record['scores']:
+            if 'scores' in record and w in record['scores']:
                 rank += record['scores'][w]['rank']
         results.append({'filename' : record['filename'], 'rank': rank})
     results = sorted(results, key=lambda k : k['rank'], reverse=True)[:results_per_request]

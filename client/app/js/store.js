@@ -22,6 +22,11 @@ class Store extends RxStore {
                         ...state,
                         output_panel: state.output_panel.concat([action.data])
                     };
+                case Actions.ClearLog:
+                    return {
+                        ...state,
+                        output_panel: []
+                    };
                 case Actions.SearchFilesComplete:
                     return {
                         ...state,

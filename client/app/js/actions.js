@@ -20,6 +20,15 @@ function log(message) {
     }
 }
 
+// Clear the log
+const ClearLog = 'clear-log';
+function clear_log() {
+    return {
+        type: ClearLog,
+        data: null
+    }
+}
+
 // Search for files
 const SearchFilesComplete = 'search-files-complete';
 const SearchFilesError = 'search-files-error';
@@ -43,6 +52,8 @@ function search_files(search) {
 export {
     log,
     Log,
+    ClearLog,
+    clear_log,
     bootstrap, 
     BootstrapComplete,
     search_files,

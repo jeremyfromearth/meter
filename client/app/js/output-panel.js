@@ -6,7 +6,6 @@ class OutputPanel extends Widget {
         super();
         this.store = store;
         this.store.subscribe('output_panel', this.on_output_panel_update.bind(this));
-
         this.auto_scroll = true;
         this.addClass('content');
         this.node.innerHTML = `<div id='output-panel' class='output-panel'>\> Welcome to Meter</div>`;

@@ -21,7 +21,7 @@ class FileSearch extends Widget {
                     <div>
                         <div class='search-component-label'>Search</div>
                         <i id='search-spinner' class="fa fa-spinner fa-pulse fa-fw"></i>
-                        <input id='search-input' type='text' placeholder='keywords'></input>
+                        <input id='search-input' spellcheck='false' type='text' placeholder='keywords'></input>
                     </div>
                 </div>
                 <div id='search-results-container' class='search-results-container'>

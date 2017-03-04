@@ -32,7 +32,6 @@ function clear_log() {
 // Search for files
 const SearchFilesComplete = 'search-files-complete';
 const SearchFilesError = 'search-files-error';
-
 function search_files(search) {
     return Observable.ajax({
             url: '/search', 

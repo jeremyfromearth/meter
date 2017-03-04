@@ -46,9 +46,16 @@ class FileSearch extends Widget {
 
     on_search_results_update(data) {
         var files = data.search_results;
+        d3.select('#search-spinner')
+            .transition()
+            .duration(500)
+            .style('opacity', 0.0);
+        
+        if(!files) return;
         if(this.search['keywords'].length == 0) return;
         this.store.dispatch(
             Actions.log('Search returned ' + files.length + ' result(s)'));
+
         d3.selectAll('.search-result-list-item').remove(); 
         d3.select('#search-results-list')
             .selectAll('div')
@@ -68,11 +75,6 @@ class FileSearch extends Widget {
                             .text(d.filename)
                     })
             });
-
-        d3.select('#search-spinner')
-            .transition()
-            .duration(500)
-            .style('opacity', 0.0);
     }
 
     search_by_keywords(keywords) {

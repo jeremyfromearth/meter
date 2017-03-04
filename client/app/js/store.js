@@ -43,7 +43,7 @@ class Store extends RxStore {
 
 const default_state = {
     output_panel: [],
-    search_results: null,
+    search_results: [],
     tools : [{
             category: 'Analysis', 
             icon: 'fa-line-chart',

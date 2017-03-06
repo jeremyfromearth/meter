@@ -57,6 +57,7 @@ class FileSearch extends Widget {
             Actions.log('Search returned ' + files.length + ' result(s)'));
 
         d3.selectAll('.search-result-list-item').remove(); 
+        d3.select('#search-results-list').node().scrollTop = 0;
         d3.select('#search-results-list')
             .selectAll('div')
             .data(files)

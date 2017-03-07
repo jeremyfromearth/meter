@@ -32,5 +32,6 @@ Meter uses [Conda](https://www.continuum.io/Downloads) to manage the dev environ
 ```
 cd meter/server
 conda env create -f environment.yml
+source activate meter
 python run.py
 ```

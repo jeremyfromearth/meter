@@ -17,6 +17,7 @@ dependencies:
 - python-dateutil=2.6.0=py36_0
 - pytz=2016.10=py36_0
 - readline=6.2=2
+- scipy=0.18.1=np112py36_1
 - setuptools=27.2.0=py36_0
 - six=1.10.0=py36_0
 - sqlite=3.13.0=0
@@ -27,5 +28,6 @@ dependencies:
 - zlib=1.2.8=3
 - pip:
   - flask-pymongo==0.4.1
+  - mido==1.1.24
 prefix: /Users/jeremy/Development/anaconda/envs/meter
 

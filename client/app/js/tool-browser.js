@@ -1,5 +1,4 @@
 import * as d3 from 'd3'
-import {DockPanel} from 'phosphor/lib/ui/dockpanel'
 import {Drag, IDragEvent} from 'phosphor/lib/dom/dragdrop'
 import {MimeData} from 'phosphor/lib/core/mimedata';
 import {Widget} from 'phosphor/lib/ui/widget'

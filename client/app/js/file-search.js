@@ -1,13 +1,16 @@
 import * as d3 from 'd3'
-import UIBot from 'uibot'
+import * as Actions from './actions'
 import deepEql from 'deep-eql'
+import {Drag, IDragEvent} from 'phosphor/lib/dom/dragdrop'
+import {MimeData} from 'phosphor/lib/core/mimedata'
 import {Observable} from 'rxjs'
 import {Widget} from 'phosphor/lib/ui/widget'
-import * as Actions from './actions'
+import UIBot from 'uibot'
 
 class FileSearch extends Widget {
     constructor(store) {
         super();
+        this.drag = null;
         this.store = store;   
         this.addClass('content');
         this.title.label = 'Search';
@@ -64,6 +67,9 @@ class FileSearch extends Widget {
             .enter()
             .append('div')
             .classed('search-result-list-item', true)
+            .on('mousedown', ()=> {
+                this.handleEvent(d3.event);
+            })
             .each(function(d) {
                 d3.select(this)
                     .attr('file-file-data', d.checksum)
@@ -75,6 +81,7 @@ class FileSearch extends Widget {
                             .classed('search-item-label', true)
                             .text(d.filename)
                     })
+                    
             });
     }
 
@@ -92,6 +99,22 @@ class FileSearch extends Widget {
             this.store.dispatch(
                 Actions.search_files(this.search));
         }            
+    }
+
+    handleEvent(event) {
+        switch(event.type) {
+            case 'mousedown':
+                this.drag = new Drag({
+                    mimeData: null,
+                    dragImage: event.target.cloneNode(true),
+                })
+
+                let {clientX, clientY} = event;
+                this.drag.start(clientX, clientY).then(() => {
+                    this.drag = null;
+                });
+                break;
+        }
     }
 }
 

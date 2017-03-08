@@ -43,10 +43,8 @@ class ToolBrowser extends Widget {
 
         var ref = this;
         d3.selectAll('.toolbox-module-container')
-            .each(function() {
-                this.addEventListener('mousedown', function(event) {
-                    ref.handleEvent(event);
-                });
+            .on('mousedown',  () => {
+                ref.handleEvent(d3.event) ;
             });
     }
 

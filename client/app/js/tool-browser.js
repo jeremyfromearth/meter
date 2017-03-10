@@ -6,7 +6,6 @@ import {Widget} from 'phosphor/lib/ui/widget'
 import {SVGWidget} from './svg-widget'
 
 class ToolBrowser extends Widget {
-
     constructor(store) {
         super();
         this.drag = null;
@@ -60,30 +59,6 @@ class ToolBrowser extends Widget {
     }
 
     onAfterAttach(message) {
-        var container = this.node.getElementsByTagName('div')[0];
-        for(var i = 0; i < this.config.length; i++) {
-            var category = this.config[i];
-            var modules = category.modules;
-            var html = 
-                `<div class='toolbox-category-container'>
-                    <div class='toolbox-category-label'>${category.category}</div>`;
-
-            for(var j = 0; j < modules.length; j++) {
-                var module = modules[j];
-                this.module_lookup[i] = modules[j];
-                html += `<div data-module='${i}' id='${module.name}' class='toolbox-module-container'>
-                            <i class='fa ${category.icon || 'fa-bar-chart-o'}' ></i>
-                            <div class='toolbox-module'>${module.name}</div>
-                            <br/>
-                        </div>`;
-            }
-            html += `</div>`;
-            container.insertAdjacentHTML('beforeend', html);
-        }
-
-        console.log(this.module_lookup);
-
-        /*
         var ref = this;
         d3.select('#tools-container')
             .selectAll('div')
@@ -93,6 +68,7 @@ class ToolBrowser extends Widget {
             .attr('class', 'toolbox-category-container')
             .each(function(d, i) {
                 var div = d3.select(this);
+                var module_list = ref.module_lookup[d.category] = [];
                 div.append('div')
                     .datum(d)
                     .attr('class', 'toolbox-category-label')
@@ -104,10 +80,11 @@ class ToolBrowser extends Widget {
                     .enter()
                     .append('div')
                     .attr('class', 'toolbox-module-container')
-                    .attr('data-module', (d) => {
-                        return d.name;
+                    .attr('data-category', i)
+                    .attr('data-module', (d, j) => {
+                        return j;    
                     })
-                    .each(function(d) {
+                    .each(function(d, j) {
                         var div = d3.select(this);
                         div.append('i')
                             .attr('class', 'fa ' + (d.icon || 'fa-bar-chart-o'))
@@ -115,26 +92,25 @@ class ToolBrowser extends Widget {
                             .attr('class', 'toolbox-module')
                             .text(d.name);
                     })
-                    .on('mousedown',  () => {
-                        ref.handleEvent(d3.event) ;
-                    });
+                    .on('mousedown', ref.on_module_click.bind(ref));
             });
-            */
     }
 
-    handleEvent(event) {
+    on_module_click() {
+        var event = d3.event;
+        console.log(this);
         switch(event.type) {
             case 'mousedown':
                 if(event.target.dataset.module) {
-                    console.log(event.target.dataset)
-                    var module_id = event.target.dataset.module;
-                    var module = this.module_lookup[module_id];
+                    var category_idx = event.target.dataset.category;
+                    var module_idx = event.target.dataset.module;
+                    var module = this.config[category_idx].modules[module_idx];
                     var mime_data = new MimeData();
                     mime_data.setData(
                         'application/vnd.phosphor.widget-factory', 
                         module.widget ? module.widget : () => { 
                             var widget = new Widget();
-                            widget.title.label = this.module_lookup[module_id].name; 
+                            widget.title.label = module.name; 
                             widget.title.closable = true;
                             return widget; 
                         });

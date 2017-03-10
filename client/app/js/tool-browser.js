@@ -14,8 +14,7 @@ class ToolBrowser extends Widget {
         this.module_lookup = {};
         this.addClass('content');
         this.title.label = 'Tools';
-        this.node.innerHTML = `<div class='toolbox'></div>`;
-        //this.store.subscribe('tools', this.on_tool_update.bind(this));
+        this.node.innerHTML = `<div class='toolbox' id='tools-container'></div>`;
 
         this.config = [{
             category: 'Analysis', 
@@ -62,7 +61,6 @@ class ToolBrowser extends Widget {
 
     onAfterAttach(message) {
         var container = this.node.getElementsByTagName('div')[0];
-        this.module_lookup = {};
         for(var i = 0; i < this.config.length; i++) {
             var category = this.config[i];
             var modules = category.modules;
@@ -83,17 +81,52 @@ class ToolBrowser extends Widget {
             container.insertAdjacentHTML('beforeend', html);
         }
 
+        console.log(this.module_lookup);
+
+        /*
         var ref = this;
-        d3.selectAll('.toolbox-module-container')
-            .on('mousedown',  () => {
-                ref.handleEvent(d3.event) ;
+        d3.select('#tools-container')
+            .selectAll('div')
+            .data(this.config)
+            .enter()
+            .append('div')
+            .attr('class', 'toolbox-category-container')
+            .each(function(d, i) {
+                var div = d3.select(this);
+                div.append('div')
+                    .datum(d)
+                    .attr('class', 'toolbox-category-label')
+                    .text(d.category)
+
+                var container = div.append('div');
+                container.selectAll('div')
+                    .data(d.modules)
+                    .enter()
+                    .append('div')
+                    .attr('class', 'toolbox-module-container')
+                    .attr('data-module', (d) => {
+                        return d.name;
+                    })
+                    .each(function(d) {
+                        var div = d3.select(this);
+                        div.append('i')
+                            .attr('class', 'fa ' + (d.icon || 'fa-bar-chart-o'))
+                        div.append('div')
+                            .attr('class', 'toolbox-module')
+                            .text(d.name);
+                    })
+                    .on('mousedown',  () => {
+                        ref.handleEvent(d3.event) ;
+                    });
             });
+            */
     }
 
     handleEvent(event) {
         switch(event.type) {
             case 'mousedown':
                 if(event.target.dataset.module) {
+                    console.log(event.target.dataset)
                     var module_id = event.target.dataset.module;
                     var module = this.module_lookup[module_id];
                     var mime_data = new MimeData();

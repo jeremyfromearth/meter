@@ -25,7 +25,7 @@ python tasks.py -t midi-to-tfidf -s ./LOCATION_TO_STORE_TERM_MODELS
 ```
 cd meter/client
 npm install
-npm watch
+npm run watch
 ```
 ### Server
 Meter uses [Conda](https://www.continuum.io/Downloads) to manage the dev environment. With Conda installed:

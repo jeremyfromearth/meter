@@ -1,6 +1,7 @@
 import * as d3 from 'd3'
 import {Drag, IDragEvent} from 'phosphor/lib/dom/dragdrop'
 import {MidiInfo} from './midi-info'
+import {MidiTimeline} from './midi-timeline'
 import {MimeData} from 'phosphor/lib/core/mimedata';
 import {Widget} from 'phosphor/lib/ui/widget'
 import {SVGWidget} from './svg-widget'
@@ -35,21 +36,22 @@ class ToolBrowser extends Widget {
                 name: 'K Nearest Neighbors',
                 options: {}
             }]
-        },{
+        }, {
             category: 'MIDI', 
             icon: 'fa-music',
             modules: [{
-                name: 'Simple MIDI Player',
+                name: 'Midi Timeline',
+                widget: ()=> { return new MidiTimeline(); },
                 options: {}
             }, {
-                name: 'MIDI Writer', 
+                name: 'Midi Writer', 
                 options: {}
             }, {
-                name: 'MIDI Info',
+                name: 'Midi Info',
                 widget: ()=> { return new MidiInfo(); },
                 options: {}
             }]
-        },{
+        }, {
             category: 'Visualizations', 
             icon: 'fa-bar-chart-o',
             modules: [{
@@ -98,7 +100,6 @@ class ToolBrowser extends Widget {
 
     on_module_click() {
         var event = d3.event;
-        console.log(this);
         switch(event.type) {
             case 'mousedown':
                 if(event.target.dataset.module) {
@@ -113,11 +114,12 @@ class ToolBrowser extends Widget {
                             widget.title.label = module.name; 
                             widget.title.closable = true;
                             return widget; 
-                        });
+                    });
+
                     this.drag = new Drag({
                         mimeData: mime_data,
                         dragImage: event.target.cloneNode(true),
-                    })
+                    });
 
                     let {clientX, clientY} = event;
                     this.drag.start(clientX, clientY).then(() => {
